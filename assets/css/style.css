@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,500;1,300;1,500&display=swap');
+html {
+	-webkit-overflow-scrolling: touch;
+	scroll-behavior: smooth;
+	height: 100%;
+}
+body {
+	min-height: 100%;
+	margin:0;
+	padding:0;
+	background: #fafafa;
+	background-repeat:no-repeat;
+	display: flex;
+    flex-direction: column;
+}
+h1{ 
+	font-size:2em; 
+	text-align:center;
+}
+h2 { margin: 0; }
+h3 {
+	margin:0;
+	font-weight: 500;
+}
+p{
+	font-size:1em;
+	font-weight: 300;
+	color:#999;
+	font-family: 'Rubik',sans-serif; 
+}
+p a {
+	color:#999;
+}
+h1, h2, h3, h4, h5, h6 {
+    letter-spacing: 0px;
+    text-transform: none;
+    color: #333333;
+}
+.container {
+	width: 80%;
+	height: auto;
+	margin: auto;
+	margin-top:15px;
+	margin-bottom: 15px;
+}
+.bloc {
+	margin: auto;
+	width: auto;
+	height:auto;
+	font-family: 'Rubik',sans-serif;
+	font-size:1em;
+	color: #595959;
+}
+button,
+.bloc a {
+	font-size: 1em;
+	font-weight: 300;
+	color: #ffffff; 
+	padding: 0.5em;
+	text-decoration: none;
+	background-color: #353535;
+	border: none;
+	border-radius: 3px;
+}
+.bloc a:hover {
+	color: #ffffff; 
+	text-decoration: none;
+	background-color: #5b5b5b;
+}
+.bloc p a {
+	font-size: 1em;
+	color: #ffffff; 
+	padding: 2px;
+	text-decoration: none;
+	background-color: #353535;
+	padding: 0.5em;
+}
+.shortcuts{
+	border: solid 1px;
+	padding: 2px;
+}
+.card {
+	padding: 3%;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0px 2px 2px #dbdbdb;
+	border: 1px solid #dbdbdb;
+	cursor: pointer;
+	margin: 0 20% 2% 20%;
+}
+.podcast {
+	padding: 2%;
+}
+.warning {
+	color: #8a6d3b;
+	background-color: #fcf8e3;
+	border: 1px solid #faebcc;
+	padding: 15px;
+    padding-right: 15px;
+	margin-bottom: 20px;
+	border-radius: 4px;
+}
+.divider {
+	border: none;
+	height: 1px;
+    width: 50%;
+	color: #333;
+	background-color: #333;
+    opacity: 0.2;
+}
+.youtube {
+	background-color: #c4302b !important;
+}
+.youtube:hover {
+	background-color: #d95652 !important;
+}
+#icon-lme {
+	width: 100%;
+}
+footer{
+	color:#999;
+	font-family: 'Rubik',sans-serif;
+	bottom: 0;
+	padding: 1%;
+	margin-top: auto;
+}
