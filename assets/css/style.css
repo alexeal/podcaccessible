@@ -32,17 +32,31 @@ p{
 p a {
 	color:#999;
 }
-h1, h2, h3, h4, h5, h6, a  {
+h1, h2, h3, h4, h5, h6, a {
     letter-spacing: 0px;
     text-transform: none;
     color: #333333;
 }
+.podcastDescription,
+.youtubeDescription {
+	color: #787878;
+}
+.accessDescription {
+	color: #AB9A9A;
+}
 ul {
     list-style-type: none;
     padding-left: 0;
+    background-color: #EAE9E9;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    padding: 15px;
 }
 li {
 	padding-bottom: 1%;
+}
+li:last-child {
+  	padding-bottom: 0;
 }
 .container {
 	width: 80%;
@@ -95,21 +109,8 @@ button,
 	cursor: pointer;
 	margin: 0 20% 2% 20%;
 }
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-	h1 {
-		font-size: 2.5em !important;
-	}
-	 h2, h3, h4, h5, h6, p, .bloc a.button, a {
-		font-size: 2em !important;
-	}
-	p a {
-		font-size: 1em !important;
-	}
-	.card {
-		margin: 0 5% 2% 5%;
-	}
-}
-.podcast {
+.podcast,
+.chaineYoutube {
 	padding: 2%;
 }
 .warning, .info {
@@ -121,12 +122,10 @@ button,
 .warning {
 	color: #8a6d3b;
 	background-color: #fcf8e3;
-	border: 1px solid #faebcc;
 }
 .info {
 	color: #0c5460;
 	background-color: #d1ecf1;
-	border: 1px solid #bee5eb;
 }
 .divider {
 	border: none;
@@ -154,4 +153,28 @@ footer{
 	bottom: 0;
 	padding: 1%;
 	margin-top: auto;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	h1 {
+		font-size: 2.5em !important;
+	}
+	 h2, h3, h4, h5, h6, p, .bloc a.button, a {
+		font-size: 2em !important;
+	}
+	p a {
+		font-size: 1em !important;
+	}
+	li {
+    	padding-bottom: 3%;
+	}
+	.card {
+		margin: 0 5% 2% 5%;
+	}
+	.podcast,
+	.chaineYoutube {
+		margin-bottom: 3%;
+	}
+	footer {
+		padding-left: 3%;
+	}
 }
