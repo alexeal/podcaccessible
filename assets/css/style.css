@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,500;1,300;1,500&display=swap');
+@font-face {
+ font-family: "icons";
+ src: url("../fonts/icons.woff2") format("woff2"),
+        url("../fonts/icons.woff") format("woff");
+}
 html {
 	-webkit-overflow-scrolling: touch;
 	scroll-behavior: smooth;
@@ -58,6 +63,14 @@ li {
 li:last-child {
   	padding-bottom: 0;
 }
+.icon-attention,
+.icon-info-circled,
+.icon-mail-alt {
+	font-family: 'icons';
+}
+.icon-attention:before { content: '\e800'; }
+.icon-info-circled:before { content: '\e803'; }
+.icon-mail-alt:before { content: '\f0e0'; }
 .container {
 	width: 80%;
 	height: auto;
@@ -137,6 +150,9 @@ button,
 }
 .site {
 	background-color: #353535 !important;
+}
+.site:hover {
+	background-color: #4d4d4d !important;
 }
 .youtube {
 	background-color: #c4302b !important;

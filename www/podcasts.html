@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
     <title>Les mal·entendus</title>
     <meta name="les.mal.entendus" content="les.mal.entendus">
@@ -21,7 +21,7 @@
                 <a
                 type="button"
                 class="button youtube"
-                data-message="Accéder à YouTube"
+                aria-label="Accéder à YouTube"
                 href="https://www.youtube.com/channel/UCnoZQdGz4JVva8bR7m3QZSg" 
                 target="_blank">YouTube</a>
             </div>
@@ -32,8 +32,9 @@
                 <p class="accessDescription">Podcast animé par Isabelle Field.<br>Vidéos en Open-Captions.</p>
                 <a
                 type="button" 
-                class ="button youtube"
-                data-message="Accéder à YouTube"
+                role="button"
+                class="button youtube"
+                aria-label="Accéder à YouTube"
                 href="https://www.youtube.com/channel/UCaxYPiNAVYFd9bQUMLXMIiQ" 
                 target="_blank">YouTube</a>
             </div>   
@@ -44,8 +45,9 @@
                 <p class="accessDescription">Podcast animé par Stacey.<br>Transcriptions mises à disposition.</p>
                 <a
                 type="button" 
-                class ="button site"
-                data-message="Accéder au site web"
+                role="button"
+                class="button site"
+                aria-label="Accéder au site web"
                 href="https://staceyamcveay.wixsite.com/ledivanpodcast/transcriptions" 
                 target="_blank">Site web</a>
             </div>  
@@ -56,8 +58,9 @@
                 <p class="accessDescription">Podcast animé par Fanny Cohen Moreau.<br>Transcriptions mises à disposition.</p>
                 <a
                 type="button" 
-                class ="button site"
-                data-message="Accéder au site web"
+                role="button"
+                class="button site"
+                aria-label="Accéder au site web"
                 href="https://passionmedievistes.fr/passion-medievistes-podcast/" 
                 target="_blank">Site web</a>
             </div>  
@@ -68,8 +71,9 @@
                 <p class="accessDescription">Podcast animé par Ama.<br>Vidéos en Closed-Captions.</p>
                 <a
                 type="button" 
+                role="button"
                 class="button youtube"
-                data-message="Accéder à YouTube"
+                aria-label="Accéder à YouTube"
                 href="https://www.youtube.com/playlist?list=PLqtnrWHUIjga_9mHBKm4bixDpu99VB9_k" 
                 target="_blank">YouTube</a>
             </div>  
@@ -77,12 +81,13 @@
             <div class="podcast">
                 <h2 class="title">La Chute</h2>
                 <h3 class="subtitle">Un podcast de William Reymond</h3>
-                <p class="info" data-message="Encart informations">Accessibité <strong>partielle</strong>. Saison 1 épisode 5 à 13 et Saison 2 épisode 1.</p> 
+                <p role="alert" class="info" title="Encart informations"><span class="icon-info-circled"></span>&nbsp;&nbsp;Accessibité <strong>partielle</strong>. Saison 1 épisode 5 à 13 et Saison 2 épisode 1.</p> 
                 <p class="podcastDescription">La chute, une expérience unique, pour vous permettre de vivre et comprendre l’Histoire des États-Unis à mesure qu’elle s’écrit.Nous sommes ensemble jusqu’au 21 janvier. Attachez-vos ceintures, la chute c’est maintenant.</p>
                 <p class="accessDescription">Podcast animé par William Reymond.<br>Transcriptions mises à disposition.</p>
                 <a
                 type="button" 
-                class ="button site"
+                role="button"
+                class="button site"
                 data-message="Accéder au site"
                 href="https://lachute.buzzsprout.com/1563512" 
                 target="_blank">Site web</a>
@@ -91,23 +96,26 @@
             <div class="podcast">
                 <h2 class="title">Tech Ethic</h2>
                 <h3 class="subtitle"></h3>
-                <p class="podcastDescription">Le podcast tech qui parle de sujets éthiques comme l'accessibilité, l'écologie ou la <a href="https://twitter.com/hashtag/Tech4Good?src=hashtag_click" target="_blank">#tech4Good</a>.</p>
-                <p class="accessDescription">Podcast animé par Emmanuel Demey et Fanny Demey.<br>Transcriptions générées sur <a href="https://sonix.ai/" target="_blank">sonix.ai</a>.</p>
+                <p class="podcastDescription">Le podcast tech qui parle de sujets éthiques comme l'accessibilité, l'écologie ou la <a href="https://twitter.com/hashtag/Tech4Good?src=hashtag_click" aria-label="hastage tech4good sur twitter" target="_blank">#tech4Good</a>.</p>
+                <p class="accessDescription">Podcast animé par Emmanuel Demey et Fanny Demey.<br>Transcriptions générées sur <a href="https://sonix.ai/" aria-label="Sonix est un outil de transcription automatique, vous pouvez aller consulter le site en anglais à cette adresse" target="_blank">sonix.ai</a>.</p>
                 <ul>
                     <li>
                         <a
+                        role="link"
                         href="https://sonix.ai/r/e3WEY89NefAeNKU3a35BawKZ" 
                         target="_blank">Episode 1A - "Tu sais que tu es non-voyant sur le web quand..." avec Céline Boeuf
                         </a>
                     </li>
                     <li>
                         <a
+                        role="link"
                         href="https://sonix.ai/r/RQruKNh7dv8cpNoQZEztJGZ6" 
                         target="_blank">Episode 1B - "L'accessibilité c'est un défi créatif qui nous pousse à être meilleur" avec Angela Ricci
                         </a>
                     </li>
                     <li>
                         <a
+                        role="link"
                         href="https://sonix.ai/r/YL3BYcSbwxS7CUFuF9Bvm2QJ" 
                         target="_blank">Episode 2A - Zoom sur le smartphone de Manuel, expert en accessibilité et non-voyant
                         </a>
@@ -115,18 +123,21 @@
                     
                     <li>
                         <a
+                        role="link"
                         href="https://sonix.ai/r/YL3BYcSbwxS7CUFuF9Bvm2QJ" 
                         target="_blank">Episode 2B - Coder une application mobile accessible aux personnes déficientes visuelles
                         </a>
                     </li>
                     <li>
                         <a
+                        role="link"
                         href="https://sonix.ai/r/JPq9W6PmNE3zYQdRnWtsPvuQ" 
                         target="_blank">Episode 3A - Green IT, numérique responsable, éco-conception... C'est quoi au juste ?
                         </a>
                     </li>
                     <li>
                         <a
+                        role="link"
                         href="https://sonix.ai/r/fRaWXixnKTcgUwjwEJ9dUg8E" 
                         target="_blank">Episode 3B - Eco-concevoir un service numérique. Quand et comment ?
                         </a>
@@ -137,11 +148,12 @@
             <div class="podcast">
                 <h2 class="title">Les Chroniques Numériques d’Audric</h2>
                 <h3 class="subtitle"></h3>
-                <p class="info" data-message="Encart informations">Accessibité <strong>partielle</strong>. Un épisode disponible.</p> 
+                <p role="alert" class="info" title="Encart informations"><span class="icon-info-circled"></span>&nbsp;&nbsp;Accessibité <strong>partielle</strong>. Un épisode disponible.</p> 
                 <p class="accessDescription">Podcast animé par Audric Gueidan.<br>Transcription mise à disposition.</p>
                 <ul>
                     <li>
                         <a
+                        role="link"
                         href="https://lalutineduweb.fr/interview-accessibilite-web-chroniques-numeriques-audric/" 
                         target="_blank">Interview de Julie Moynat - intégratrice web et consultante en accessibilité numérique
                         </a>
@@ -152,11 +164,12 @@
             <div class="podcast">
                 <h2 class="title">Le Brief</h2>
                 <h3 class="subtitle"></h3>
-                <p class="info" data-message="Encart informations">Accessibité <strong>partielle</strong>. Un épisode disponible.</p> 
+                <p role="alert" class="info" title="Encart informations"><span class="icon-info-circled"></span>&nbsp;&nbsp;Accessibité <strong>partielle</strong>. Un épisode disponible.</p> 
                 <p class="accessDescription">Podcast animé par Apolline Rouzé.<br>Transcription mise à disposition.</p>
                 <ul>
                     <li>
                         <a
+                        role="link"
                         href="https://apollinerouze.fr/accessibilite-numerique-anne-sophie-tranchet/" 
                         target="_blank">Interview d'Anne-Sophie Tranchet- L’accessibilité numérique, un droit pour tous 
                         </a>
@@ -167,11 +180,12 @@
             <div class="podcast">
                 <h2 class="title">Le code a changé</h2>
                 <h3 class="subtitle"></h3>
-                <p class="info" data-message="Encart informations">Accessibité <strong>partielle</strong>. Un épisode disponible.</p> 
+                <p role="alert" class="info" title="Encart informations"><span class="icon-info-circled"></span>&nbsp;&nbsp;Accessibité <strong>partielle</strong>. Un épisode disponible.</p> 
                 <p class="accessDescription">Podcast animé par Xavier de La Porte.<br>Transcription mise à disposition par <a href="https://april.org/" target="_blank">april.org</a>.</p>
                 <ul>
                     <li>
                         <a
+                        role="link"
                         href="https://april.org/rencontre-avec-des-traqueurs-de-trackers-emission-le-code-a-change-france-inter" 
                         target="_blank">Ils cherchent « les trucs bizarres qu’il y a dans vos téléphones » : rencontre avec des traqueurs de trackers
                         </a>
@@ -182,17 +196,19 @@
             <div class="podcast">
                 <h2 class="title">Podcast de la FNEO</h2>
                 <h3 class="subtitle"></h3>
-                <p class="info" data-message="Encart informations">Accessibité <strong>partielle</strong>. Deux épisodes disponibles.</p> 
+                <p role="alert" class="info" title="Encart informations"><span class="icon-info-circled"></span>&nbsp;&nbsp;Accessibité <strong>partielle</strong>. Deux épisodes disponibles.</p> 
                 <p class="accessDescription">Podcast animé par la Fédération Nationale des Etudiants en Orthophonie.<br>Transcriptions mises à disposition.</p>
                 <ul>
                     <li>
                         <a
+                        role="link"
                         href="http://fneo.fr/wp-content/uploads/2021/05/La-recherche-en-orthophonie-Transcription.pdf" 
                         target="_blank">Épisode 5 : la recherche en orthophonie
                         </a>
                     </li>
                     <li>
                         <a
+                        role="link"
                         href="http://fneo.fr/wp-content/uploads/2021/08/Podcast-transcription-MI.pdf" 
                         target="_blank">Épisode 6 : la mobilité internationale en orthophonie
                         </a>
@@ -203,11 +219,12 @@
             <div class="podcast">
                 <h2 class="title">Le Feuilleton des Luttes</h2>
                 <h3 class="subtitle">Un podcast de La Fièvre</h3>
-                <p class="info" data-message="Encart informations">Accessibité <strong>partielle</strong>. Un épisode disponible.</p> 
+                <p role="alert" class="info" title="Encart informations"><span class="icon-info-circled"></span>&nbsp;&nbsp;Accessibité <strong>partielle</strong>. Un épisode disponible.</p> 
                 <p class="accessDescription">Podcast animé par Collectif Archives LGBTQI.<br>Transcription mise à disposition.</p>
                 <ul>
                     <li>
                         <a
+                        role="link"
                         href="https://archiveslgbtqi.fr/wp-content/uploads/2021/03/Transcription_Thierry_Schaffauser.pdf" 
                         target="_blank">Saison 2 épisode 2: Pute et politique avec Thierry Schaffauser
                         </a>
@@ -218,11 +235,12 @@
             <div class="podcast">
                 <h2 class="title">Septante Minutes Avec</h2>
                 <h3 class="subtitle">Un podcast de J’aime Bien Quand Tu Parles</h3>
-                <p class="info" data-message="Encart informations">Accessibité <strong>partielle</strong>. Un épisode disponible.</p> 
+                <p role="alert" class="info" title="Encart informations"><span class="icon-info-circled"></span>&nbsp;&nbsp;Accessibité <strong>partielle</strong>. Un épisode disponible.</p> 
                 <p class="accessDescription">Podcast animé par Guillaume Hachez.<br>Transcription mise à disposition.</p>
                 <ul>
                     <li>
                         <a
+                        role="link"
                         href="https://www.jaimebienquandtuparles.com/retranscription-septante-minutes-avec-elisa-rojas-et-alistair-houdayer/" 
                         target="_blank">Septante Minutes Avec Elisa Rojas et Alistair Houdayer
                         </a>
@@ -233,11 +251,12 @@
             <div class="podcast">
                 <h2 class="title">Passages</h2>
                 <h3 class="subtitle">Un podcast de Louie Media</h3>
-                <p class="info" data-message="Encart informations">Accessibité <strong>partielle</strong>.</p> 
+                <p role="alert" class="info" title="Encart informations"><span class="icon-info-circled"></span>&nbsp;&nbsp;Accessibité <strong>partielle</strong>.</p> 
                 <p class="accessDescription">Podcast animé par Louie Media<br>Transcription mise à disposition.</p>
                 <ul>
                     <li>
                         <a
+                        role="link"
                         href="https://louiemedia.com/passages-trouver-sa-voix-retranscription" 
                         target="_blank">Trouver sa voix
                         </a>
@@ -248,47 +267,54 @@
             <div class="podcast">
                 <h2 class="title">Emotions</h2>
                 <h3 class="subtitle">Un podcast de Louie Media</h3>
-                <p class="info" data-message="Encart informations">Accessibité <strong>partielle</strong>.</p> 
+                <p role="alert" class="info" title="Encart informations"><span class="icon-info-circled"></span>&nbsp;&nbsp;Accessibité <strong>partielle</strong>.</p> 
                 <p class="accessDescription">Podcast animé par Louie Media<br>Transcriptions mises à disposition.</p>
                 <ul>
                     <li>
                         <a
+                        role="link"
                         href="https://louiemedia.com/retranscription-les-cinq-sens-gout" 
                         target="_blank">Les cinq sens (5/5) : Le goût des émotions
                         </a>
                     </li>
                     <li>
                         <a
+                        role="link"
                         href="https://louiemedia.com/retranscription-soleil" 
                         target="_blank">Après la pluie, l'euphorie
                         </a>
                     </li>
                     <li>
                         <a
+                        role="link"
                         href="https://louiemedia.com/retranscription-haine" 
                         target="_blank">Vous aussi, vous la haine ?
                         </a>
                     </li>
                     <li>
                         <a
+                        role="link"
                         href="https://louiemedia.com/retranscription-haine" 
                         target="_blank">Vous aussi, vous la haine ?
                         </a>
                     </li>
                     <li>
                         <a
+                        role="link"
                         href="https://louiemedia.com/retranscription-honte" 
                         target="_blank">Avoir honte, c'est normé
                         </a>
                     </li>
                     <li>
                         <a
+                        role="link"
                         href="https://louiemedia.com/retranscription-jeunesse" 
                         target="_blank">L'impatience est-elle le défaut de la jeunesse ?
                         </a>
                     </li>    
                     <li>
                         <a
+                        role="link"
                         href="https://louiemedia.com/retranscription-arles-emotions-retitrer" 
                         target="_blank">Les émotions face au regard des oeuvres d'art
                         </a>
@@ -299,12 +325,13 @@
             <div class="podcast">
                 <h2 class="title">Nouvelles Écoutes</h2>
                 <h3 class="subtitle"></h3>
-                <p class="warning" data-message="Encart prévention">Transcription sous forme d'images réunies en PDF, ce n'est pas accessible pour les personnes malvoyantes ou aveugles.</p> 
+                <p role="alert" class="warning" title="Encart prévention"><span class="icon-attention"></span>&nbsp;&nbsp;Transcription sous forme d'images réunies en PDF, ce n'est pas accessible pour les personnes malvoyantes ou aveugles.</p> 
                 <p class="accessDescription">Podcast animé par Nouvelles Écoutes.<br>Transcriptions mises à disposition.</p>
                 <a
                 type="button" 
-                class ="button site"
-                data-message="Accéder au site web"
+                role="button"
+                class="button site"
+                aria-label="Accéder au site web"
                 href="https://nouvellesecoutes.fr/accessibilite/" 
                 target="_blank">Site web</a>
             </div>  
@@ -315,8 +342,9 @@
                 <p class="accessDescription">Podcast animé par La Clameur.<br>Transcriptions mises à disposition.</p>
                 <a
                 type="button" 
-                class ="button site"
-                data-message="Accéder au site web"
+                role="button"
+                class="button site"
+                aria-label="Accéder au site web"
                 href="https://drive.google.com/drive/folders/1EJny-BbLuy5yfFLuMs9dK-QRLs7dNi5r" 
                 target="_blank">Site web</a>
             </div>  
@@ -328,8 +356,9 @@
                 <p class="accessDescription">Podcast animé par Camille Bardin.<br>Transcriptions mises à disposition.</p>
                 <a
                 type="button" 
-                class ="button site"
-                data-message="Accéder au site web"
+                role="button"
+                class="button site"
+                aria-label="Accéder au site web"
                 href="https://podcastpresente.fr/190-2/" 
                 target="_blank">Site web</a>
             </div>  
@@ -341,8 +370,9 @@
                 <p class="accessDescription">Podcast animé par Marie-Cécile Drécourt.<br>Vidéos en Closed-Captions.</p>
                 <a
                 type="button" 
-                class ="button youtube"
-                data-message="Accéder à YouTube"
+                role="button"
+                class="button youtube"
+                aria-label="Accéder à YouTube"
                 href="https://www.youtube.com/channel/UC_LUHDQEcE-izkhXEeoZrmw" 
                 target="_blank">YouTube</a>
             </div>  
@@ -353,8 +383,9 @@
                 <p class="accessDescription">Podcast animé par Florian Mantione Institut.<br>Vidéos en Open-Captions.</p>
                 <a
                 type="button" 
-                class ="button youtube"
-                data-message="Accéder à YouTube"
+                role="button"
+                class="button youtube"
+                aria-label="Accéder à YouTube"
                 href="https://www.youtube.com/playlist?list=PLlwW-QXVy1mytGnMm3KrUc2WptVgidP6z" 
                 target="_blank">YouTube</a>
             </div>  
@@ -366,8 +397,9 @@
                 <p class="accessDescription">Podcast animé par Léane Alestra.<br>Transcriptions mises à disposition.</p>
                 <a
                 type="button" 
-                class ="button site"
-                data-message="Accéder au site web"
+                role="button"
+                class="button site"
+                aria-label="Accéder au site web"
                 href="https://www.mecreantes.com/le-podcast" 
                 target="_blank">Site web</a>
             </div> 
@@ -379,8 +411,9 @@
                 <p class="accessDescription">Podcast animé par Pulan Devii.<br>Vidéos en Closed-Captions.</p>
                 <a
                 type="button" 
-                class ="button youtube"
-                data-message="Accéder à YouTube"
+                role="button"
+                class="button youtube"
+                aria-label="Accéder à YouTube"
                 href="https://www.youtube.com/channel/UChbgcyfMvdEDx2OlYQ3S7LQ" 
                 target="_blank">YouTube</a>
             </div>
@@ -388,17 +421,19 @@
             <div class="podcast">
                 <h2 class="title">Vulgaire</h2>
                 <h3 class="subtitle">Podcast de vulgarisation de trucs</h3>
-                <p class="info" data-message="Encart informations">Accessibité <strong>partielle</strong>.</p> 
+                <p role="alert" class="info" title="Encart informations"><span class="icon-info-circled"></span>&nbsp;&nbsp;Accessibité <strong>partielle</strong>.</p> 
                 <p class="podcastDescription">« Vulgaire, c’est un podcast dans lequel je vais aborder des trucs que je ne connais pas, mais dont je vais vous parler quand même. Je vais vous marinesplainer, en quelque sorte. »</p>
                 <p class="accessDescription">Podcast animé par Marine Baousson.<br>Transcriptions mises à disposition.</p>
                  <ul>
                     <li>
                         <a
+                        role="link"
                         href="https://drive.google.com/drive/folders/1uEdYKqovHpqexUenesg3Aq-47JWtQgCE?usp=sharing" 
                         target="_blank">Épisodes 1 à 38
                         </a>
                     </li>
                         <a
+                        role="link"
                         href="https://drive.google.com/drive/folders/12IDU2ly4oBrzBHWMPcRd9HNZJe_d7NJF?usp=sharing" 
                         target="_blank">À partir de l'épisode 39
                         </a>
@@ -413,8 +448,9 @@
                 <p class="accessDescription">Podcast animé par Sol Nis.<br>Transcriptions mises à disposition.</p>
                 <a
                 type="button" 
-                class ="button site"
-                data-message="Accéder au site web"
+                role="button"
+                class="button site"
+                aria-label="Accéder au site web"
                 href="http://sol-nis.fr/editermiliter/" 
                 target="_blank">Site web</a>
             </div>
@@ -422,13 +458,14 @@
             <div class="podcast">
                 <h2 class="title">Vénus s'épilait-elle la chatte ?</h2>
                 <h3 class="subtitle">Le podcast féministe et inclusif qui déconstruit l'histoire de l'art occidentale</h3>
-                <p class="warning" data-message="Encart prévention">Transcriptions en PDF.</p> 
+                <p role="alert" class="warning" title="Encart prévention"><span class="icon-attention"></span>&nbsp;&nbsp;Transcriptions en PDF.</p> 
                 <p class="podcastDescription">Vénus s'épilait-elle chatte déconstruit l’histoire de l’art occidentale, en proposant un point de vue féministe et inclusif.</p>
                 <p class="accessDescription">Podcast animé par Julie Beauzac.<br>Transcriptions mises à disposition.</p>
                 <a
                 type="button" 
-                class ="button site"
-                data-message="Accéder au site web"
+                role="button"
+                class="button site"
+                aria-label="Accéder au site web"
                 href="https://www.venuslepodcast.com/episodes" 
                 target="_blank">Site web</a>
             </div>
