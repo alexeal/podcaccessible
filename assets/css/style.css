@@ -50,6 +50,10 @@ a {
   text-transform: none;
   color: #333333;
 }
+.rs-logo{
+	width: 24px;
+	vertical-align: middle;
+}
 .podcastDescription,
 .youtubeDescription {
   color: #787878;
