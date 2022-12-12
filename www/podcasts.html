@@ -12,6 +12,40 @@
       sizes="180x180"
       href="img/apple-touch-icon.png"
     />
+
+    <script type="text/javascript">
+      function initPodcasts() {
+        var dividers = document.querySelectorAll('.divider');
+        dividers.forEach((item) => item.remove());
+
+        var hrElement = document.createElement('hr');
+        hrElement.classList.add('divider');
+
+        var podcasts = document.querySelectorAll('.podcast');
+        Array.prototype.slice
+          .call(podcasts)
+          .sort(byTitle)
+          .forEach(function (div) {
+            div.parentElement.appendChild(div);
+
+            var hrElement = document.createElement('hr');
+            hrElement.classList.add('divider');
+            div.parentElement.appendChild(hrElement);
+          });
+      }
+
+      function byTitle(first, second) {
+        var order = 0;
+        var first = first.querySelector('h2').textContent.trim();
+        var second = second.querySelector('h2').textContent.trim();
+
+        first > second ? (order = 1) : (order = -1);
+
+        return order;
+      }
+
+      window.onload = initPodcasts;
+    </script>
   </head>
   <body>
     <div class="container">
@@ -289,7 +323,7 @@
           <h3 class="subtitle"></h3>
           <p role="alert" class="info" title="Encart informations">
             <span class="icon-info-circled"></span>&nbsp;&nbsp;Accessibilité
-            <strong>partielle</strong>. Deux épisodes disponibles.
+            <strong>partielle</strong>. Trois épisodes disponibles.
           </p>
           <p role="alert" class="warning" title="Encart prévention">
             <span class="icon-attention"></span>&nbsp;&nbsp;Transcriptions en
@@ -1057,25 +1091,13 @@
             secours en France
           </h3>
           <p class="accessDescription">Transcriptions mises à dispositions.</p>
-          <ul>
-            <li>
-              <a
-                href="https://santesecurite-podcast.fr/2022/03/14/formation-premiers-secours/"
-                target="_blank"
-              >
-                EP01 - Les différentes formations aux 1ers secours en France</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://santesecurite-podcast.fr/2022/03/22/obligation-formation-sst/"
-                target="_blank"
-              >
-                EP02 - Quelles sont les obligations de formation au SST en
-                entreprise?</a
-              >
-            </li>
-          </ul>
+          <a
+            class="button site"
+            title="Accéder au site Santé & Sécurité"
+            href="https://santesecurite-podcast.fr/category/blog/"
+            target="_blank"
+            >Site web</a
+          >
         </div>
         <hr class="divider" />
         <div class="podcast">
@@ -1109,7 +1131,7 @@
           <a
             class="button youtube"
             title="Accéder à la chaîne YouTube 6foisdys"
-            href="https://www.youtube.com/user/misoune"
+            href="https://www.youtube.com/@6foisdys262"
             target="_blank"
             >YouTube</a
           >
@@ -1129,8 +1151,271 @@
                 >Episode 2 - Jeu d'échecs et troubles DYS
               </a>
             </li>
+            <li>
+              <a
+                href="https://www.6foisdys.fr/transcription-posdcast3-lacher-prise-entrepreneuriat.html"
+                target="_blank"
+                >Episode 3 - Comment j'ai lâcher prise pour avancer plus
+                efficacement dans mes projets ?
+              </a>
+            </li>
           </ul>
         </div>
+
+        <hr class="divider" />
+        <div class="podcast">
+          <h2 class="title">Futur chien guide</h2>
+          <h3 class="subtitle">Le podcast sur les chiens-guides</h3>
+          <p class="accessDescription">Transcriptions mises à dispositions.</p>
+          <a
+            class="button site"
+            title="Accéder au site web Futur Chien Guide"
+            href="https://futurchienguide.fr/podcast/"
+            target="_blank"
+            >Site web</a
+          >
+        </div>
+        <hr class="divider" />
+
+        <div class="podcast">
+          <h2 class="title">Deez is la tech</h2>
+          <p class="accessDescription">Transcriptions mises à dispositions.</p>
+
+          <ul>
+            <li>
+              <a
+                href="https://deezer.io/deez-is-la-tech-%C3%A9pisode-1-la-diversit%C3%A9-dans-la-tech-8ea329775e27"
+                target="_blank"
+              >
+                Épisode 1 — La diversité dans la tech
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://deezer.io/deez-is-la-tech-%C3%A9pisode-2-laccessibilit%C3%A9-num%C3%A9rique-e37c3c34fd1"
+                target="_blank"
+              >
+                Épisode 2 — L’accessibilité numérique
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://deezer.io/deez-is-la-tech-%C3%A9pisode-3-flow-anatomie-dune-feature-e5bd5a71367e"
+                target="_blank"
+              >
+                Épisode 3 — Flow — Anatomie d’une feature
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <hr class="divider" />
+
+        <div class="podcast">
+          <h2 class="title">Micro-ondes Cérébrales</h2>
+          <h3 class="subtitle">
+            Micro-ondes Cérébrales, le podcast qui réchauffe vos méninges !
+          </h3>
+          <p class="accessDescription">Transcriptions mises à dispositions.</p>
+          <a
+            class="button site"
+            title="Accéder au site web Micro-ondes cérébrales"
+            href="https://micro-ondes-cerebrales.webflow.io/"
+            target="_blank"
+            >Site web</a
+          >
+        </div>
+
+        <hr class="divider" />
+
+        <div class="podcast">
+          <h2 class="title">Rebond, vivre avec le handicap</h2>
+          <p class="podcastDescription">
+            Dans le podcast Rebond, en partenariat avec l’Agefiph, le journal Le
+            Monde interroge 12 personnalités sur leur rapport au handicap et
+            comment elles y font face. Un handicap qu'elles connaissent depuis
+            leur naissance, qui les touchent depuis un accident ou une maladie.
+            Un handicap qui les concerne directement ou affecte un être cher. Le
+            handicap partage la vie d’un Français sur cinq. Il peut bouleverser
+            le quotidien, la famille, le travail, la scolarité mais aussi créer
+            des opportunités et permettre des rencontres. Alors, comment vivre
+            avec un handicap ?
+          </p>
+          <p class="accessDescription">Transcriptions mises à dispositions.</p>
+          <a
+            class="button transcription"
+            title="Accéder aux transcriptions du podcast Rebond, vivre avec le handicap"
+            href="https://www.agefiph.fr/actualites-handicap/rebond-vivre-avec-le-handicap-le-nouveau-podcast-du-monde"
+            target="_blank"
+            >Transcriptions</a
+          >
+        </div>
+
+        <hr class="divider" />
+
+        <div class="podcast">
+          <h2 class="title">
+            Carré, Petit, Utile : Le programme radio des gens du numérique.
+          </h2>
+          <p role="alert" class="info" title="Encart informations">
+            <span class="icon-info-circled"></span>&nbsp;&nbsp;Accessibilité
+            <strong>partielle</strong>.
+          </p>
+          <p class="accessDescription">Transcriptions mises à dispositions.</p>
+          <a
+            class="button site"
+            title="Accéder au podcast Carré, Petit, Utile"
+            href="https://cpu.dascritch.net/"
+            target="_blank"
+            >Site web</a
+          >
+          <ul>
+            <li>
+              <a
+                href="https://cpu.dascritch.net/post/2016/12/08/Ex0045-Sans-regarder"
+                target="_blank"
+                >CPU release Ex0045 : Sans regarder
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://cpu.dascritch.net/post/2022/09/29/Sophie-Drouvroy%2C-responsable-front%2C-qualit%C3%A9-et-accessibilit%C3%A9-web"
+                target="_blank"
+                >CPU release Ex0194 : Surdité
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <hr class="divider" />
+
+        <div class="podcast">
+          <h2 class="title">Série noire pour une canne blanche</h2>
+          <h3 class="subtitle">
+            Série noire pour une canne blanche, le podcast qui vous ouvre les
+            yeux sur le handicap visuel.
+          </h3>
+          <p class="podcastDescription">
+            Une série de podcasts présentée par Lise Wagner, experte en
+            accessibilité chez OKEENEA.
+          </p>
+          <p class="podcastDescription">
+            Tous les mois, Lise vous invite à la suivre dans ses aventures.
+            Découvrez au travers de ses récits poignants les défis quotidiens
+            qu’affrontent les personnes qui, comme elle, voient le monde avec
+            leurs mains et leurs oreilles. Elle vous emmènera dans la rue, les
+            transports, les magasins, les hôtels et bien d’autres endroits dont
+            vous n’avez même pas idée. Au programme: frisson, émotion, révolte
+            parfois, mais toujours teintés d’un zeste d’humour.
+          </p>
+          <p class="podcastDescription">
+            Comme Lise est une éternelle optimiste, elle ne termine jamais un
+            épisode sans vous prodiguer quelques conseils pour que, vous, à
+            votre niveau, vous puissiez alléger son quotidien et celui de ses
+            compagnons d’infortune. Accessibilité, accueil, comportement,
+            découvrez tout ce que vous devez savoir pour faciliter la vie des
+            personnes aveugles ou malvoyantes, 1,7 million de Français tout de
+            même !
+          </p>
+          <p class="accessDescription">Transcriptions mises à dispositions.</p>
+          <a
+            class="button site"
+            title="Accéder au podcast Série noire pour une canne blanche"
+            href="https://webzine.okeenea.com/podcast-serie-noire-pour-une-canne-blanche/"
+            target="_blank"
+            >Site web</a
+          >
+        </div>
+
+        <hr class="divider" />
+
+        <div class="podcast">
+          <h2 class="title">Les Bienveilleurs parlent du Burn-Out</h2>
+          <h3 class="subtitle"></h3>
+
+          <p class="podcastDescription">
+            Nous sommes tous les deux des anciens burnoutés. Nous ne sommes pas
+            médecins, psychologues, etc. Mais les gens se confient facilement à
+            nous car ils savent par quoi nous sommes passés. Aujourd’hui nous
+            nous définissons comme des Bienveilleurs et nous avons décidé de
+            lancer ce site pour partager, aider, accompagner plus de personnes.
+          </p>
+          <p class="accessDescription">Vidéos en Closed-Captions.</p>
+          <a
+            class="button youtube"
+            title="Accéder à la chaîne Les Bienveilleurs parlent du Burn-Out"
+            href="https://www.youtube.com/playlist?list=PLao9eTOEUWi-rKuh-Cdwwlu83SOGo1kAw"
+            target="_blank"
+            >YouTube</a
+          >
+        </div>
+
+        <hr class="divider" />
+        <div class="podcast">
+          <h2 class="title">User Story</h2>
+          <h3 class="subtitle"></h3>
+          <p role="alert" class="info" title="Encart informations">
+            <span class="icon-info-circled"></span>&nbsp;&nbsp;Accessibilité
+            <strong>partielle</strong>. Un épisode disponible.
+          </p>
+          <p class="accessDescription">Transcription mise à disposition.</p>
+          <ul>
+            <li>
+              <a
+                href="https://www.lalutineduweb.fr/transcription-textuelle-accessibilite-web-droit-podcast-user-story/"
+                target="_blank"
+                >« L’accessibilité web, un droit »
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <hr class="divider" />
+
+        <div class="podcast">
+          <h2 class="title" lang="en">Lost in translation</h2>
+          <h3 class="subtitle">
+            <span lang="en">Lost in translation</span>, c'est un podcast sur la
+            traduction et l'interprétation, créé et animé par Clara Joubert.
+          </h3>
+          <p class="podcastDescription">
+            Dans chaque épisode, j'invite une traductrice, un traducteur, un/e
+            interprète, un chercheur ou une chercheuse pour discuter de
+            traduction, d'interprétation, de langue, de langage, pour comprendre
+            ce que ça veut dire, aujourd'hui, traduire ou interpréter.
+          </p>
+          <p class="podcastDescription">
+            Est-ce que ça existe vraiment, la neutralité en traduction ? Est-ce
+            que les interprètes et les traductaires vont vraiment être
+            remplacé-e-s par des machines ? Est-ce qu'il faut s'adapter au
+            public pour lequel on traduit ? Est-ce que c'est politique, la
+            traduction ? Est-ce qu'il y a des choses qu'on ne peut pas traduire
+            ? Est-ce qu'on a une responsabilité, quand on traduit ? Comment
+            marche l'audiodescription ? Pourquoi retraduit-on ?
+          </p>
+          <p class="accessDescription">Transcriptions mises à dispositions.</p>
+          <a
+            class="button transcription"
+            title="Accéder aux transcriptions Lost in translation"
+            href="https://drive.google.com/drive/folders/1B6NCMLUPQnNgcygObDlgeMmP-FukfQZP"
+            target="_blank"
+            >Transcriptions</a
+          >
+        </div>
+
+        <hr class="divider" />
+
+        <!--  <div class="podcast">
+          <h2 class="title"></h2>
+          <h3 class="subtitle"></h3>
+            <p role="alert" class="info" title="Encart informations">
+            <span class="icon-info-circled"></span>&nbsp;&nbsp;Accessibilité
+            <strong>partielle</strong>.
+          </p>
+          <p class="podcastDescription"></p>
+          <p class="accessDescription">Transcriptions mises à dispositions.</p>
+          <a class="button site" title="" href="" target="_blank">Site web</a>
+        </div>-->
       </div>
     </div>
     <footer>
