@@ -12,40 +12,6 @@
       sizes="180x180"
       href="img/apple-touch-icon.png"
     />
-
-    <script type="text/javascript">
-      function initPodcasts() {
-        var dividers = document.querySelectorAll('.divider');
-        dividers.forEach((item) => item.remove());
-
-        var hrElement = document.createElement('hr');
-        hrElement.classList.add('divider');
-
-        var podcasts = document.querySelectorAll('.podcast');
-        Array.prototype.slice
-          .call(podcasts)
-          .sort(byTitle)
-          .forEach(function (div) {
-            div.parentElement.appendChild(div);
-
-            var hrElement = document.createElement('hr');
-            hrElement.classList.add('divider');
-            div.parentElement.appendChild(hrElement);
-          });
-      }
-
-      function byTitle(first, second) {
-        var order = 0;
-        var first = first.querySelector('h2').textContent.trim();
-        var second = second.querySelector('h2').textContent.trim();
-
-        first > second ? (order = 1) : (order = -1);
-
-        return order;
-      }
-
-      window.onload = initPodcasts;
-    </script>
   </head>
   <body>
     <div class="container">
@@ -56,7 +22,7 @@
           <h2 class="title">Je fais de mon mieux</h2>
           <h3 class="subtitle">Le podcast des écolos imparfaits</h3>
           <p class="accessDescription">
-            Podcast animé par Anne-Sophie.<br />Vidéos en Closed-Captions.
+            Podcast animé par Anne-Sophie.<br />Vidéos sous-titrées.
           </p>
           <a
             class="button youtube"
@@ -81,7 +47,7 @@
             profondes ou profondément superficielles, pour un portrait différent
           </h3>
           <p class="accessDescription">
-            Podcast animé par Isabelle Field.<br />Vidéos en Open-Captions.
+            Podcast animé par Isabelle Field.<br />Vidéos sous-titrées.
           </p>
           <a
             class="button youtube"
@@ -137,7 +103,7 @@
             Un podcast autour sur la littérature jeunesse
           </h3>
           <p class="accessDescription">
-            Podcast animé par Ama.<br />Vidéos en Closed-Captions.
+            Podcast animé par Ama.<br />Vidéos sous-titrées.
           </p>
           <a
             class="button youtube"
@@ -368,7 +334,7 @@
           </p>
           <p class="accessDescription">
             Podcast animé par Collectif Archives LGBTQI.<br />Transcriptions
-            mises à dispositions.<br />Vidéos en Closed-Captions et en LSF.
+            mises à dispositions.<br />Vidéos sous-titrées. et en LSF.
           </p>
           <a
             class="button youtube"
@@ -517,14 +483,12 @@
         <hr class="divider" />
         <div class="podcast">
           <h2 class="title">Esperluette Podcast</h2>
-          <h3 class="subtitle"></h3>
           <p class="podcastDescription">
             Écoutez les belles énergies associatives, culturelles, artistiques
             et entrepreneuriales du Vaucluse.
           </p>
           <p class="accessDescription">
-            Podcast animé par Marie-Cécile Drécourt.<br />Vidéos en
-            Closed-Captions.
+            Podcast animé par Marie-Cécile Drécourt.<br />Vidéos sous-titrées.
           </p>
           <a
             class="button youtube"
@@ -537,10 +501,9 @@
         <hr class="divider" />
         <div class="podcast">
           <h2 class="title">Parlons recrutement</h2>
-          <h3 class="subtitle"></h3>
           <p class="accessDescription">
-            Podcast animé par Florian Mantione Institut.<br />Vidéos en
-            Open-Captions.
+            Podcast animé par Florian Mantione Institut.<br />Vidéos
+            sous-titrées.
           </p>
           <a
             class="button youtube"
@@ -553,7 +516,6 @@
         <hr class="divider" />
         <div class="podcast">
           <h2 class="title">Mécréantes</h2>
-          <h3 class="subtitle"></h3>
           <p class="podcastDescription">
             Bienvenue dans Mécréantes, le podcast mensuel qui interroge en
             profondeur nos stéréotypes de genre. Au travers de témoignages et
@@ -581,7 +543,7 @@
             asiatiques.
           </p>
           <p class="accessDescription">
-            Podcast animé par Pulan Devii.<br />Vidéos en Closed-Captions.
+            Podcast animé par Pulan Devii.<br />Vidéos sous-titrées.
           </p>
           <a
             class="button youtube"
@@ -628,7 +590,6 @@
         <hr class="divider" />
         <div class="podcast">
           <h2 class="title">Editer Militer</h2>
-          <h3 class="subtitle"></h3>
           <p class="podcastDescription">Un podcast sur l'édition militante.</p>
           <p class="accessDescription">
             Podcast animé par Sol Nis.<br />Transcriptions mises à disposition.
@@ -713,7 +674,7 @@
             inclusive d'aujourd'hui et de demain.
           </p>
           <p class="accessDescription">
-            Podcast animé par Fanny et Cécile.<br />Vidéos en Closed-Captions.
+            Podcast animé par Fanny et Cécile.<br />Vidéos sous-titrées.
           </p>
           <a
             class="button youtube"
@@ -990,8 +951,8 @@
         <div class="podcast">
           <h2 class="title">Journal de mes oreilles</h2>
           <p class="accessDescription">
-            Podcast animé par Zoé Besmond de Senneville.<br />Vidéos en
-            Closed-Captions.
+            Podcast animé par Zoé Besmond de Senneville.<br />Vidéos
+            sous-titrées.
           </p>
           <a
             class="button youtube"
@@ -1074,7 +1035,7 @@
             Le podcast sur des chevaux et des alternatives à l’équitation
             classique
           </h3>
-          <p class="accessDescription">Vidéos en Closed-Captions.</p>
+          <p class="accessDescription">Vidéos sous-titrées.</p>
           <a
             class="button youtube"
             title="Accéder à la chaîne YouTube HappiCulture"
@@ -1126,7 +1087,7 @@
         <div class="podcast">
           <h2 class="title">6foisdys</h2>
           <p class="accessDescription">
-            Transcriptions mises à dispositions.<br />Vidéos en Closed-Captions.
+            Transcriptions mises à dispositions.<br />Vidéos sous-titrées.
           </p>
           <a
             class="button youtube"
@@ -1340,7 +1301,7 @@
             nous définissons comme des Bienveilleurs et nous avons décidé de
             lancer ce site pour partager, aider, accompagner plus de personnes.
           </p>
-          <p class="accessDescription">Vidéos en Closed-Captions.</p>
+          <p class="accessDescription">Vidéos sous-titrées.</p>
           <a
             class="button youtube"
             title="Accéder à la chaîne Les Bienveilleurs parlent du Burn-Out"
@@ -1404,8 +1365,45 @@
         </div>
 
         <hr class="divider" />
+        <div class="podcast">
+          <h2 class="title">Le Barboteur</h2>
+          <h3 class="subtitle">Le podcast qui révèle la diversité créative.</h3>
 
-        <!--  <div class="podcast">
+          <p class="accessDescription">
+            Podcast animé par Laurent Naudier.<br />Transcriptions mises à
+            dispositions.
+          </p>
+          <a
+            class="button site"
+            title="Accéder aux transcriptions du podcast Le Barboteur"
+            href="https://www.laurent-naudier.fr/le-barboteur/"
+            target="_blank"
+            >Site web</a
+          >
+        </div>
+
+        <hr class="divider" />
+        <div class="podcast">
+          <h2 class="title">Déballe ton métissage</h2>
+          <h3 class="subtitle">
+            Le podcast qui déballe les sujets et problématiques liés à la
+            multiracialité qu’on appelle aussi “métissage”.
+          </h3>
+          <p class="accessDescription">Vidéos sous-titrées.</p>
+          <a
+            class="button youtube"
+            title="Accéder à la chaîne Déballe ton métissage"
+            href="https://www.youtube.com/channel/UCSHdipKSiO7aE7qQ21E6X1w"
+            target="_blank"
+            >YouTube</a
+          >
+        </div>
+
+        <hr class="divider" />
+
+        <!--
+          <hr class="divider" />
+          <div class="podcast">
           <h2 class="title"></h2>
           <h3 class="subtitle"></h3>
             <p role="alert" class="info" title="Encart informations">
@@ -1424,5 +1422,9 @@
         <a href="contact.html">Contact</a>
       </p>
     </footer>
+    <script src="../scripts/order-by.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      document.onload = init('.podcast');
+    </script>
   </body>
 </html>

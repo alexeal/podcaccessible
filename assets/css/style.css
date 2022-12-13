@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,500;1,300;1,500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,500;1,300;1,500&display=swap');
 @font-face {
-  font-family: "icons";
-  src: url("../fonts/icons.woff2") format("woff2"),
-    url("../fonts/icons.woff") format("woff");
+  font-family: 'icons';
+  src: url('../fonts/icons.woff2') format('woff2'),
+    url('../fonts/icons.woff') format('woff');
 }
 html {
   -webkit-overflow-scrolling: touch;
@@ -34,7 +34,7 @@ p {
   font-size: 1em;
   font-weight: 300;
   color: #999;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
 }
 p a {
   color: #999;
@@ -50,9 +50,9 @@ a {
   text-transform: none;
   color: #333333;
 }
-.rs-logo{
-	width: 24px;
-	vertical-align: middle;
+.rs-logo {
+  width: 24px;
+  vertical-align: middle;
 }
 .podcastDescription,
 .youtubeDescription {
@@ -78,16 +78,16 @@ li:last-child {
 .icon-attention,
 .icon-info-circled,
 .icon-mail-alt {
-  font-family: "icons";
+  font-family: 'icons';
 }
 .icon-attention:before {
-  content: "\e800";
+  content: '\e800';
 }
 .icon-info-circled:before {
-  content: "\e803";
+  content: '\e803';
 }
 .icon-mail-alt:before {
-  content: "\f0e0";
+  content: '\f0e0';
 }
 .container {
   width: 80%;
@@ -100,7 +100,7 @@ li:last-child {
   margin: auto;
   width: auto;
   height: auto;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-size: 1em;
   color: #595959;
 }
@@ -152,7 +152,7 @@ button,
   border-radius: 4px;
 }
 .warning {
-  color: #8a6d3b;
+  color: #67512c;
   background-color: #fcf8e3;
 }
 .info {
@@ -190,7 +190,7 @@ button,
 }
 footer {
   color: #999;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   bottom: 0;
   padding: 1%;
   margin-top: auto;
