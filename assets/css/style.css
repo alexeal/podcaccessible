@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,500;1,300;1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,500;1,300;1,500&display=swap");
 @font-face {
-  font-family: 'icons';
-  src: url('../fonts/icons.woff2') format('woff2'),
-    url('../fonts/icons.woff') format('woff');
+  font-family: "icons";
+  src: url("../fonts/icons.woff2") format("woff2"),
+    url("../fonts/icons.woff") format("woff");
 }
 html {
   -webkit-overflow-scrolling: touch;
@@ -34,7 +34,7 @@ p {
   font-size: 1em;
   font-weight: 300;
   color: #999;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 p a {
   color: #999;
@@ -78,29 +78,27 @@ li:last-child {
 .icon-attention,
 .icon-info-circled,
 .icon-mail-alt {
-  font-family: 'icons';
+  font-family: "icons";
 }
 .icon-attention:before {
-  content: '\e800';
+  content: "\e800";
 }
 .icon-info-circled:before {
-  content: '\e803';
+  content: "\e803";
 }
 .icon-mail-alt:before {
-  content: '\f0e0';
+  content: "\f0e0";
 }
 .container {
   width: 80%;
   height: auto;
   margin: auto;
-  margin-top: 15px;
-  margin-bottom: 15px;
 }
 .bloc {
   margin: auto;
   width: auto;
   height: auto;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 1em;
   color: #595959;
 }
@@ -186,16 +184,86 @@ button,
   background-color: #86461b !important;
 }
 #icon-lme {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 5%;
+  box-shadow: 0px 2px 2px #dbdbdb;
+  border-radius: 100%;
+  margin: auto;
+  margin-top: 1%;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  justify-content: center;
+}
+.card-media {
+  position: relative;
+  cursor: pointer;
+  margin: 1%;
+  padding: 0;
+  width: 30%;
+}
+
+.card-media h1,
+.card-media h2,
+.card-media h3,
+.card-media h4,
+.card-media h5,
+.card-media h6,
+.card-media p,
+.card-media a {
+  color: white;
+}
+.background-image {
   width: 100%;
+  box-shadow: 0px 2px 2px #dbdbdb;
+  border-radius: 9px;
+}
+.text-over {
+  z-index: 100;
+  position: absolute;
+  font-weight: bold;
+  top: 6%;
+  left: 5%;
+  width: auto;
+}
+.text-over p {
+  width: 70%;
 }
 footer {
   color: #999;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   bottom: 0;
   padding: 1%;
   margin-top: auto;
+  text-align: center;
 }
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  li {
+    padding-bottom: 3%;
+  }
+  .card {
+    margin: 0 5% 2% 5%;
+  }
+  .podcast,
+  .chaineYoutube {
+    margin-bottom: 3%;
+  }
+  #icon-lme {
+    width: 11%;
+    margin: 2% 45%;
+  }
+  .card-media {
+    width: 100%;
+  }
+  footer {
+    padding-left: 3%;
+  }
+}
+@media only screen and (min-width: 481px)  and (max-width: 960px) {
   h1 {
     font-size: 2.5em !important;
   }
@@ -207,22 +275,15 @@ footer {
   p,
   .bloc a.button,
   a {
-    font-size: 2em !important;
+    font-size: 1.5em !important;
   }
   p a {
     font-size: 1em !important;
   }
-  li {
-    padding-bottom: 3%;
+  .card-media {
+    width: 50%;
   }
-  .card {
-    margin: 0 5% 2% 5%;
-  }
-  .podcast,
-  .chaineYoutube {
-    margin-bottom: 3%;
-  }
-  footer {
-    padding-left: 3%;
+  .text-over p {
+    font-size: 1.1rem !important;
   }
 }
