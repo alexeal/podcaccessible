@@ -6,11 +6,15 @@
   <meta name="les.mal.entendus" content="les.mal.entendus" />
   <meta charset="UTF-8" />
   <link rel="stylesheet" type="text/css" href="../assets/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="../assets/css/switch.css" />
   <link rel="manifest" href="../manifest.webmanifest" />
   <link rel="icon" href="../assets/img/favicon.ico" />
   <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png" />
 </head>
-
+<label class="switch">
+  <input type="checkbox" id="theme_toggler">
+  <span class="slider round"></span>
+</label>
 <body>
   <div class="container">
     <p><a href="../index.html">Retour vers l'accueil</a></p>
@@ -1140,6 +1144,7 @@
               </div>-->
   </div>
   <script src="../scripts/order-by.js" type="text/javascript"></script>
+  <script src="../scripts/dark-mode.js" type="text/javascript"></script>
   <script type="text/javascript">
     document.onload = init('.podcast');
   </script>
@@ -1147,7 +1152,7 @@
 <footer>
   <p>
     Depuis 2021 - <a>Les mal·entendus</a> -
-    <a href="contact.html">Contact</a> - Mis à jour le 01/03/2024
+    <a href="contact.html">Contact</a> - Mis à jour le 02/03/2024
   </p>
 </footer>
 </html>
