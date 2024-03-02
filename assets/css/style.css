@@ -205,8 +205,12 @@ button,
   margin: 1%;
   padding: 0;
   width: 30%;
+  box-shadow: 0px 2px 2px #dbdbdb;
+  border-radius: 7px;
 }
-
+.card-media:hover {
+  box-shadow: 0px 0px 3px 0px black;
+}
 .card-media h1,
 .card-media h2,
 .card-media h3,
@@ -217,10 +221,9 @@ button,
 .card-media a {
   color: white;
 }
-.background-image {
+.card-media img {
   width: 100%;
-  box-shadow: 0px 2px 2px #dbdbdb;
-  border-radius: 9px;
+  height: 100%;
 }
 .text-over {
   z-index: 100;
@@ -245,9 +248,6 @@ footer {
   li {
     padding-bottom: 3%;
   }
-  .card {
-    margin: 0 5% 2% 5%;
-  }
   .podcast,
   .chaineYoutube {
     margin-bottom: 3%;
@@ -260,10 +260,12 @@ footer {
     width: 100%;
   }
   footer {
-    padding-left: 3%;
+    width: 72%;
+    height: auto;
+    margin: auto;
   }
 }
-@media only screen and (min-width: 481px)  and (max-width: 960px) {
+@media only screen and (min-width: 481px) and (max-width: 960px) {
   h1 {
     font-size: 2.5em !important;
   }
@@ -285,5 +287,13 @@ footer {
   }
   .text-over p {
     font-size: 1.1rem !important;
+  }
+  footer p{
+    font-size: 1em !important;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .card {
+    margin: 5% 2% 2% 5%;
   }
 }
