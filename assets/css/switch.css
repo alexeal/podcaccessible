@@ -1,6 +1,6 @@
 /* Switch button for dark mode  */
 .switch {
-  position: fixed;
+  position: absolute;
   cursor: pointer;
   right: 1%;
   top: 2%;
