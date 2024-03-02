@@ -2,7 +2,7 @@
   {
     "title":"Je fais de mon mieux",
     "subtitle":"Le podcast des écolos imparfaits.",
-    "podcastDescription":"",
+    "mainDescription":"",
     "authors": ["Anne-Sophie"],
     "accessDescription":"Vidéos en Closed-Captions.",
     "warning":null,
@@ -24,7 +24,7 @@
   {
     "title":"Et sinon ?",
     "subtitle":"Des personnalités répondent à des questions superficiellement profondes ou profondément superficielles, pour un portrait différent.",
-    "podcastDescription":"",
+    "mainDescription":"",
     "authors": ["Isabelle Field"],
     "accessDescription":"Vidéos en Open-Captions.",
     "warning":null,
@@ -46,7 +46,7 @@
   {
     "title":"Le divan",
     "subtitle":"Une tentative d'ouvrir un dialogue autour de la question de la psychanalyse.",
-    "podcastDescription":"",
+    "mainDescription":"",
     "authors": ["Stacey"],
     "accessDescription":"Transcriptions mises à disposition.",
     "warning":null,
@@ -68,7 +68,7 @@
   {
     "title":"Passion Médievistes",
     "subtitle":"Un podcast autour du Moyen-Âge.",
-    "podcastDescription":"",
+    "mainDescription":"",
     "authors": ["Fanny Cohen Moreau"],
     "accessDescription":"Transcriptions mises à disposition.",
     "warning":null,
@@ -90,7 +90,7 @@
   {
     "title":"Lithérature",
     "subtitle":"Un podcast autour sur la littérature jeunesse.",
-    "podcastDescription":"",
+    "mainDescription":"",
     "authors": ["Ama"],
     "accessDescription":"Vidéos en Closed-Captions.",
     "warning":null,
@@ -112,7 +112,7 @@
   {
     "title":"Nouvelles Écoutes",
     "subtitle":"Studio de création et de production sonore indépendant",
-    "podcastDescription":"",
+    "mainDescription":"",
     "authors": ["Nouvelles Écoutes"],
     "accessDescription":"Quelques vidéos sous-titrées. Transcriptions mises à disposition.",
     "warning":"Les transcriptions sont des images JPG dans un document PDF. Cela n'est pas pratique pour les lecteurs d'écran.",
@@ -134,7 +134,7 @@
   {
     "title":"Vulgaire",
     "subtitle":"Podcast de vulgarisation de trucs",
-    "podcastDescription":"",
+    "mainDescription":"",
     "authors": ["Marine Baousson"],
     "accessDescription":"Transcriptions mises à disposition.",
     "warning":"Épisodes 1 à 39",
