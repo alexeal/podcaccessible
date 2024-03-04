@@ -16,14 +16,15 @@
   <img id="icon-lme" src="assets/img/apple-touch-icon.png" alt="logo les malentendus : une icone son coupé" />
 </header>
 <label class="switch">
-  <input type="checkbox" id="theme_toggler">
+  <input role="switch" type="checkbox" id="theme_toggler"
+    onclick="changeCheckbox()" onKeyDown="changeCheckbox(event.keyCode)" tabindex="1">
   <span class="slider round"></span>
 </label>
 
 <body>
   <div class="container">
     <div class="cards">
-      <div class="card image-overlay" tabindex="1" onclick="document.location.href='www/podcasts.html';"
+      <div class="card image-overlay" tabindex="2" onclick="document.location.href='www/podcasts.html';"
         title="Cliquez pour accéder à la liste de podcasts">
         <img src="assets/img/pa_card.webp"
           alt="Fond de couleur jaune or avec un logo en bas à droite en référence au son">
@@ -32,7 +33,7 @@
           <p>Liste des podcasts accessibles</p>
         </div>
       </div>
-      <div class="card image-overlay" tabindex="2" onclick="document.location.href='www/youtube.html';"
+      <div class="card image-overlay" tabindex="3" onclick="document.location.href='www/youtube.html';"
         title="Cliquez pour accéder à la liste de podcasts">
         <img src="assets/img/yt_card.webp"
           alt="fond de couleur rouge avec un triangle blanc en bas à droite en référence au logo de youtube">
@@ -41,7 +42,7 @@
           <p>Liste des chaîne YouTube accessibles</p>
         </div>
       </div>
-      <div class="card image-overlay" tabindex="3"
+      <div class="card image-overlay" tabindex="4"
         onclick="document.location.href='https://github.com/emma11y/sous-titres';"
         title="Cliquez pour accéder à la liste d'outils pour sous-titrer ou transcrire vos médias">
         <img src="assets/img/gh_card.webp"
@@ -54,6 +55,7 @@
     </div>
   </div>
   <script src="scripts/dark-mode.js" type="text/javascript"></script>
+  <script src="scripts/checkbox.js" type="text/javascript"></script>
 </body>
 <footer>
   <p>
