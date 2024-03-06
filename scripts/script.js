@@ -7,7 +7,8 @@ const item = document.getElementById("theme_toggler");
 const checked = item.getAttribute("aria-checked");
 const label = item.getAttribute("aria-label");
 const darkModeLabel = "dark_mode";
-const defaultLabel =  "default";
+const defaultLabel = "default";
+const spacebarKeyCode = 32;
 
 /**
  * Listen event for the switch button
@@ -28,12 +29,25 @@ theme_toggler.addEventListener("click", function () {
  */
 function retrieve_theme() {
   var theme = localStorage.getItem("website_theme");
-  console.log(theme);
-  if (theme != null) {
+  if (theme !== null) {
     document.body.classList.remove(defaultLabel, darkModeLabel);
     document.body.classList.add(theme);
+    switchCheckboxAttributes(theme);
   }
-  switchCheckboxAttributes(theme);
+}
+
+/**
+ * Change checkbox onclick or with space key
+ * @param {*} keyCode to check keycode
+ */
+function changeCheckbox(keyCode) {
+  if (keyCode && keyCode !== spacebarKeyCode) {
+    return;
+  } else if (checked === "true") {
+    switchCheckboxAttributes(darkModeLabel);
+  } else {
+    switchCheckboxAttributes(defaultLabel);
+  }
 }
 
 /**
@@ -42,9 +56,11 @@ function retrieve_theme() {
  */
 function switchCheckboxAttributes(theme) {
   if (theme === "dark_mode") {
+    document.getElementById("theme_toggler").checked = true;
     item.setAttribute("aria-checked", "true");
     item.setAttribute("aria-label", "Mode sombre activé");
   } else {
+    document.getElementById("theme_toggler").checked = false;
     item.setAttribute("aria-checked", "false");
     item.setAttribute("aria-label", "Mode clair activé");
   }
