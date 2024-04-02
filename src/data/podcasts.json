@@ -1,0 +1,79 @@
+[
+    {
+        "title":"6foisdys",
+        "subtitle": "",
+        "mainDescription": "",
+        "accessDescription": "Transcriptions mises à dispositions. Vidéos sous-titrées.",
+        "informationMessage": null,
+        "authors": [""],
+        "sources": [
+            {
+                "type": "youtube",
+                "url": "https://www.youtube.com/@6foisdys262",
+                "accessDescription":"Accéder à la chaîne YouTube"
+            },
+            {
+                "type": "link",
+                "url": "https://www.6foisdys.fr/transcription-posdcast1-confiance-en-soi-et-estime-de-soi.html",
+                "accessDescription":"Episode 1 - Confiance en soi et estime de soi avec Emmanuelle BRIOUDE, sophrologue à Orléans"
+            },
+            {
+                "type": "link",
+                "url": "https://www.6foisdys.fr/transcription-posdcast2-jeu-dechecs-et-troubles-dys.html",
+                "accessDescription":"Episode 2 - Jeu d'échecs et troubles DYS"
+            },
+            {
+                "type": "link",
+                "url": "https://www.6foisdys.fr/transcription-posdcast3-lacher-prise-entrepreneuriat.html",
+                "accessDescription":"Episode 3 - Comment j'ai lâcher prise pour avancer plus efficacement dans mes projets ?"
+            }
+        ]
+        
+    },
+    {
+        "title": "Je fais de mon mieux",
+        "subtitle": "Le podcast des écolos imparfaits.",
+        "mainDescription": "",
+        "accessDescription": "Vidéos en Closed-Captions.",
+        "informationMessage": null,
+        "authors": [
+            "Anne-Sophie"
+        ],
+        "sources": [
+            {
+                "type": "youtube",
+                "url": "https://www.youtube.com/channel/UCnoZQdGz4JVva8bR7m3QZSg",
+                "accessDescription":"Accéder à la chaîne YouTube"
+            },
+            {
+                "type": "site",
+                "url": "https://www.jefaisdemonmieux-lepodcast.fr/accessibilite-du-podcast/",
+                "accessDescription":"Accéder au site web"
+            }
+        ]
+    },
+    {
+        "title":"AndyCaptain",
+        "subtitle": "",
+        "mainDescription": "",
+        "accessDescription": "Transcriptions mises à dispositions.",
+        "informationMessage": {
+            "type":"info",
+            "content":"Accessibilité partielle. Deux épisodes disponibles."
+        },
+        "authors": [""],
+        "sources": [
+            {
+                "type": "link",
+                "url": "https://www.andycaptain.fr/unit-post/29",
+                "accessDescription":"Episode 1 - Papa Aidant"
+            },
+            {
+                "type": "link",
+                "url": "https://www.andycaptain.fr/unit-post/27",
+                "accessDescription":"Episode 40 - Adieu mon amour"
+            }
+        ]
+        
+    }
+]

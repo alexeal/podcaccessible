@@ -1,0 +1,44 @@
+<div class="container">
+    @for (video of $any(videos$ | async); track $index) {
+    <div class="video">
+        <h2 class="title">{{video.title}}</h2>
+        <h3 class="subtitle">{{video.subtitle}}</h3>
+        @if (video.informationMessage &&
+        video.informationMessage.type === 'warning') {
+        <p role="alert" [ngClass]="video.informationMessage.type === 'warning' ? 'warning':'info'"
+            [title]="video.informationMessage.accessDescription">
+            <span
+                [ngClass]="video.informationMessage.type === 'warning' ? 'icon-attention' : 'icon-info-circled'"></span>video.informationMessage.content
+        </p>
+        }
+        <p class="main-description">
+            {{video.mainDescription}}
+        </p>
+        <p class="access-description">
+            {{video.accessDescription}}
+        </p>
+        @for (button of video.sources; track $index) {
+        @if (button.type ==='youtube' || button.type ==='site') {
+        <a class="button" [ngClass]="button.type === 'youtube' ? 'youtube' : 'site'" [title]="button.accessDescription"
+            [href]="button.url" target="_blank">{{button.type === 'youtube' ? 'YouTube' : 'Site'}}</a>
+        }
+        }
+        @if (video.sources && hasLink(video.sources)) {
+        <ul>
+            @for (item of video.sources; track $index) {
+            @if (item.type ==='link') {
+            <li>
+                <a [href]="item.url" target="_blank">{{item.accessDescription}}
+                </a>
+            </li>
+            }
+            }
+        </ul>
+        }
+    </div>
+    <hr class="divider" />
+    }
+    @empty {
+    Pas de videos disponibles :-(
+    }
+</div>
