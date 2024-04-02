@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { MediaService } from '../../services/MediaService';
+import { MediaService } from '../../services/media.service';
 import { Observable } from 'rxjs';
 import { Media } from '../../models/media.model';
 import { CommonModule } from '@angular/common';
