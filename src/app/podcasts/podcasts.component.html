@@ -4,11 +4,11 @@
     <h2 class="title">{{podcast.title}}</h2>
     <h3 class="subtitle">{{podcast.subtitle}}</h3>
     @if (podcast.informationMessage &&
-    podcast.informationMessage.type === 'warning') {
+    podcast.informationMessage.type) {
     <p role="alert" [ngClass]="podcast.informationMessage.type === 'warning' ? 'warning':'info'"
       [title]="podcast.informationMessage.accessDescription">
       <span
-        [ngClass]="podcast.informationMessage.type === 'warning' ? 'icon-attention' : 'icon-info-circled'"></span>podcast.informationMessage.content
+        [ngClass]="podcast.informationMessage.type === 'warning' ? 'icon-attention' : 'icon-info-circled'"></span>  {{podcast.informationMessage.content}}
     </p>
     }
     <p class="main-description">
