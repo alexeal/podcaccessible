@@ -9,44 +9,55 @@ import { Title } from '@angular/platform-browser';
 
 @Injectable({ providedIn: 'root' })
 export class TemplatePageTitleStrategy extends TitleStrategy {
-    constructor(private readonly title: Title) {
-        super();
-    }
+  constructor(private readonly title: Title) {
+    super();
+  }
 
-    override updateTitle(routerState: RouterStateSnapshot) {
-        const title = this.buildTitle(routerState);
-        if (title !== undefined) {
-            this.title.setTitle(`Podcaccessible | ${title}`);
-        }
+  override updateTitle(routerState: RouterStateSnapshot) {
+    const title = this.buildTitle(routerState);
+    if (title !== undefined) {
+      this.title.setTitle(`Podcaccessible | ${title}`);
     }
+  }
 }
 
 export const routes: Routes = [
-    { path: '', redirectTo: 'home', pathMatch: 'full' },
-    {
-        path: 'home',
-        title: 'Accueil', 
-        data: { breadcrumb: 'Accueil' },
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
+  {
+    path: 'home',
+    title: 'Accueil',
+    data: { breadcrumb: 'Accueil' },
+    children: [
+      {
+        path: '',
         component: HomeComponent,
+      },
+      {
+        path: 'podcasts',
+        title: 'Podcasts',
+        data: { breadcrumb: 'Podcasts' },
+        component: PodcastsComponent,
         children: [
-            {
-                path: 'podcasts',
-                title: 'Podcasts',
-                data: { breadcrumb: 'Podcasts' },
-                component: PodcastsComponent,
-                children: [
-                    { path: 'podcast', data: { breadcrumb: 'Podcast' }, component: PodcastComponent }
-                ]
-            },
-            {
-                path: 'videos',
-                title: 'Videos',
-                data: { breadcrumb: 'Vidéos' },
-                component: VideosComponent,
-                children: [
-                    { path: 'video', data: { breadcrumb: 'Video' }, component: VideoComponent }
-                ]
-            }
-        ]
-    }
+          {
+            path: 'podcast',
+            data: { breadcrumb: 'Podcast' },
+            component: PodcastComponent,
+          },
+        ],
+      },
+      {
+        path: 'videos',
+        title: 'Videos',
+        data: { breadcrumb: 'Vidéos' },
+        component: VideosComponent,
+        children: [
+          {
+            path: 'video',
+            data: { breadcrumb: 'Video' },
+            component: VideoComponent,
+          },
+        ],
+      },
+    ],
+  },
 ];
