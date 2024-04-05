@@ -1,9 +1,19 @@
 <ol class="breadcrumb">
-    @for (breadcrumb of breadcrumbs; track $index) {
-    <li>
-        <span routerLink="breadcrumb.url" routerLinkActive="router-link-active">
-            {{ breadcrumb.label }}
-        </span>
-    </li>
-    }
+  @if(router.url !== '/home') {
+  <li>
+    <a
+      routerLink="/"
+      [attr.aria-current]="router.url === '/home' ? 'page' : ''"
+      [routerLinkActive]="router.url === '/home' ? 'active' : ''"
+      [routerLinkActiveOptions]="{ exact: true }"
+      >Accueil</a
+    >
+  </li>
+  } @for (breadcrumb of breadcrumbs; track $index) {
+  <li>
+    <span routerLink="breadcrumb.url" routerLinkActive="router-link-active">
+      {{ breadcrumb.label }}
+    </span>
+  </li>
+  }
 </ol>

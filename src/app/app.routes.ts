@@ -27,36 +27,31 @@ export const routes: Routes = [
     path: 'home',
     title: 'Accueil',
     data: { breadcrumb: 'Accueil' },
+    component: HomeComponent,
+  },
+  {
+    path: 'podcasts',
+    title: 'Podcasts',
+    data: { breadcrumb: 'Podcasts' },
+    component: PodcastsComponent,
     children: [
       {
-        path: '',
-        component: HomeComponent,
+        path: 'podcast',
+        data: { breadcrumb: 'Podcast' },
+        component: PodcastComponent,
       },
+    ],
+  },
+  {
+    path: 'videos',
+    title: 'Videos',
+    data: { breadcrumb: 'Vidéos' },
+    component: VideosComponent,
+    children: [
       {
-        path: 'podcasts',
-        title: 'Podcasts',
-        data: { breadcrumb: 'Podcasts' },
-        component: PodcastsComponent,
-        children: [
-          {
-            path: 'podcast',
-            data: { breadcrumb: 'Podcast' },
-            component: PodcastComponent,
-          },
-        ],
-      },
-      {
-        path: 'videos',
-        title: 'Videos',
-        data: { breadcrumb: 'Vidéos' },
-        component: VideosComponent,
-        children: [
-          {
-            path: 'video',
-            data: { breadcrumb: 'Video' },
-            component: VideoComponent,
-          },
-        ],
+        path: 'video',
+        data: { breadcrumb: 'Video' },
+        component: VideoComponent,
       },
     ],
   },
