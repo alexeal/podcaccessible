@@ -4,6 +4,7 @@ import { Observable } from 'rxjs';
 import { Media } from '../../models/media.model';
 import { CommonModule } from '@angular/common';
 import { MediaSource } from '../../models/source.model';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-podcasts',
@@ -14,8 +15,9 @@ import { MediaSource } from '../../models/source.model';
 })
 export class PodcastsComponent {
   podcasts$: Observable<Media>;
-  constructor(private mediaService: MediaService) {
+  constructor(private mediaService: MediaService, private activatedRoute: ActivatedRoute) {
     this.podcasts$ = this.mediaService.getPodcasts();
+    console.log(activatedRoute);
   }
   hasLink(sources: Array<MediaSource>) {
     return sources.some(e => e.type === 'link');

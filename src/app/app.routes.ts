@@ -22,18 +22,31 @@ export class TemplatePageTitleStrategy extends TitleStrategy {
 }
 
 export const routes: Routes = [
-    { path: 'home', component: HomeComponent, title: 'Accueil' },
+    { path: '', redirectTo: 'home', pathMatch: 'full' },
     {
-        path: 'podcasts', component: PodcastsComponent, title:'Podcasts',
+        path: 'home',
+        title: 'Accueil', 
+        data: { breadcrumb: 'Accueil' },
+        component: HomeComponent,
         children: [
-            { path: 'podcast', component: PodcastComponent }
+            {
+                path: 'podcasts',
+                title: 'Podcasts',
+                data: { breadcrumb: 'Podcasts' },
+                component: PodcastsComponent,
+                children: [
+                    { path: 'podcast', data: { breadcrumb: 'Podcast' }, component: PodcastComponent }
+                ]
+            },
+            {
+                path: 'videos',
+                title: 'Videos',
+                data: { breadcrumb: 'Vidéos' },
+                component: VideosComponent,
+                children: [
+                    { path: 'video', data: { breadcrumb: 'Video' }, component: VideoComponent }
+                ]
+            }
         ]
-    },
-    {
-        path: 'videos', component: VideosComponent, title:'Videos',
-        children: [
-            { path: 'podcast', component: VideoComponent }
-        ]
-    },
-    { path: '', component: HomeComponent, title:'Accueil'}
+    }
 ];
