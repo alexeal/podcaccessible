@@ -17,7 +17,6 @@ export class PodcastsComponent {
   podcasts$: Observable<Media>;
   constructor(private mediaService: MediaService, private activatedRoute: ActivatedRoute) {
     this.podcasts$ = this.mediaService.getPodcasts();
-    console.log(activatedRoute);
   }
   hasLink(sources: Array<MediaSource>) {
     return sources.some(e => e.type === 'link');

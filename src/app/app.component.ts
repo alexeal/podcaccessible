@@ -5,6 +5,7 @@ import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 import { MediaService } from '../services/media.service';
 import { ToggleSwitchComponent } from './toggle-switch/toggle-switch.component';
 import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
+import { ThemeService } from '../services/theme.service';
 
 @Component({
   selector: 'app-root',
@@ -21,9 +22,8 @@ import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
   providers: [
-    MediaService
+    MediaService,
+    ThemeService
   ],
 })
-export class AppComponent {
-
-}
+export class AppComponent {}

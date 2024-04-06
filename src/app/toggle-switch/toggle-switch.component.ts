@@ -21,9 +21,8 @@ export class ToggleSwitchComponent {
   }
 
   onKeydown(event: KeyboardEvent) {
-    console.log(event)
     if (event.code && event.code === 'Space') {
-      console.log(event);
+      this.toggleTheme();
     }
   }
 }

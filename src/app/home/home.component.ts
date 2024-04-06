@@ -27,9 +27,7 @@ export class HomeComponent {
     @Inject(DOCUMENT) private document: Document,
     private router: Router,
     private route: ActivatedRoute
-  ) {
-    console.log(route);
-  }
+  ) { }
 
   goTo(page: string) {
     this.router.navigate([page]);
