@@ -1,6 +1,5 @@
 .breadcrumb {
     background: none;
-    font-size: 1.2em;
     margin: 0;
     margin-top: 3%;
     cursor: pointer;
@@ -9,6 +8,7 @@
     span {
         color: var(--primary-text);
         margin: 0.2em;
+        font-size: 1.2em !important;
     }
 
     a:hover,
