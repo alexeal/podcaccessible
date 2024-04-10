@@ -52,6 +52,7 @@ p {
     font-weight: 300;
     color: var(--primary-text);
     font-family: "Rubik", sans-serif;
+    white-space: pre-line;
 }
 
 p a {
@@ -90,7 +91,7 @@ a {
     color: var(--primary-text);
 }
 
-.access-description {
+.secondary-description {
     color: var(--secondary-text);
 }
 
@@ -284,7 +285,6 @@ button,
 }
 
 footer {
-    width: 100%;
     bottom: 0;
     font-family: "Rubik", sans-serif;
     color: var(--primary-text);
