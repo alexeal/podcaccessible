@@ -14,13 +14,15 @@
         <p class="main-description">
             {{video.mainDescription}}
         </p>
-        <p class="access-description">
-            {{video.accessDescription}}
-        </p>
+        @if (video.authors && video.authors.length>0) {
+            <p class="secondary-description">
+              Vidéos proposées par {{video.authors.join(' et ')}}.
+            </p>
+            }
         @for (button of video.sources; track $index) {
         @if (button.type ==='youtube' || button.type ==='site') {
         <a class="button" [ngClass]="button.type === 'youtube' ? 'youtube' : 'site'" [title]="button.accessDescription"
-            [href]="button.url" target="_blank">{{button.type === 'youtube' ? 'YouTube' : 'Site'}}</a>
+            [href]="button.url" target="_blank">{{button.type === 'youtube' ? 'YouTube' : 'Site web∑∑'}}</a>
         }
         }
         @if (video.sources && hasLink(video.sources)) {
