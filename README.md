@@ -6,12 +6,23 @@ Projet de recensement des podcasts accessibles.
 
 Un grand merci à [Emmanuelle Aboaf](https://github.com/emma11y) et [Megan Kateb](https://www.instagram.com/meganktb/) pour leur aide respective.
 
-# TODO
-- Ajouter les podcasts et videos dans les fichiers JSON
-- Dark mode
-- Trier par ordre alphabétique les listes
-- Faire des pages pour chaque podcast ?
+# ROADMAP
+- ~~Créer porjet sous Angular 17~~
+- ~~Routing~~
+- ~~Fil d'ariane~~
+- ~~Dark mode~~
+- ~~Trier par ordre alphabétique les listes~~
+- ~~Ajouter liste des podcasts~~
+- Ajouter liste des videos
 - Accessibilité
-- i18n ?
-- Page contact
-- Fil d'ariane
+- Formulaire pour soumettre un podcast ou mettre à jour des infos
+- Champ recherche 
+- Bouton retour haut de page
+- Merge to main
+
+# Features à réflechir  
+- Faire des pages pour chaque podcast
+- Améliorer le JSON/la présentation des medias
+- i18n
+- Ajout de tags (transcription, sous-tires, partiel, pdf, etc.)
+- Uniformiser design
