@@ -6,6 +6,7 @@ import { VideoComponent } from './videos/video/video.component';
 import { HomeComponent } from './home/home.component';
 import { Injectable } from '@angular/core';
 import { Title } from '@angular/platform-browser';
+import { ContactComponent } from './contact/contact.component';
 
 @Injectable({ providedIn: 'root' })
 export class TemplatePageTitleStrategy extends TitleStrategy {
@@ -54,5 +55,11 @@ export const routes: Routes = [
         component: VideoComponent,
       },
     ],
+  },
+  {
+    path: 'contact',
+    title: 'Contact',
+    data: { breadcrumb: 'Contact' },
+    component: ContactComponent,
   },
 ];
