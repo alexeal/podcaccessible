@@ -4,21 +4,22 @@
         <h2 class="title">{{video.title}}</h2>
         <h3 class="subtitle">{{video.subtitle}}</h3>
         @if (video.informationMessage &&
-        video.informationMessage.type === 'warning') {
+        video.informationMessage.type) {
         <p role="alert" [ngClass]="video.informationMessage.type === 'warning' ? 'warning':'info'"
             [title]="video.informationMessage.accessDescription">
             <span
-                [ngClass]="video.informationMessage.type === 'warning' ? 'icon-attention' : 'icon-info-circled'"></span>video.informationMessage.content
+                [ngClass]="video.informationMessage.type === 'warning' ? 'icon-attention' : 'icon-info-circled'"></span>
+            {{video.informationMessage.content}}
         </p>
         }
         <p class="main-description">
             {{video.mainDescription}}
         </p>
         @if (video.authors && video.authors.length>0) {
-            <p class="secondary-description">
-              Vidéos proposées par {{video.authors.join(' et ')}}.
-            </p>
-            }
+        <p class="secondary-description">
+            Chaîne YouTube animée par {{video.authors.join(' et ')}}.
+        </p>
+        }
         @for (button of video.sources; track $index) {
         @if (button.type ==='youtube' || button.type ==='site') {
         <a class="button" [ngClass]="button.type === 'youtube' ? 'youtube' : 'site'" [title]="button.accessDescription"
