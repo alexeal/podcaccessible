@@ -7,18 +7,19 @@ Projet de recensement des podcasts accessibles.
 Un grand merci à [Emmanuelle Aboaf](https://github.com/emma11y) et [Megan Kateb](https://www.instagram.com/meganktb/) pour leur aide respective.
 
 # ROADMAP
-- ~~Créer porjet sous Angular 17~~
+- ~~Upgrade Angular 17~~
 - ~~Routing~~
 - ~~Fil d'ariane~~
 - ~~Dark mode~~
 - ~~Trier par ordre alphabétique les listes~~
 - ~~Ajouter liste des podcasts~~
-- Ajouter liste des videos
+- ~~Ajouter liste des videos~~
+- ~~Bouton retour haut de page~~
+- ~~Champ recherche~~
+- Formulaire pour soumettre un podcast ou mettre à jour des infos + mails de contact, etc.
 - Accessibilité
-- Formulaire pour soumettre un podcast ou mettre à jour des infos
-- Champ recherche 
-- Bouton retour haut de page
-- Merge to main
+- Refactoring
+- Merge sur la branche principale
 
 # Features à réflechir  
 - Faire des pages pour chaque podcast
