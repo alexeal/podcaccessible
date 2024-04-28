@@ -1,4 +1,9 @@
 <div class="container">
+  <div class="centered-div">
+    <label class="search-label" for="searchInput">Chercher un podcast</label>
+    <input id="searchInput" class="search-input" type="text" placeholder="Entrez le nom d'un podcast, ex: AndyCaptain"
+      #searchQuery (input)="onSearchUpdated(searchQuery.value)">
+  </div>
   @for (podcast of $any(podcasts$ | async); track $index) {
   <div class="podcast">
     <h2 class="title">{{podcast.title}}</h2>
@@ -41,8 +46,16 @@
     }
   </div>
   <hr class="divider" />
+
   }
   @empty {
+  @if (this.isSearching) {
+  Recherche infructueuse :-(
+  } @else {
   Pas de podcasts disponibles :-(
   }
+  }
+  <div class="centered-div">
+    <button class="button action" (click)="scrollToTop()">Retour vers le haut de la page</button>
+  </div>
 </div>

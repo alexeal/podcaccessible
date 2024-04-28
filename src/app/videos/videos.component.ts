@@ -1,9 +1,9 @@
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { MediaService } from '../../services/media.service';
-import { Observable } from 'rxjs';
+import { BehaviorSubject, Observable, combineLatest, map } from 'rxjs';
 import { Media } from '../../models/media.model';
 import { MediaSource } from '../../models/source.model';
-import { CommonModule } from '@angular/common';
+import { MediaService } from '../../services/media.service';
 
 @Component({
   selector: 'app-videos',
@@ -13,11 +13,30 @@ import { CommonModule } from '@angular/common';
   styleUrl: './videos.component.scss'
 })
 export class VideosComponent {
-  videos$: Observable<Media>;
+  videos$: Observable<Array<Media>>;
+  searchQuery$ = new BehaviorSubject<string>('');
+  isSearching = false;
   constructor(private mediaService: MediaService) {
-    this.videos$ = this.mediaService.getVideos();
+    this.videos$ = combineLatest([
+      this.searchQuery$,
+      this.mediaService.getVideos()
+    ])
+      .pipe(
+        map(
+          ([searchQuery, data]) => {
+            this.isSearching = searchQuery !== '';
+            return data.filter(x => x['title'].toLocaleLowerCase().includes(searchQuery.toLocaleLowerCase()))
+          }
+        )
+      );
   }
   hasLink(sources: Array<MediaSource>) {
     return sources.some(e => e.type === 'link');
+  }
+  onSearchUpdated(searchQuery: string) {
+    this.searchQuery$.next(searchQuery);
+  }
+  scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 }

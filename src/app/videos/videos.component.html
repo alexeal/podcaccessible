@@ -1,4 +1,10 @@
 <div class="container">
+    <div class="centered-div">
+        <label class="search-label" for="searchInput">Chercher une video</label>
+        <input id="searchInput" class="search-input" type="text"
+            placeholder="Entrez le nom d'une chaine YouTube, ex: La Manie du Cinéma" #searchQuery
+            (input)="onSearchUpdated(searchQuery.value)">
+    </div>
     @for (video of $any(videos$ | async); track $index) {
     <div class="video">
         <h2 class="title">{{video.title}}</h2>
@@ -42,6 +48,13 @@
     <hr class="divider" />
     }
     @empty {
-    Pas de videos disponibles :-(
+    @if (this.isSearching) {
+    Recherche infructueuse :-(
+    } @else {
+    Pas de podcasts disponibles :-(
     }
+    }
+    <div class="centered-div">
+        <button class="button action" (click)="scrollToTop()">Retour vers le haut de la page</button>
+    </div>
 </div>

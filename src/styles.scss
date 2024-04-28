@@ -15,7 +15,8 @@ html {
     height: 100%;
 }
 
-header {
+header,
+button {
     cursor: pointer;
 }
 
@@ -260,12 +261,16 @@ button,
     opacity: 0.2;
 }
 
+.divider:last-of-type {
+    display: none;
+}
+
 .site {
-    background-color: var(--btn-primary) !important;
+    background-color: var(--btn-website) !important;
 }
 
 .site:hover {
-    background-color: var(--btn-primary-hover) !important;
+    background-color: var(--btn-website-hover) !important;
 }
 
 .youtube {
@@ -283,6 +288,60 @@ button,
 .transcription:hover {
     background-color: var(--btn-transcription-hover) !important;
 }
+
+.action {
+    background-color: var(--btn-primary);
+}
+
+.action:hover {
+    background-color: var(--btn-primary-hover);
+}
+
+.centered-div {
+    max-width: fit-content;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search-label {
+    position: absolute !important;
+    align-content: center;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    height: 1px; 
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px); /* old browsers */
+    clip-path: inset(50%); /* modern browsers*/
+    white-space: nowrap;
+}
+
+.search-input {
+    width: 30em;
+    padding: 0.7em;
+    border: solid 1px var(--border-input);
+    border-radius: 3px;
+}
+
+.input-group {
+    display: flex;
+    .search-input {
+        padding: 0.2em;
+        padding-left: 0.5em;
+        border-radius: 0;
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+    }
+    .button {
+        border-radius: 0;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+    }
+}
+
 
 footer {
     bottom: 0;

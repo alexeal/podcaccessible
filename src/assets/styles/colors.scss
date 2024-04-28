@@ -4,13 +4,18 @@
   --primary-text: #787878;
   --secondary-text: #ab9a9a;
   --card-media-text: #ffffff;
-  --btn-primary: #353535;
+  --border-input:#353535;
+  --btn-primary: var(--border-input);
   --btn-primary-text: #ffffff;
   --btn-primary-hover: #4d4d4d;
   --btn-youtube: #c4302b;
   --btn-youtube-hover: #d95652;
   --btn-transcription: #6a3715;
   --btn-transcription-hover: #86461b;
+  --btn-website:#474763;
+  --btn-website-hover:#616284;
+  --btn-action:#5b5b5b;
+  --btn-action-btn:#5b5b5b;
   --ul-background: #eae9e9;
   --card-background: #ffffff;
   --border: #dbdbdb;
@@ -35,7 +40,14 @@
   --primary-text: #aaa9a9;
   --switch-bg: #ffcf40;
   --switch-btn: #484848;
-  --warning-bg: #ffe8a1;
+  --warning-text: #f4ebbb;
+  --warning-bg: #84632c;
   --info-text: #d1ecf1;
   --info-bg: #0c5460;
+  --btn-youtube: #d95652;
+  --btn-youtube-hover: #c4302b;
+  --btn-website:#616284;
+  --btn-website-hover:#474763;
+  --btn-transcription: #86461b;
+  --btn-transcription-hover: #6a3715;
 }
