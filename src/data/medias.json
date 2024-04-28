@@ -5,6 +5,7 @@
         "mainDescription": null,
         "informationMessage": null,
         "authors": null,
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "youtube",
@@ -36,6 +37,7 @@
         "authors": [
             "Anne-Sophie"
         ],
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "youtube",
@@ -58,6 +60,7 @@
             "content": "Accessibilité partielle. Deux épisodes disponibles."
         },
         "authors": null,
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "link",
@@ -80,6 +83,7 @@
             "content": "Accessibilité partielle."
         },
         "authors": null,
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "site",
@@ -107,6 +111,7 @@
             "Marie Guillaumet",
             "Audrey Maniez"
         ],
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "link",
@@ -126,6 +131,7 @@
         "mainDescription": null,
         "informationMessage": null,
         "authors": [],
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "link",
@@ -153,6 +159,7 @@
             "Gladys Diandoki",
             "Anthony Adam"
         ],
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "link",
@@ -169,6 +176,7 @@
         "authors": [
             "La Clameur"
         ],
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "transcription",
@@ -185,6 +193,7 @@
         "authors": [
             "Laurent Naudier"
         ],
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "site",
@@ -204,6 +213,7 @@
         "authors": [
             "Apolline Rouzé"
         ],
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "site",
@@ -223,6 +233,7 @@
         "authors": [
             "Xavier de La Porte"
         ],
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "link",
@@ -242,6 +253,7 @@
         "authors": [
             "le Collectif Archives LGBTQI"
         ],
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "site",
@@ -266,6 +278,7 @@
         "authors": [
             "Stacey-Ann Arouff-Mc Veay"
         ],
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "site",
@@ -280,6 +293,7 @@
         "mainDescription": "Nous sommes tous les deux des anciens burnoutés. Nous ne sommes pas médecins, psychologues, etc. Mais les gens se confient facilement à nous car ils savent par quoi nous sommes passés. Aujourd’hui nous nous définissons comme des Bienveilleurs et nous avons décidé de lancer ce site pour partager, aider, accompagner plus de personnes.",
         "informationMessage": null,
         "authors": null,
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "youtube",
@@ -294,6 +308,7 @@
         "mainDescription": null,
         "informationMessage": null,
         "authors": null,
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "youtube",
@@ -308,6 +323,7 @@
         "mainDescription": null,
         "informationMessage": null,
         "authors": null,
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "site",
@@ -324,6 +340,7 @@
         "authors": [
             "Marie-Cécile Drécourt"
         ],
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "youtube",
@@ -340,6 +357,7 @@
         "authors": [
             "Isabelle Field"
         ],
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "youtube",
@@ -356,6 +374,7 @@
         "authors": [
             "Isabelle Field"
         ],
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "site",
@@ -373,6 +392,7 @@
             "content": "Accessibilité partielle."
         },
         "authors": null,
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "link",
@@ -392,6 +412,7 @@
         "authors": [
             "Audric Gueidan"
         ],
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "link",
@@ -408,6 +429,7 @@
         "authors": [
             "Hermine Garnier"
         ],
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "site",
@@ -427,6 +449,7 @@
         "authors": [
             "William Reymond"
         ],
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "site",
@@ -441,6 +464,7 @@
         "mainDescription": null,
         "informationMessage": null,
         "authors": null,
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "youtube",
@@ -457,6 +481,7 @@
         "authors": [
             "Zoé Besmond de Senneville"
         ],
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "youtube",
@@ -473,6 +498,7 @@
         "authors": [
             "Pulandevii"
         ],
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "youtube",
@@ -490,6 +516,7 @@
             "Fanny",
             "Cécile"
         ],
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "youtube",
@@ -504,6 +531,7 @@
         "mainDescription": null,
         "informationMessage": null,
         "authors": null,
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "site",
@@ -521,6 +549,7 @@
             "content": "Transcriptions en PDF, ce n'est pas accessible pour les personnes malvoyantes ou aveugles."
         },
         "authors": null,
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "site",
@@ -538,6 +567,7 @@
             "content": "Transcriptions en PDF, ce n'est pas accessible pour les personnes malvoyantes ou aveugles."
         },
         "authors": null,
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "site",
@@ -555,6 +585,7 @@
             "content": "Accessibilité partielle. Trois épisodes disponibles.\nTranscriptions en PDF, ce n'est pas accessible pour les personnes malvoyantes ou aveugles."
         },
         "authors": null,
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "link",
@@ -582,6 +613,7 @@
             "content": "Accessibilité partielle. Trois épisodes disponibles."
         },
         "authors": null,
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "link",
@@ -606,6 +638,7 @@
         "mainDescription": "\"Libre à lire !\" est le site du groupe Transcriptions de l’April, qui s’est donné pour mission de transformer des vidéos et des fichiers audio concernant le logiciel libre et les libertés numériques en général, en texte avec ajout d’une illustration et ajout de liens vers certains sites jugés pertinents.",
         "informationMessage": null,
         "authors": null,
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "site",
@@ -622,6 +655,7 @@
         "authors": [
             "Isabelle Santos"
         ],
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "site",
@@ -639,6 +673,7 @@
             "content": "Accessibilité partielle. Un épisode disponible."
         },
         "authors": null,
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "link",
@@ -655,6 +690,7 @@
         "authors": [
             "Lise Wagner"
         ],
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "site",
@@ -671,6 +707,7 @@
         "authors": [
             "Camille Bardin"
         ],
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "site",
@@ -685,6 +722,7 @@
         "mainDescription": null,
         "informationMessage": null,
         "authors": null,
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "site",
@@ -701,6 +739,7 @@
         "authors": [
             "Fanny Cohen Moreau"
         ],
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "site",
@@ -718,6 +757,7 @@
             "content": "Transcriptions en PDF, ce n'est pas accessible pour les personnes malvoyantes ou aveugles."
         },
         "authors": [],
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "site",
@@ -732,6 +772,7 @@
         "mainDescription": "PRÉSENT.E est un podcast bi-mensuel sur l’art contemporain",
         "informationMessage": null,
         "authors": null,
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "youtube",
@@ -746,6 +787,7 @@
         "mainDescription": null,
         "informationMessage": null,
         "authors": null,
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "site",
@@ -762,6 +804,7 @@
         "authors": [
             "Léane Alestra"
         ],
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "site",
@@ -778,6 +821,7 @@
         "authors": [
             "Olivier Roland"
         ],
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "site",
@@ -792,6 +836,7 @@
         "mainDescription": "Dans le podcast Rebond, en partenariat avec l’Agefiph, le journal Le Monde interroge 12 personnalités sur leur rapport au handicap et comment elles y font face. Un handicap qu'elles connaissent depuis leur naissance, qui les touchent depuis un accident ou une maladie. Un handicap qui les concerne directement ou affecte un être cher. Le handicap partage la vie d’un Français sur cinq. Il peut bouleverser le quotidien, la famille, le travail, la scolarité mais aussi créer des opportunités et permettre des rencontres. Alors, comment vivre avec un handicap ?",
         "informationMessage": null,
         "authors": null,
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "transcription",
@@ -806,6 +851,7 @@
         "mainDescription": "\"Salut les Designers !\" est le podcast de l’Agence LunaWeb consacré au design et à ses méthodes. UI, UX, motion, accessibilité, recherche, nous échangeons avec des professionnel·les passionné·es au grès de nos rencontres et de nos envies ! ",
         "informationMessage": null,
         "authors": null,
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "site",
@@ -820,6 +866,7 @@
         "mainDescription": "Podcast sur les différents dispositifs de formation aux premiers secours en France.",
         "informationMessage": null,
         "authors": null,
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "site",
@@ -834,6 +881,7 @@
         "mainDescription": "Un podcast autour sur la littérature jeunesse.",
         "informationMessage": null,
         "authors": null,
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "youtube",
@@ -850,6 +898,7 @@
         "authors": [
             "Clara Joubert"
         ],
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "transcription",
@@ -864,6 +913,7 @@
         "mainDescription": "Le podcast qui tente de lier technologie et écologie alors que tout les oppose.",
         "informationMessage": null,
         "authors": [],
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "transcription",
@@ -881,6 +931,7 @@
             "content": "Accessibilité partielle. Trois épisodes disponibles. \nTranscriptions en PDF, ce n'est pas accessible pour les personnes malvoyantes ou aveugles."
         },
         "authors": ["Charlotte Bienaimé"],
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "link",
@@ -903,6 +954,7 @@
             "content": "Accessibilité partielle. Un épisode disponible."
         },
         "authors": [],
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "link",
@@ -920,6 +972,7 @@
             "content": "Accessibilité partielle."
         },
         "authors": ["Marine Baousson"],
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "link",
@@ -942,6 +995,7 @@
             "content": "Transcription en PDF, ce n'est pas accessible pour les personnes malvoyantes ou aveugles."
         },
         "authors": ["Julie Beauzac"],
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "link",
@@ -956,6 +1010,7 @@
         "mainDescription": null,
         "informationMessage": null,
         "authors": null,
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "link",
@@ -993,6 +1048,7 @@
             "Emmanuel Demey",
             "Fanny Demey"
         ],
+        "mediaType":"podcast",
         "sources": [
             {
                 "type": "link",
