@@ -21,7 +21,7 @@ button {
 }
 
 body {
-    min-height: 100%;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
     background: var(--body-bg);
@@ -30,7 +30,7 @@ body {
     flex-direction: column;
     font-family: "Rubik", sans-serif;
     font-size: 1em;
-    color: #595959;
+    color: var(--primary-text);
     transition: background-color 0.25s;
 }
 
@@ -132,6 +132,7 @@ li:last-child {
 }
 
 .container {
+    min-height: 39vh;
     width: 80%;
     height: auto;
     margin: 8% auto;
@@ -344,11 +345,8 @@ button,
 
 
 footer {
-    bottom: 0;
-    font-family: "Rubik", sans-serif;
-    color: var(--primary-text);
+    margin: auto 0;
     text-align: center;
-    margin-top: auto;
     padding: 1%;
 }
 

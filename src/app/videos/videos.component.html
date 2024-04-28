@@ -1,7 +1,8 @@
 <div class="container">
+    <h1>YOUTUBE</h1>
     <div class="centered-div">
         <label class="search-label" for="searchInput">Chercher une video</label>
-        <input id="searchInput" class="search-input" type="text"
+        <input id="searchInput" class="search-input" type="search"
             placeholder="Entrez le nom d'une chaine YouTube, ex: La Manie du Cinéma" #searchQuery
             (input)="onSearchUpdated(searchQuery.value)">
     </div>
@@ -48,13 +49,17 @@
     <hr class="divider" />
     }
     @empty {
-    @if (this.isSearching) {
-    Recherche infructueuse :-(
-    } @else {
-    Pas de podcasts disponibles :-(
+    <div class="centered-div">
+        @if (this.isSearching) {
+        Recherche infructueuse :-(
+        } @else {
+        Pas de podcasts disponibles :-(
+        }
+    </div>
     }
-    }
+    @if ((videos$ | async)?.length !== 0) {
     <div class="centered-div">
         <button class="button action" (click)="scrollToTop()">Retour vers le haut de la page</button>
     </div>
+    }
 </div>
