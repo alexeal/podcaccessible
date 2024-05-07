@@ -311,16 +311,21 @@ button,
     border: 0;
     padding: 0;
     margin: 0;
-    height: 1px; 
+    height: 1px;
     width: 1px;
     overflow: hidden;
-    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-    clip: rect(1px, 1px, 1px, 1px); /* old browsers */
-    clip-path: inset(50%); /* modern browsers*/
+    /* IE6, IE7 */
+    clip: rect(1px 1px 1px 1px);
+    /* old browsers */
+    clip: rect(1px, 1px, 1px, 1px);
+    /* modern browsers*/
+    clip-path: inset(50%);
     white-space: nowrap;
 }
 
 .search-input {
+    background-color: var(--search-input-bg);
+    color: var(--search-input-text);
     width: 30em;
     padding: 0.7em;
     border: solid 1px var(--border-input);
@@ -329,6 +334,7 @@ button,
 
 .input-group {
     display: flex;
+
     .search-input {
         padding: 0.2em;
         padding-left: 0.5em;
@@ -336,6 +342,7 @@ button,
         border-top-left-radius: 3px;
         border-bottom-left-radius: 3px;
     }
+
     .button {
         border-radius: 0;
         border-top-right-radius: 3px;
