@@ -12,17 +12,17 @@ export class ToggleSwitchComponent {
   isDarkMode: boolean;
 
   constructor(private themeService: ThemeService) {
-    this.isDarkMode = this.themeService.isDarkMode();
+    this.themeService.getCurrentTheme();
+    this.isDarkMode = this.themeService.darkMode;
   }
 
   toggleTheme() {
-    this.isDarkMode = !this.isDarkMode;
-    this.themeService.setDarkMode(this.isDarkMode);
+    this.themeService.toggleTheme();
   }
 
   onKeydown(event: KeyboardEvent) {
     if (event.code && event.code === 'Space') {
-      this.toggleTheme();
+      this.themeService.toggleTheme();
     }
   }
 }
