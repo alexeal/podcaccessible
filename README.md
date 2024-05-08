@@ -17,9 +17,9 @@ Un grand merci à [Emmanuelle Aboaf](https://github.com/emma11y) et [Megan Kateb
 - ~~Bouton retour haut de page~~
 - ~~Champ recherche~~
 - ~~Formulaire pour soumettre un podcast ou mettre à jour des infos + mails de contact, etc.~~
+- ~~Merge sur la branche principale~~
 - Accessibilité
 - Refactoring
-- Merge sur la branche principale
 
 # Features à réflechir  
 - Faire des pages pour chaque podcast
