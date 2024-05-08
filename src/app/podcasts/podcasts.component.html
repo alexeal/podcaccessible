@@ -1,68 +1,103 @@
 <div class="container">
-  <h1>PODCASTS</h1>
-  <div class="centered-div">
+  <h1>Podcast</h1>
+  <div class="centered-div" role="search">
     <label class="search-label" for="searchInput">Chercher un podcast</label>
-    <input id="searchInput" class="search-input" type="search" placeholder="Entrez le nom d'un podcast, ex: AndyCaptain"
-      #searchQuery (input)="onSearchUpdated(searchQuery.value)">
+    <input
+      id="searchInput"
+      class="search-input"
+      type="search"
+      placeholder="Entrez le nom d'un podcast, ex: AndyCaptain"
+      #searchQuery
+      (input)="onSearchUpdated(searchQuery.value)"
+    />
   </div>
-  @for (podcast of $any(podcasts$ | async); track $index) {
-  <div class="podcast">
-    <h2 class="title">{{podcast.title}}</h2>
-    <h3 class="subtitle">{{podcast.subtitle}}</h3>
-    @if (podcast.informationMessage &&
-    podcast.informationMessage.type) {
-    <p role="alert" [ngClass]="podcast.informationMessage.type === 'warning' ? 'warning':'info'"
-      [title]="podcast.informationMessage.accessDescription">
-      <span [ngClass]="podcast.informationMessage.type === 'warning' ? 'icon-attention' : 'icon-info-circled'"></span>
-      {{podcast.informationMessage.content}}
+
+  @if(this.isSearching){
+  <p
+    role="alert"
+    class="sr-only"
+    aria-live="polite"
+    aria-relevant="additions text"
+  >
+    Vous avez {{ (podcasts$ | async)?.length }} podcasts trouvés
+  </p>
+
+  } @for (podcast of $any(podcasts$ | async); track $index) {
+  <div class="podcast" tabindex="0" role="article">
+    <h2 class="title">{{ podcast.title }}</h2>
+    <h3 class="subtitle" *ngIf="podcast.subtitle">{{ podcast.subtitle }}</h3>
+    @if (podcast.informationMessage && podcast.informationMessage.type) {
+    <p
+      [ngClass]="
+        podcast.informationMessage.type === 'warning' ? 'warning' : 'info'
+      "
+    >
+      <span
+        [ngClass]="
+          podcast.informationMessage.type === 'warning'
+            ? 'icon-attention'
+            : 'icon-info-circled'
+        "
+      ></span>
+      <span
+        *ngIf="podcast.informationMessage.type === 'warning'"
+        class="sr-only"
+        >Attention&nbsp;</span
+      >
+      {{ podcast.informationMessage.content }}
     </p>
     }
     <p class="main-description">
-      {{podcast.mainDescription}}
+      {{ podcast.mainDescription }}
     </p>
     @if (podcast.authors && podcast.authors.length>0) {
     <p class="secondary-description">
-      Podcast animé par {{podcast.authors.join(' et ')}}.
+      Podcast animé par {{ podcast.authors.join(" et ") }}.
     </p>
-    }
-    @if (podcast.sources && hasLink(podcast.sources)) {
+    } @if (podcast.sources && hasLink(podcast.sources)) {
     <ul>
-      @for (item of podcast.sources; track $index) {
-      @if (item.type ==='link') {
+      @for (item of podcast.sources; track $index) { @if (item.type ==='link') {
       <li>
-        <a [href]="item.url" target="_blank">{{item.accessDescription}}
-        </a>
+        <a [href]="item.url" target="_blank">{{ item.accessDescription }} </a>
       </li>
-      }
-      }
+      } }
     </ul>
-    }
-    @for (button of podcast.sources; track $index) {
-    @if (button.type ==='youtube' || button.type ==='site' || button.type ==='transcription') {
-    <a class="button"
-      [ngClass]="button.type === 'youtube' ? 'youtube' : button.type === 'site' ? 'site' : 'transcription'"
-      [title]="button.accessDescription" [href]="button.url" target="_blank">{{button.type === 'youtube' ? 'YouTube' :
-      button.type === 'site' ? 'Site web' : 'Transcriptions'}}</a>
-    }
-    }
+    } @for (button of podcast.sources; track $index) { @if (button.type
+    ==='youtube' || button.type ==='site' || button.type ==='transcription') {
+    <a
+      class="button"
+      [ngClass]="
+        button.type === 'youtube'
+          ? 'youtube'
+          : button.type === 'site'
+          ? 'site'
+          : 'transcription'
+      "
+      [title]="button.accessDescription"
+      [href]="button.url"
+      target="_blank"
+      >{{
+        button.type === "youtube"
+          ? "YouTube"
+          : button.type === "site"
+          ? "Site web"
+          : "Transcriptions"
+      }}</a
+    >
+    } }
   </div>
   <hr class="divider" />
 
-  }
-  @empty {
-  @if (this.isSearching) {
+  } @empty {
   <div class="centered-div">
-    Recherche infructueuse :-(
+    @if (this.isSearching) { Recherche infructueuse :-( } @else { Pas de
+    podcasts disponibles :-( }
   </div>
-  } @else {
+  } @if ((podcasts$ | async)?.length !== 0) {
   <div class="centered-div">
-    Pas de podcasts disponibles :-(
-  </div>
-  }
-  }
-  @if ((podcasts$ | async)?.length !== 0) {
-  <div class="centered-div">
-    <button class="button action" (click)="scrollToTop()">Retour vers le haut de la page</button>
+    <button class="button action" (click)="scrollToTop()">
+      Retour vers le haut de la page
+    </button>
   </div>
   }
 </div>

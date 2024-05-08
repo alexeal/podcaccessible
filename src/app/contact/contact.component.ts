@@ -1,6 +1,12 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { FormBuilder, FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
+import {
+  FormBuilder,
+  FormControl,
+  FormGroup,
+  ReactiveFormsModule,
+  Validators,
+} from '@angular/forms';
 import emailjs from '@emailjs/browser';
 
 @Component({
@@ -8,7 +14,7 @@ import emailjs from '@emailjs/browser';
   standalone: true,
   imports: [CommonModule, ReactiveFormsModule],
   templateUrl: './contact.component.html',
-  styleUrl: './contact.component.scss'
+  styleUrl: './contact.component.scss',
 })
 export class ContactComponent {
   submitted = false;
@@ -16,13 +22,13 @@ export class ContactComponent {
   userForm = new FormGroup({
     from_name: new FormControl('', Validators.required),
     email: new FormControl('', [Validators.required, Validators.email]),
-    message: new FormControl('', Validators.required)
+    message: new FormControl('', Validators.required),
   });
 
-  constructor(private formBuilder: FormBuilder) {
+  constructor() {
     (function () {
       emailjs.init({
-        publicKey: "m_jWChGWTh465GxPF",
+        publicKey: 'm_jWChGWTh465GxPF',
       });
     })();
   }
@@ -30,17 +36,25 @@ export class ContactComponent {
   onSubmit() {
     this.submitted = true;
     if (this.userForm.valid) {
-      emailjs.send('podcaccessible_mail', 'template_xnz7t4a', this.userForm.value).then(
-        (response) => {
-          this.submitted = false;
-          this.sent = true;
-          this.userForm.reset();
-        },
-        (error) => {
-          console.log('FAILED...', error);
-        },
-      );
+      emailjs
+        .send('podcaccessible_mail', 'template_xnz7t4a', this.userForm.value)
+        .then(
+          (response) => {
+            this.submitted = false;
+            this.sent = true;
+            this.userForm.reset();
+          },
+          (error) => {
+            console.log('FAILED...', error);
+          }
+        );
     }
+  }
 
+  isInvalid(name: string) {
+    const control = this.userForm.get(name);
+    if (!control) return false;
+
+    return control.invalid && (control.dirty || control.touched);
   }
 }

@@ -1,1217 +1,1147 @@
 [
-    {
-        "title": "6foisdys",
-        "subtitle": null,
-        "mainDescription": null,
-        "informationMessage": null,
-        "authors": null,
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "youtube",
-                "url": "https://www.youtube.com/@6foisdys262",
-                "accessDescription": "Accéder à la chaîne YouTube"
-            },
-            {
-                "type": "link",
-                "url": "https://www.6foisdys.fr/transcription-posdcast1-confiance-en-soi-et-estime-de-soi.html",
-                "accessDescription": "Episode 1 - Confiance en soi et estime de soi avec Emmanuelle BRIOUDE, sophrologue à Orléans"
-            },
-            {
-                "type": "link",
-                "url": "https://www.6foisdys.fr/transcription-posdcast2-jeu-dechecs-et-troubles-dys.html",
-                "accessDescription": "Episode 2 - Jeu d'échecs et troubles DYS"
-            },
-            {
-                "type": "link",
-                "url": "https://www.6foisdys.fr/transcription-posdcast3-lacher-prise-entrepreneuriat.html",
-                "accessDescription": "Episode 3 - Comment j'ai lâcher prise pour avancer plus efficacement dans mes projets ?"
-            }
-        ]
+  {
+    "title": "6foisdys",
+    "subtitle": null,
+    "mainDescription": null,
+    "informationMessage": null,
+    "authors": null,
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/@6foisdys262",
+        "accessDescription": "Accéder à la chaîne 6foisdys sur YouTube"
+      },
+      {
+        "type": "link",
+        "url": "https://www.6foisdys.fr/transcription-posdcast1-confiance-en-soi-et-estime-de-soi.html",
+        "accessDescription": "Episode 1 - Confiance en soi et estime de soi avec Emmanuelle BRIOUDE, sophrologue à Orléans"
+      },
+      {
+        "type": "link",
+        "url": "https://www.6foisdys.fr/transcription-posdcast2-jeu-dechecs-et-troubles-dys.html",
+        "accessDescription": "Episode 2 - Jeu d'échecs et troubles DYS"
+      },
+      {
+        "type": "link",
+        "url": "https://www.6foisdys.fr/transcription-posdcast3-lacher-prise-entrepreneuriat.html",
+        "accessDescription": "Episode 3 - Comment j'ai lâcher prise pour avancer plus efficacement dans mes projets ?"
+      }
+    ]
+  },
+  {
+    "title": "Je fais de mon mieux",
+    "subtitle": "Le podcast des écolos imparfaits.",
+    "mainDescription": null,
+    "informationMessage": null,
+    "authors": ["Anne-Sophie"],
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/channel/UCnoZQdGz4JVva8bR7m3QZSg",
+        "accessDescription": "Accéder à la chaîne Je fais de mon mieux sur YouTube"
+      },
+      {
+        "type": "site",
+        "url": "https://www.jefaisdemonmieux-lepodcast.fr/accessibilite-du-podcast/",
+        "accessDescription": "Accéder au site web du podcast Je fais de mon mieux"
+      }
+    ]
+  },
+  {
+    "title": "AndyCaptain",
+    "subtitle": null,
+    "mainDescription": null,
+    "informationMessage": {
+      "type": "info",
+      "content": "Accessibilité partielle. Deux épisodes disponibles."
     },
-    {
-        "title": "Je fais de mon mieux",
-        "subtitle": "Le podcast des écolos imparfaits.",
-        "mainDescription": null,
-        "informationMessage": null,
-        "authors": [
-            "Anne-Sophie"
-        ],
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "youtube",
-                "url": "https://www.youtube.com/channel/UCnoZQdGz4JVva8bR7m3QZSg",
-                "accessDescription": "Accéder à la chaîne YouTube"
-            },
-            {
-                "type": "site",
-                "url": "https://www.jefaisdemonmieux-lepodcast.fr/accessibilite-du-podcast/",
-                "accessDescription": "Accéder au site web"
-            }
-        ]
+    "authors": null,
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "link",
+        "url": "https://www.andycaptain.fr/unit-post/29",
+        "accessDescription": "Episode 1 - Papa Aidant"
+      },
+      {
+        "type": "link",
+        "url": "https://www.andycaptain.fr/unit-post/27",
+        "accessDescription": "Episode 40 - Adieu mon amour"
+      }
+    ]
+  },
+  {
+    "title": "Carré, Petit, Utile : Le programme radio des gens du numérique.",
+    "subtitle": null,
+    "mainDescription": null,
+    "informationMessage": {
+      "type": "info",
+      "content": "Accessibilité partielle."
     },
-    {
-        "title": "AndyCaptain",
-        "subtitle": null,
-        "mainDescription": null,
-        "informationMessage": {
-            "type": "info",
-            "content": "Accessibilité partielle. Deux épisodes disponibles."
-        },
-        "authors": null,
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "link",
-                "url": "https://www.andycaptain.fr/unit-post/29",
-                "accessDescription": "Episode 1 - Papa Aidant"
-            },
-            {
-                "type": "link",
-                "url": "https://www.andycaptain.fr/unit-post/27",
-                "accessDescription": "Episode 40 - Adieu mon amour"
-            }
-        ]
+    "authors": null,
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "site",
+        "url": "https://cpu.dascritch.net/",
+        "accessDescription": "Accéder au site web du podcast CPU"
+      },
+      {
+        "type": "link",
+        "url": "https://cpu.dascritch.net/post/2016/12/08/Ex0045-Sans-regarder",
+        "accessDescription": "CPU release Ex0045 : Sans regarder"
+      },
+      {
+        "type": "link",
+        "url": "https://cpu.dascritch.net/post/2022/09/29/Sophie-Drouvroy%2C-responsable-front%2C-qualit%C3%A9-et-accessibilit%C3%A9-web",
+        "accessDescription": "CPU release Ex0194 : Surdité"
+      }
+    ]
+  },
+  {
+    "title": "Conférence Access 42",
+    "subtitle": null,
+    "mainDescription": "Conférence animé par Marie Guillaumet et Audrey Maniez.",
+    "informationMessage": null,
+    "authors": ["Marie Guillaumet", "Audrey Maniez"],
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "link",
+        "url": "https://access42.net/transcription-conference-personnalisation-interfaces-accessibilite/",
+        "accessDescription": "Et si on laissait les utilisateurs et les utilisatrices personnaliser l’interface ? - 1ère partie"
+      },
+      {
+        "type": "link",
+        "url": "https://access42.net/transcription-conference-personnalisation-interfaces-accessibilite-2de-partie/",
+        "accessDescription": "Et si on laissait les utilisateurs et les utilisatrices personnaliser l’interface ? - 2ème partie"
+      }
+    ]
+  },
+  {
+    "title": "Deez is la tech",
+    "subtitle": null,
+    "mainDescription": null,
+    "informationMessage": null,
+    "authors": [],
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "link",
+        "url": "https://deezer.io/deez-is-la-tech-%C3%A9pisode-1-la-diversit%C3%A9-dans-la-tech-8ea329775e27",
+        "accessDescription": "Épisode 1 — La diversité dans la tech"
+      },
+      {
+        "type": "link",
+        "url": "https://deezer.io/deez-is-la-tech-%C3%A9pisode-2-laccessibilit%C3%A9-num%C3%A9rique-e37c3c34fd1",
+        "accessDescription": "Épisode 2 — L’accessibilité numérique"
+      },
+      {
+        "type": "link",
+        "url": "https://deezer.io/deez-is-la-tech-%C3%A9pisode-3-flow-anatomie-dune-feature-e5bd5a71367e",
+        "accessDescription": "Épisode 3 — Flow — Anatomie d’une feature"
+      }
+    ]
+  },
+  {
+    "title": "Design MasterClass",
+    "subtitle": "Un podcast de Design MasterClass",
+    "mainDescription": null,
+    "informationMessage": null,
+    "authors": ["Gladys Diandoki", "Anthony Adam"],
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "link",
+        "url": "https://podcast.designmasterclass.fr/episode/28/design-accessible-une-priorite",
+        "accessDescription": "Épisode 19 : Design Accessible. Une priorité ?"
+      }
+    ]
+  },
+  {
+    "title": "La Couleur de l'art",
+    "subtitle": "Le podcast qui aborde les problématiques raciales dans l’art",
+    "mainDescription": null,
+    "informationMessage": null,
+    "authors": ["La Clameur"],
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "transcription",
+        "url": "https://drive.google.com/drive/folders/1EJny-BbLuy5yfFLuMs9dK-QRLs7dNi5r",
+        "accessDescription": "Accéder aux transcriptions du podcast La Clameur"
+      }
+    ]
+  },
+  {
+    "title": "Le Barboteur",
+    "subtitle": "Le podcast qui révèle la diversité créative.",
+    "mainDescription": null,
+    "informationMessage": null,
+    "authors": ["Laurent Naudier"],
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "site",
+        "url": "https://www.laurent-naudier.fr/le-barboteur/",
+        "accessDescription": "Accéder au site web du podcast Le Barboteur"
+      }
+    ]
+  },
+  {
+    "title": "Le Brief",
+    "subtitle": "UX Content Craft, le podcast",
+    "mainDescription": null,
+    "informationMessage": {
+      "type": "info",
+      "content": "Accessibilité partielle. A partir de l'épisode 21."
     },
-    {
-        "title": "Carré, Petit, Utile : Le programme radio des gens du numérique.",
-        "subtitle": null,
-        "mainDescription": null,
-        "informationMessage": {
-            "type": "info",
-            "content": "Accessibilité partielle."
-        },
-        "authors": null,
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "site",
-                "url": "https://cpu.dascritch.net/",
-                "accessDescription": "Accéder au site web"
-            },
-            {
-                "type": "link",
-                "url": "https://cpu.dascritch.net/post/2016/12/08/Ex0045-Sans-regarder",
-                "accessDescription": "CPU release Ex0045 : Sans regarder"
-            },
-            {
-                "type": "link",
-                "url": "https://cpu.dascritch.net/post/2022/09/29/Sophie-Drouvroy%2C-responsable-front%2C-qualit%C3%A9-et-accessibilit%C3%A9-web",
-                "accessDescription": "CPU release Ex0194 : Surdité"
-            }
-        ]
+    "authors": ["Apolline Rouzé"],
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "site",
+        "url": "https://apollinerouze.fr/",
+        "accessDescription": "Accéder au site web du podcast Le Brief"
+      }
+    ]
+  },
+  {
+    "title": "Le code a changé",
+    "subtitle": null,
+    "mainDescription": null,
+    "informationMessage": {
+      "type": "info",
+      "content": "Accessibilité partielle. Un épisode disponible."
     },
-    {
-        "title": "Conférence Access 42",
-        "subtitle": null,
-        "mainDescription": "Conférence animé par Marie Guillaumet et Audrey Maniez.",
-        "informationMessage": null,
-        "authors": [
-            "Marie Guillaumet",
-            "Audrey Maniez"
-        ],
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "link",
-                "url": "https://access42.net/transcription-conference-personnalisation-interfaces-accessibilite/",
-                "accessDescription": "Et si on laissait les utilisateurs et les utilisatrices personnaliser l’interface ? - 1ère partie"
-            },
-            {
-                "type": "link",
-                "url": "https://access42.net/transcription-conference-personnalisation-interfaces-accessibilite-2de-partie/",
-                "accessDescription": "Et si on laissait les utilisateurs et les utilisatrices personnaliser l’interface ? - 2ème partie"
-            }
-        ]
+    "authors": ["Xavier de La Porte"],
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "link",
+        "url": "https://april.org/rencontre-avec-des-traqueurs-de-trackers-emission-le-code-a-change-france-inter",
+        "accessDescription": "Accéder à la transcription de l'épisode Le code a changé sur April"
+      }
+    ]
+  },
+  {
+    "title": "Le Feuilleton des Luttes",
+    "subtitle": "UX Content Craft, le podcast",
+    "mainDescription": null,
+    "informationMessage": {
+      "type": "warning",
+      "content": "Transcriptions en PDF, ce n'est pas accessible pour les personnes malvoyantes ou aveugles."
     },
-    {
-        "title": "Deez is la tech",
-        "subtitle": null,
-        "mainDescription": null,
-        "informationMessage": null,
-        "authors": [],
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "link",
-                "url": "https://deezer.io/deez-is-la-tech-%C3%A9pisode-1-la-diversit%C3%A9-dans-la-tech-8ea329775e27",
-                "accessDescription": "Épisode 1 — La diversité dans la tech"
-            },
-            {
-                "type": "link",
-                "url": "https://deezer.io/deez-is-la-tech-%C3%A9pisode-2-laccessibilit%C3%A9-num%C3%A9rique-e37c3c34fd1",
-                "accessDescription": "Épisode 2 — L’accessibilité numérique"
-            },
-            {
-                "type": "link",
-                "url": "https://deezer.io/deez-is-la-tech-%C3%A9pisode-3-flow-anatomie-dune-feature-e5bd5a71367e",
-                "accessDescription": "Épisode 3 — Flow — Anatomie d’une feature"
-            }
-        ]
+    "authors": ["le Collectif Archives LGBTQI"],
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "site",
+        "url": "https://archiveslgbtqi.fr/archives-orales/",
+        "accessDescription": "Accéder au site web du podcast le Feuilleton des Luttes"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/playlist?list=PL7dFh_UP5pxLNsP7aYCO1vc3Ol4Mxv4X4",
+        "accessDescription": "Accéder à la chaîne Le Feuilleton des Luttes sur YouTube"
+      }
+    ]
+  },
+  {
+    "title": "Le divan",
+    "subtitle": "Le podcast qui parle de l'analyse depuis le divan.",
+    "mainDescription": null,
+    "informationMessage": {
+      "type": "warning",
+      "content": "Transcriptions en PDF, ce n'est pas accessible pour les personnes malvoyantes ou aveugles."
     },
-    {
-        "title": "Design MasterClass",
-        "subtitle": "Un podcast de Design MasterClass",
-        "mainDescription": null,
-        "informationMessage": null,
-        "authors": [
-            "Gladys Diandoki",
-            "Anthony Adam"
-        ],
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "link",
-                "url": "https://podcast.designmasterclass.fr/episode/28/design-accessible-une-priorite",
-                "accessDescription": "Épisode 19 : Design Accessible. Une priorité ?"
-            }
-        ]
+    "authors": ["Stacey-Ann Arouff-Mc Veay"],
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "site",
+        "url": "https://www.staceyamcveay.com/le-divan-podcast",
+        "accessDescription": "Accéder au site web du podcast Le Divan"
+      }
+    ]
+  },
+  {
+    "title": "Les Bienveilleurs parlent du Burn-Out",
+    "subtitle": null,
+    "mainDescription": "Nous sommes tous les deux des anciens burnoutés. Nous ne sommes pas médecins, psychologues, etc. Mais les gens se confient facilement à nous car ils savent par quoi nous sommes passés. Aujourd’hui nous nous définissons comme des Bienveilleurs et nous avons décidé de lancer ce site pour partager, aider, accompagner plus de personnes.",
+    "informationMessage": null,
+    "authors": null,
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/playlist?list=PLao9eTOEUWi-rKuh-Cdwwlu83SOGo1kAw",
+        "accessDescription": "Accéder à la chaîne Les Bienveilleurs parlent du Burn-Out sur YouTube"
+      }
+    ]
+  },
+  {
+    "title": "Déballe ton métissage",
+    "subtitle": "Le podcast qui déballe les sujets et problématiques liés à la multiracialité qu’on appelle aussi “métissage”.",
+    "mainDescription": null,
+    "informationMessage": null,
+    "authors": null,
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/channel/UCSHdipKSiO7aE7qQ21E6X1w",
+        "accessDescription": "Accéder à la chaîne Déballe ton métissage sur YouTube"
+      }
+    ]
+  },
+  {
+    "title": "Editer Militer",
+    "subtitle": "Un podcast sur l'édition militante.",
+    "mainDescription": null,
+    "informationMessage": null,
+    "authors": null,
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "site",
+        "url": "http://sol-nis.fr/editermiliter/",
+        "accessDescription": "Accéder au site web du podcast Editer Militer"
+      }
+    ]
+  },
+  {
+    "title": "Esperluette Podcast",
+    "subtitle": null,
+    "mainDescription": "Écoutez les belles énergies associatives, culturelles, artistiques et entrepreneuriales du Vaucluse.",
+    "informationMessage": null,
+    "authors": ["Marie-Cécile Drécourt"],
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/channel/UC_LUHDQEcE-izkhXEeoZrmw",
+        "accessDescription": "Accéder à la chaîne Esperluette Podcast sur YouTube"
+      }
+    ]
+  },
+  {
+    "title": "Et sinon ?",
+    "subtitle": null,
+    "mainDescription": "Des personnalités répondent à des questions superficiellement profondes ou profondément superficielles, pour un portrait différent.",
+    "informationMessage": null,
+    "authors": ["Isabelle Field"],
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/channel/UCaxYPiNAVYFd9bQUMLXMIiQ",
+        "accessDescription": "Accéder à la chaîne Et sinon ? sur YouTube"
+      }
+    ]
+  },
+  {
+    "title": "Futur chien guide",
+    "subtitle": "Le podcast sur les chiens-guides",
+    "mainDescription": null,
+    "informationMessage": null,
+    "authors": ["Isabelle Field"],
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "site",
+        "url": "https://futurchienguide.fr/podcast/",
+        "accessDescription": "Accéder au site web du podcast Futur chien guide"
+      }
+    ]
+  },
+  {
+    "title": "Futurs au pluriel",
+    "subtitle": null,
+    "mainDescription": "Futurs au Pluriel est une émission qui explore les futurs, car ils sont pluriels. Il s'agit d'un format long, mensuel, aux thématiques diverses : le métaverse, l'influence, les gafa, l'éducation...",
+    "informationMessage": {
+      "type": "info",
+      "content": "Accessibilité partielle."
     },
-    {
-        "title": "La Couleur de l'art",
-        "subtitle": "Le podcast qui aborde les problématiques raciales dans l’art",
-        "mainDescription": null,
-        "informationMessage": null,
-        "authors": [
-            "La Clameur"
-        ],
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "transcription",
-                "url": "https://drive.google.com/drive/folders/1EJny-BbLuy5yfFLuMs9dK-QRLs7dNi5r",
-                "accessDescription": "Accéder aux transcriptions"
-            }
-        ]
+    "authors": null,
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "link",
+        "url": "https://siecledigital.fr/2021/11/18/bienvenue-dans-le-metavers/",
+        "accessDescription": "Bienvenue dans le metavers"
+      }
+    ]
+  },
+  {
+    "title": "Les Chroniques Numériques d’Audric",
+    "subtitle": null,
+    "mainDescription": null,
+    "informationMessage": {
+      "type": "info",
+      "content": "Accessibilité partielle. Un épisode disponible."
     },
-    {
-        "title": "Le Barboteur",
-        "subtitle": "Le podcast qui révèle la diversité créative.",
-        "mainDescription": null,
-        "informationMessage": null,
-        "authors": [
-            "Laurent Naudier"
-        ],
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "site",
-                "url": "https://www.laurent-naudier.fr/le-barboteur/",
-                "accessDescription": "Accéder au site web"
-            }
-        ]
+    "authors": ["Audric Gueidan"],
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "link",
+        "url": "https://lalutineduweb.fr/interview-accessibilite-web-chroniques-numeriques-audric/",
+        "accessDescription": "Interview de Julie Moynat - intégratrice web et consultante en accessibilité numérique"
+      }
+    ]
+  },
+  {
+    "title": "H comme Handicapé.e.s",
+    "subtitle": "Le podcast qui donne la parole aux personnes handicapé.e.s parce-qu’on ne les entends pas assez.",
+    "mainDescription": null,
+    "informationMessage": null,
+    "authors": ["Hermine Garnier"],
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "site",
+        "url": "http://hcommehandipodcast.fr/fr",
+        "accessDescription": "Accéder au site web du podcast H comme Handicapé.e.s"
+      }
+    ]
+  },
+  {
+    "title": "La Chute",
+    "subtitle": "Un podcast de William Reymond",
+    "mainDescription": "La chute, une expérience unique, pour vous permettre de vivre et comprendre l’Histoire des États-Unis à mesure qu’elle s’écrit.Nous sommes ensemble jusqu’au 21 janvier. Attachez-vos ceintures, la chute c’est maintenant.",
+    "informationMessage": {
+      "type": "info",
+      "content": "Accessibilité partielle. Saison 1 épisode 5 à 13 et Saison 2 épisode 1."
     },
-    {
-        "title": "Le Brief",
-        "subtitle": "UX Content Craft, le podcast",
-        "mainDescription": null,
-        "informationMessage": {
-            "type": "info",
-            "content": "Accessibilité partielle. A partir de l'épisode 21."
-        },
-        "authors": [
-            "Apolline Rouzé"
-        ],
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "site",
-                "url": "https://apollinerouze.fr/",
-                "accessDescription": "Accéder au site web"
-            }
-        ]
+    "authors": ["William Reymond"],
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "site",
+        "url": "http://hcommehandipodcast.fr/fr",
+        "accessDescription": "Accéder au site web du podcast La Chute"
+      }
+    ]
+  },
+  {
+    "title": "HappiCulture",
+    "subtitle": "Le podcast sur des chevaux et des alternatives à l’équitation classique",
+    "mainDescription": null,
+    "informationMessage": null,
+    "authors": null,
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/channel/UCnoZQdGz4JVva8bR7m3QZSg",
+        "accessDescription": "Accéder à la chaîne HappiCulture sur YouTube"
+      }
+    ]
+  },
+  {
+    "title": "Journal de mes oreilles",
+    "subtitle": null,
+    "mainDescription": null,
+    "informationMessage": null,
+    "authors": ["Zoé Besmond de Senneville"],
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/channel/UCnoZMLUnmSOLMMSjHLuNBLw",
+        "accessDescription": "Accéder à la chaîne Journal de mes oreilles sur YouTube"
+      }
+    ]
+  },
+  {
+    "title": "Ni ton hindou, ni ton pakpak",
+    "subtitle": "Le podcast qui traite des thématiques liées aux diasporas sud asiatiques.",
+    "mainDescription": null,
+    "informationMessage": null,
+    "authors": ["Pulandevii"],
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/channel/UChbgcyfMvdEDx2OlYQ3S7LQ",
+        "accessDescription": "Accéder à la chaîne Ni ton hindou, ni ton pakpak sur YouTube"
+      }
+    ]
+  },
+  {
+    "title": "L'école inclusive",
+    "subtitle": null,
+    "mainDescription": "Le podcast donne la parole à celles et ceux qui composent l'école inclusive d'aujourd'hui et de demain. ",
+    "informationMessage": null,
+    "authors": ["Fanny", "Cécile"],
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/channel/UCeqls9w_GPlSf-lFqVrB6fA",
+        "accessDescription": "Accéder à la chaîne L'école inclusive sur YouTube"
+      }
+    ]
+  },
+  {
+    "title": "Les Maux bleus",
+    "subtitle": "Un podcast sur la santé mentale.",
+    "mainDescription": null,
+    "informationMessage": null,
+    "authors": null,
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "site",
+        "url": "https://placedessciences.fr/nos-podcasts/les-maux-bleus/",
+        "accessDescription": "Accéder au site web du podcast Les Maux bleus"
+      }
+    ]
+  },
+  {
+    "title": "Les visites du Centre Pompidou",
+    "subtitle": null,
+    "mainDescription": "Des parcours d’aide à la visite des expositions et de la collection du Musée.",
+    "informationMessage": {
+      "type": "warning",
+      "content": "Transcriptions en PDF, ce n'est pas accessible pour les personnes malvoyantes ou aveugles."
     },
-    {
-        "title": "Le code a changé",
-        "subtitle": null,
-        "mainDescription": null,
-        "informationMessage": {
-            "type": "info",
-            "content": "Accessibilité partielle. Un épisode disponible."
-        },
-        "authors": [
-            "Xavier de La Porte"
-        ],
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "link",
-                "url": "https://april.org/rencontre-avec-des-traqueurs-de-trackers-emission-le-code-a-change-france-inter",
-                "accessDescription": "Accéder à la transcription"
-            }
-        ]
+    "authors": null,
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "site",
+        "url": "https://www.centrepompidou.fr/fr/visite/podcasts/les-visites-du-centre-pompidou",
+        "accessDescription": "Accéder au site web du podcast Les visites du Centre Pompidou"
+      }
+    ]
+  },
+  {
+    "title": "Nouvelles Écoutes",
+    "subtitle": null,
+    "mainDescription": null,
+    "informationMessage": {
+      "type": "warning",
+      "content": "Transcriptions en PDF, ce n'est pas accessible pour les personnes malvoyantes ou aveugles."
     },
-    {
-        "title": "Le Feuilleton des Luttes",
-        "subtitle": "UX Content Craft, le podcast",
-        "mainDescription": null,
-        "informationMessage": {
-            "type": "warning",
-            "content": "Transcriptions en PDF, ce n'est pas accessible pour les personnes malvoyantes ou aveugles."
-        },
-        "authors": [
-            "le Collectif Archives LGBTQI"
-        ],
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "site",
-                "url": "https://archiveslgbtqi.fr/archives-orales/",
-                "accessDescription": "Accéder au site web"
-            },
-            {
-                "type": "youtube",
-                "url": "https://www.youtube.com/playlist?list=PL7dFh_UP5pxLNsP7aYCO1vc3Ol4Mxv4X4",
-                "accessDescription": "Accéder à la chaîne YouTube"
-            }
-        ]
+    "authors": null,
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "site",
+        "url": "https://nouvellesecoutes.fr/accessibilite/",
+        "accessDescription": "Accéder au site web du podcast Nouvelles Écoutes"
+      }
+    ]
+  },
+  {
+    "title": "Podcast de la FNEO",
+    "subtitle": null,
+    "mainDescription": null,
+    "informationMessage": {
+      "type": "warning",
+      "content": "Accessibilité partielle. Trois épisodes disponibles.\nTranscriptions en PDF, ce n'est pas accessible pour les personnes malvoyantes ou aveugles."
     },
-    {
-        "title": "Le divan",
-        "subtitle": "Le podcast qui parle de l'analyse depuis le divan.",
-        "mainDescription": null,
-        "informationMessage": {
-            "type": "warning",
-            "content": "Transcriptions en PDF, ce n'est pas accessible pour les personnes malvoyantes ou aveugles."
-        },
-        "authors": [
-            "Stacey-Ann Arouff-Mc Veay"
-        ],
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "site",
-                "url": "https://www.staceyamcveay.com/le-divan-podcast",
-                "accessDescription": "Accéder au site web"
-            }
-        ]
+    "authors": null,
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "link",
+        "url": "http://fneo.fr/wp-content/uploads/2021/05/La-recherche-en-orthophonie-Transcription.pdf",
+        "accessDescription": "Épisode 5 : la recherche en orthophonie"
+      },
+      {
+        "type": "link",
+        "url": "http://fneo.fr/wp-content/uploads/2021/08/Podcast-transcription-MI.pdf",
+        "accessDescription": "Épisode 6 : la mobilité internationale en orthophonie"
+      },
+      {
+        "type": "link",
+        "url": "https://www.fneo.fr/wp-content/uploads/2022/02/Transcription-podcast-9-1.pdf",
+        "accessDescription": "Épisode 9 : L'oralité en pédiatrie "
+      }
+    ]
+  },
+  {
+    "title": "Sismique",
+    "subtitle": null,
+    "mainDescription": null,
+    "informationMessage": {
+      "type": "info",
+      "content": "Accessibilité partielle. Trois épisodes disponibles."
     },
-    {
-        "title": "Les Bienveilleurs parlent du Burn-Out",
-        "subtitle": null,
-        "mainDescription": "Nous sommes tous les deux des anciens burnoutés. Nous ne sommes pas médecins, psychologues, etc. Mais les gens se confient facilement à nous car ils savent par quoi nous sommes passés. Aujourd’hui nous nous définissons comme des Bienveilleurs et nous avons décidé de lancer ce site pour partager, aider, accompagner plus de personnes.",
-        "informationMessage": null,
-        "authors": null,
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "youtube",
-                "url": "https://www.youtube.com/playlist?list=PLao9eTOEUWi-rKuh-Cdwwlu83SOGo1kAw",
-                "accessDescription": "Accéder à la chaîne YouTube"
-            }
-        ]
+    "authors": null,
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "link",
+        "url": "https://www.sismique.fr/post/113-sommes-nous-trop-sur-terre-emmanuel-pont",
+        "accessDescription": "« #113 - Sommes-nous trop sur Terre ? »"
+      },
+      {
+        "type": "link",
+        "url": "https://www.sismique.fr/post/114-le-mythe-de-la-meritocratie-samah-karaki",
+        "accessDescription": "« #114 - Le mythe de la méritocratie »"
+      },
+      {
+        "type": "link",
+        "url": "https://www.sismique.fr/post/115-agriculture-et-climat-serge-zaka",
+        "accessDescription": "« #114 - Le mythe de la méritocratie »"
+      }
+    ]
+  },
+  {
+    "title": "Libre à lire",
+    "subtitle": null,
+    "mainDescription": "\"Libre à lire !\" est le site du groupe Transcriptions de l’April, qui s’est donné pour mission de transformer des vidéos et des fichiers audio concernant le logiciel libre et les libertés numériques en général, en texte avec ajout d’une illustration et ajout de liens vers certains sites jugés pertinents.",
+    "informationMessage": null,
+    "authors": null,
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "site",
+        "url": "https://www.librealire.org/-transcriptions-",
+        "accessDescription": "Accéder au site web Libre à lire"
+      }
+    ]
+  },
+  {
+    "title": "SpaceSheep",
+    "subtitle": null,
+    "mainDescription": "Le podcast qui vous raconte des histoires d'espace en dix minutes ou moins.",
+    "informationMessage": null,
+    "authors": ["Isabelle Santos"],
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "site",
+        "url": "https://blog.isabelle-santos.space/tags/space-sheep/",
+        "accessDescription": "Accéder au site web du podcast SpaceSheep"
+      }
+    ]
+  },
+  {
+    "title": "Tangata",
+    "subtitle": "Faisons parler les différences",
+    "mainDescription": "",
+    "informationMessage": {
+      "type": "info",
+      "content": "Accessibilité partielle. Un épisode disponible."
     },
-    {
-        "title": "Déballe ton métissage",
-        "subtitle": "Le podcast qui déballe les sujets et problématiques liés à la multiracialité qu’on appelle aussi “métissage”.",
-        "mainDescription": null,
-        "informationMessage": null,
-        "authors": null,
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "youtube",
-                "url": "https://www.youtube.com/channel/UCSHdipKSiO7aE7qQ21E6X1w",
-                "accessDescription": "Accéder à la chaîne YouTube"
-            }
-        ]
+    "authors": null,
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "link",
+        "url": "https://podcast.ausha.co/tangata/tangata-waikaha-adapter-les-outils-de-travail-pour-les-personnes-en-situation-de-handicap",
+        "accessDescription": "Adapter les outils de travail pour les personnes en situation de handicap"
+      }
+    ]
+  },
+  {
+    "title": "Série noire pour une canne blanche",
+    "subtitle": "Le podcast qui vous ouvre les yeux sur le handicap visuel",
+    "mainDescription": " Tous les mois, Lise vous invite à la suivre dans ses aventures. Découvrez au travers de ses récits poignants les défis quotidiens qu’affrontent les personnes qui, comme elle, voient le monde avec leurs mains et leurs oreilles. Elle vous emmènera dans la rue, les transports, les magasins, les hôtels et bien d’autres endroits dont vous n’avez même pas idée. Au programme: frisson, émotion, révolte parfois, mais toujours teintés d’un zeste d’humour.\n\nComme Lise est une éternelle optimiste, elle ne termine jamais un épisode sans vous prodiguer quelques conseils pour que, vous, à votre niveau, vous puissiez alléger son quotidien et celui de ses compagnons d’infortune. Accessibilité, accueil, comportement, découvrez tout ce que vous devez savoir pour faciliter la vie des personnes aveugles ou malvoyantes, 1,7 million de Français tout de même ! ",
+    "informationMessage": null,
+    "authors": ["Lise Wagner"],
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "site",
+        "url": "https://webzine.okeenea.com/podcast-serie-noire-pour-une-canne-blanche/",
+        "accessDescription": "Accéder au site web du podcast Série noire pour une canne blanche"
+      }
+    ]
+  },
+  {
+    "title": "PRÉSENT.E",
+    "subtitle": "Plongez dans l’intimité de la création",
+    "mainDescription": "PRÉSENT.E est un podcast bi-mensuel sur l’art contemporain",
+    "informationMessage": null,
+    "authors": ["Camille Bardin"],
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "site",
+        "url": "https://podcastprsente.com/190-2/",
+        "accessDescription": "Accéder au site web du podcast PRÉSENT.E"
+      }
+    ]
+  },
+  {
+    "title": "Partielles",
+    "subtitle": "Plurialité - Troubles dissociatifs - TDI/ATDS/&+ ",
+    "mainDescription": null,
+    "informationMessage": null,
+    "authors": null,
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "site",
+        "url": "https://www.partielles.com/tag/transcriptions/",
+        "accessDescription": "Accéder au site web du podcast Partielles"
+      }
+    ]
+  },
+  {
+    "title": "Passion Médiévistes",
+    "subtitle": "Un podcast autour du Moyen-Âge",
+    "mainDescription": null,
+    "informationMessage": null,
+    "authors": ["Fanny Cohen Moreau"],
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "site",
+        "url": "https://passionmedievistes.fr/category/retranscriptions/",
+        "accessDescription": "Accéder au site web du podcast Passion Médiévistes"
+      }
+    ]
+  },
+  {
+    "title": "Podcast Genre, etc.",
+    "subtitle": "",
+    "mainDescription": "\"Nous tendons le micro à des chercheuses et des chercheurs en sciences humaines sociales spécialistes des questions de genre, d’inégalités, et de discriminations. Genre, etc.\"",
+    "informationMessage": {
+      "type": "warning",
+      "content": "Transcriptions en PDF, ce n'est pas accessible pour les personnes malvoyantes ou aveugles."
     },
-    {
-        "title": "Editer Militer",
-        "subtitle": "Un podcast sur l'édition militante.",
-        "mainDescription": null,
-        "informationMessage": null,
-        "authors": null,
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "site",
-                "url": "http://sol-nis.fr/editermiliter/",
-                "accessDescription": "Accéder au site web"
-            }
-        ]
+    "authors": [],
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "site",
+        "url": "https://passionmedievistes.fr/category/retranscriptions/",
+        "accessDescription": "Accéder au site web du podcast Genre, etc."
+      }
+    ]
+  },
+  {
+    "title": "Parlons recrutement",
+    "subtitle": "Plongez dans l’intimité de la création",
+    "mainDescription": "PRÉSENT.E est un podcast bi-mensuel sur l’art contemporain",
+    "informationMessage": null,
+    "authors": null,
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/playlist?list=PLlwW-QXVy1mytGnMm3KrUc2WptVgidP6z",
+        "accessDescription": "Accéder à la chaîne Parlons recrutement sur YouTube"
+      }
+    ]
+  },
+  {
+    "title": "Micro-ondes Cérébrales",
+    "subtitle": "Le podcast qui réchauffe vos méninges !",
+    "mainDescription": null,
+    "informationMessage": null,
+    "authors": null,
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "site",
+        "url": "https://www.librealire.org/-transcriptions-",
+        "accessDescription": "Accéder au site web de Micro-ondes Cérébrales"
+      }
+    ]
+  },
+  {
+    "title": "Mécréantes",
+    "subtitle": null,
+    "mainDescription": "Bienvenue dans Mécréantes, le podcast mensuel qui interroge en profondeur nos stéréotypes de genre. Au travers de témoignages et d'interviews d'experts, j'aborde sans détour les questions qui traversent nos sociétés autour du genre.",
+    "informationMessage": null,
+    "authors": ["Léane Alestra"],
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "site",
+        "url": "https://www.mecreantes.com/le-podcast",
+        "accessDescription": "Accéder au site web du podcast Mécréantes"
+      }
+    ]
+  },
+  {
+    "title": "Rebelles Intelligents",
+    "subtitle": null,
+    "mainDescription": "Une interview tous les mois d’un Rebelle Intelligent, qui partage comment il a réussi à accomplir quelque chose qui a de la gueule, tout en sortant des sentiers battus.",
+    "informationMessage": null,
+    "authors": ["Olivier Roland"],
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "site",
+        "url": "https://rebelles-intelligents.com/",
+        "accessDescription": "Accéder au site web du podcast Rebelles Intelligents"
+      }
+    ]
+  },
+  {
+    "title": "Rebond, vivre avec le handicap",
+    "subtitle": null,
+    "mainDescription": "Dans le podcast Rebond, en partenariat avec l’Agefiph, le journal Le Monde interroge 12 personnalités sur leur rapport au handicap et comment elles y font face. Un handicap qu'elles connaissent depuis leur naissance, qui les touchent depuis un accident ou une maladie. Un handicap qui les concerne directement ou affecte un être cher. Le handicap partage la vie d’un Français sur cinq. Il peut bouleverser le quotidien, la famille, le travail, la scolarité mais aussi créer des opportunités et permettre des rencontres. Alors, comment vivre avec un handicap ?",
+    "informationMessage": null,
+    "authors": null,
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "transcription",
+        "url": "https://www.agefiph.fr/actualites-handicap/rebond-vivre-avec-le-handicap-le-nouveau-podcast-du-monde",
+        "accessDescription": "Accéder aux transcriptions du podcast Rebond, vivre avec le handicap"
+      }
+    ]
+  },
+  {
+    "title": "Salut les designers",
+    "subtitle": null,
+    "mainDescription": "\"Salut les Designers !\" est le podcast de l’Agence LunaWeb consacré au design et à ses méthodes. UI, UX, motion, accessibilité, recherche, nous échangeons avec des professionnel·les passionné·es au grès de nos rencontres et de nos envies ! ",
+    "informationMessage": null,
+    "authors": null,
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "site",
+        "url": "https://www.lunaweb.fr/blog/category/salut-les-designers/",
+        "accessDescription": "Accéder au site web du podcast Salut les designers"
+      }
+    ]
+  },
+  {
+    "title": "Santé & Sécurité",
+    "subtitle": null,
+    "mainDescription": "Podcast sur les différents dispositifs de formation aux premiers secours en France.",
+    "informationMessage": null,
+    "authors": null,
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "site",
+        "url": "https://santesecurite-podcast.fr/category/blog/",
+        "accessDescription": "Accéder au site web du podcast Santé & Sécurité"
+      }
+    ]
+  },
+  {
+    "title": "Lithérature",
+    "subtitle": null,
+    "mainDescription": "Un podcast autour sur la littérature jeunesse.",
+    "informationMessage": null,
+    "authors": null,
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/playlist?list=PLqtnrWHUIjga_9mHBKm4bixDpu99VB9_k",
+        "accessDescription": "Accéder à la chaîne Lithérature sur YouTube"
+      }
+    ]
+  },
+  {
+    "title": "Lost in translation",
+    "subtitle": null,
+    "mainDescription": " Lost in translation, c'est un podcast sur la traduction et l'interprétation, créé et animé par Clara Joubert.\n\nDans chaque épisode, j'invite une traductrice, un traducteur, un/e interprète, un chercheur ou une chercheuse pour discuter de traduction, d'interprétation, de langue, de langage, pour comprendre ce que ça veut dire, aujourd'hui, traduire ou interpréter.\n\nEst-ce que ça existe vraiment, la neutralité en traduction ? Est-ce que les interprètes et les traductaires vont vraiment être remplacé-e-s par des machines ? Est-ce qu'il faut s'adapter au public pour lequel on traduit ? Est-ce que c'est politique, la traduction ? Est-ce qu'il y a des choses qu'on ne peut pas traduire ? Est-ce qu'on a une responsabilité, quand on traduit ? Comment marche l'audiodescription ? Pourquoi retraduit-on ?",
+    "informationMessage": null,
+    "authors": ["Clara Joubert"],
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "transcription",
+        "url": "https://drive.google.com/drive/folders/1B6NCMLUPQnNgcygObDlgeMmP-FukfQZP",
+        "accessDescription": "Accéder aux transcriptions du podcast Lost in translation"
+      }
+    ]
+  },
+  {
+    "title": "Technologie",
+    "subtitle": null,
+    "mainDescription": "Le podcast qui tente de lier technologie et écologie alors que tout les oppose.",
+    "informationMessage": null,
+    "authors": [],
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "transcription",
+        "url": "https://drive.google.com/drive/folders/1B6NCMLUPQnNgcygObDlgeMmP-FukfQZP",
+        "accessDescription": "Accéder aux transcriptions du podcast Technologie"
+      }
+    ]
+  },
+  {
+    "title": "Un podcast à soi - Arte Radio",
+    "subtitle": null,
+    "mainDescription": "Chaque premier mercredi du mois, Un Podcast à soi mêle intimité et expertise, témoignages et réflexions, pour aborder les questions de genre, de féminismes, d’égalité entre les femmes et les hommes.",
+    "informationMessage": {
+      "type": "warning",
+      "content": "Accessibilité partielle. Trois épisodes disponibles. \nTranscriptions en PDF, ce n'est pas accessible pour les personnes malvoyantes ou aveugles."
     },
-    {
-        "title": "Esperluette Podcast",
-        "subtitle": null,
-        "mainDescription": "Écoutez les belles énergies associatives, culturelles, artistiques et entrepreneuriales du Vaucluse.",
-        "informationMessage": null,
-        "authors": [
-            "Marie-Cécile Drécourt"
-        ],
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "youtube",
-                "url": "https://www.youtube.com/channel/UC_LUHDQEcE-izkhXEeoZrmw",
-                "accessDescription": "Accéder à la chaîne YouTube"
-            }
-        ]
+    "authors": ["Charlotte Bienaimé"],
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "link",
+        "url": "https://www.arteradio.com/son/61659100/sexisme_ordinaire_en_milieu_tempere_1",
+        "accessDescription": "Episode 1 - Sexisme ordinaire en milieu tempéré"
+      },
+      {
+        "type": "link",
+        "url": "https://www.arteradio.com/son/61659226/les_combattantes_du_sport_et_du_genre_2",
+        "accessDescription": "Episode 2 - Les combattantes du sport et du genre"
+      }
+    ]
+  },
+  {
+    "title": "User Story",
+    "subtitle": null,
+    "mainDescription": "",
+    "informationMessage": {
+      "type": "info",
+      "content": "Accessibilité partielle. Un épisode disponible."
     },
-    {
-        "title": "Et sinon ?",
-        "subtitle": null,
-        "mainDescription": "Des personnalités répondent à des questions superficiellement profondes ou profondément superficielles, pour un portrait différent.",
-        "informationMessage": null,
-        "authors": [
-            "Isabelle Field"
-        ],
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "youtube",
-                "url": "https://www.youtube.com/channel/UCaxYPiNAVYFd9bQUMLXMIiQ",
-                "accessDescription": "Accéder à la chaîne YouTube"
-            }
-        ]
+    "authors": [],
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "link",
+        "url": "https://www.lalutineduweb.fr/transcription-textuelle-accessibilite-web-droit-podcast-user-story/",
+        "accessDescription": "« L’accessibilité web, un droit »"
+      }
+    ]
+  },
+  {
+    "title": "Vulgaire",
+    "subtitle": "Podcast de vulgarisation de trucs",
+    "mainDescription": "« Vulgaire, c’est un podcast dans lequel je vais aborder des trucs que je ne connais pas, mais dont je vais vous parler quand même. Je vais vous marinesplainer, en quelque sorte. »",
+    "informationMessage": {
+      "type": "info",
+      "content": "Accessibilité partielle."
     },
-    {
-        "title": "Futur chien guide",
-        "subtitle": "Le podcast sur les chiens-guides",
-        "mainDescription": null,
-        "informationMessage": null,
-        "authors": [
-            "Isabelle Field"
-        ],
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "site",
-                "url": "https://futurchienguide.fr/podcast/",
-                "accessDescription": "Accéder au site web"
-            }
-        ]
+    "authors": ["Marine Baousson"],
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "link",
+        "url": "https://drive.google.com/drive/folders/1uEdYKqovHpqexUenesg3Aq-47JWtQgCE?usp=sharing",
+        "accessDescription": "Épisodes 1 à 38"
+      },
+      {
+        "type": "link",
+        "url": "https://drive.google.com/drive/folders/12IDU2ly4oBrzBHWMPcRd9HNZJe_d7NJF?usp=sharing",
+        "accessDescription": "À partir de l'épisode 39"
+      }
+    ]
+  },
+  {
+    "title": "Vénus s'épilait-elle la chatte ?",
+    "subtitle": "Le podcast féministe et inclusif qui déconstruit l'histoire de l'art occidentale",
+    "mainDescription": "Vénus s'épilait-elle chatte déconstruit l’histoire de l’art occidentale, en proposant un point de vue féministe et inclusif.",
+    "informationMessage": {
+      "type": "warning",
+      "content": "Transcription en PDF, ce n'est pas accessible pour les personnes malvoyantes ou aveugles."
     },
-    {
-        "title": "Futurs au pluriel",
-        "subtitle": null,
-        "mainDescription": "Futurs au Pluriel est une émission qui explore les futurs, car ils sont pluriels. Il s'agit d'un format long, mensuel, aux thématiques diverses : le métaverse, l'influence, les gafa, l'éducation...",
-        "informationMessage": {
-            "type": "info",
-            "content": "Accessibilité partielle."
-        },
-        "authors": null,
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "link",
-                "url": "https://siecledigital.fr/2021/11/18/bienvenue-dans-le-metavers/",
-                "accessDescription": "Bienvenue dans le metavers"
-            }
-        ]
-    },
-    {
-        "title": "Les Chroniques Numériques d’Audric",
-        "subtitle": null,
-        "mainDescription": null,
-        "informationMessage": {
-            "type": "info",
-            "content": "Accessibilité partielle. Un épisode disponible."
-        },
-        "authors": [
-            "Audric Gueidan"
-        ],
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "link",
-                "url": "https://lalutineduweb.fr/interview-accessibilite-web-chroniques-numeriques-audric/",
-                "accessDescription": "Interview de Julie Moynat - intégratrice web et consultante en accessibilité numérique"
-            }
-        ]
-    },
-    {
-        "title": "H comme Handicapé.e.s",
-        "subtitle": "Le podcast qui donne la parole aux personnes handicapé.e.s parce-qu’on ne les entends pas assez.",
-        "mainDescription": null,
-        "informationMessage": null,
-        "authors": [
-            "Hermine Garnier"
-        ],
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "site",
-                "url": "http://hcommehandipodcast.fr/fr",
-                "accessDescription": "Accéder au site web"
-            }
-        ]
-    },
-    {
-        "title": "La Chute",
-        "subtitle": "Un podcast de William Reymond",
-        "mainDescription": "La chute, une expérience unique, pour vous permettre de vivre et comprendre l’Histoire des États-Unis à mesure qu’elle s’écrit.Nous sommes ensemble jusqu’au 21 janvier. Attachez-vos ceintures, la chute c’est maintenant.",
-        "informationMessage": {
-            "type": "info",
-            "content": "Accessibilité partielle. Saison 1 épisode 5 à 13 et Saison 2 épisode 1."
-        },
-        "authors": [
-            "William Reymond"
-        ],
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "site",
-                "url": "http://hcommehandipodcast.fr/fr",
-                "accessDescription": "Accéder au site web"
-            }
-        ]
-    },
-    {
-        "title": "HappiCulture",
-        "subtitle": "Le podcast sur des chevaux et des alternatives à l’équitation classique",
-        "mainDescription": null,
-        "informationMessage": null,
-        "authors": null,
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "youtube",
-                "url": "https://www.youtube.com/channel/UCnoZQdGz4JVva8bR7m3QZSg",
-                "accessDescription": "Accéder à la chaîne YouTube"
-            }
-        ]
-    },
-    {
-        "title": "Journal de mes oreilles",
-        "subtitle": null,
-        "mainDescription": null,
-        "informationMessage": null,
-        "authors": [
-            "Zoé Besmond de Senneville"
-        ],
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "youtube",
-                "url": "https://www.youtube.com/channel/UCnoZMLUnmSOLMMSjHLuNBLw",
-                "accessDescription": "Accéder à la chaîne YouTube"
-            }
-        ]
-    },
-    {
-        "title": "Ni ton hindou, ni ton pakpak",
-        "subtitle": "Le podcast qui traite des thématiques liées aux diasporas sud asiatiques.",
-        "mainDescription": null,
-        "informationMessage": null,
-        "authors": [
-            "Pulandevii"
-        ],
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "youtube",
-                "url": "https://www.youtube.com/channel/UChbgcyfMvdEDx2OlYQ3S7LQ",
-                "accessDescription": "Accéder à la chaîne YouTube"
-            }
-        ]
-    },
-    {
-        "title": "L'école inclusive",
-        "subtitle": null,
-        "mainDescription": "Le podcast donne la parole à celles et ceux qui composent l'école inclusive d'aujourd'hui et de demain. ",
-        "informationMessage": null,
-        "authors": [
-            "Fanny",
-            "Cécile"
-        ],
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "youtube",
-                "url": "https://www.youtube.com/channel/UCeqls9w_GPlSf-lFqVrB6fA",
-                "accessDescription": "Accéder à la chaîne YouTube"
-            }
-        ]
-    },
-    {
-        "title": "Les Maux bleus",
-        "subtitle": "Un podcast sur la santé mentale.",
-        "mainDescription": null,
-        "informationMessage": null,
-        "authors": null,
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "site",
-                "url": "https://placedessciences.fr/nos-podcasts/les-maux-bleus/",
-                "accessDescription": "Accéder au site web"
-            }
-        ]
-    },
-    {
-        "title": "Les visites du Centre Pompidou",
-        "subtitle": null,
-        "mainDescription": "Des parcours d’aide à la visite des expositions et de la collection du Musée.",
-        "informationMessage": {
-            "type": "warning",
-            "content": "Transcriptions en PDF, ce n'est pas accessible pour les personnes malvoyantes ou aveugles."
-        },
-        "authors": null,
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "site",
-                "url": "https://www.centrepompidou.fr/fr/visite/podcasts/les-visites-du-centre-pompidou",
-                "accessDescription": "Accéder au site web"
-            }
-        ]
-    },
-    {
-        "title": "Nouvelles Écoutes",
-        "subtitle": null,
-        "mainDescription": null,
-        "informationMessage": {
-            "type": "warning",
-            "content": "Transcriptions en PDF, ce n'est pas accessible pour les personnes malvoyantes ou aveugles."
-        },
-        "authors": null,
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "site",
-                "url": "https://nouvellesecoutes.fr/accessibilite/",
-                "accessDescription": "Accéder au site web"
-            }
-        ]
-    },
-    {
-        "title": "Podcast de la FNEO",
-        "subtitle": null,
-        "mainDescription": null,
-        "informationMessage": {
-            "type": "warning",
-            "content": "Accessibilité partielle. Trois épisodes disponibles.\nTranscriptions en PDF, ce n'est pas accessible pour les personnes malvoyantes ou aveugles."
-        },
-        "authors": null,
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "link",
-                "url": "http://fneo.fr/wp-content/uploads/2021/05/La-recherche-en-orthophonie-Transcription.pdf",
-                "accessDescription": "Épisode 5 : la recherche en orthophonie"
-            },
-            {
-                "type": "link",
-                "url": "http://fneo.fr/wp-content/uploads/2021/08/Podcast-transcription-MI.pdf",
-                "accessDescription": "Épisode 6 : la mobilité internationale en orthophonie"
-            },
-            {
-                "type": "link",
-                "url": "https://www.fneo.fr/wp-content/uploads/2022/02/Transcription-podcast-9-1.pdf",
-                "accessDescription": "Épisode 9 : L'oralité en pédiatrie "
-            }
-        ]
-    },
-    {
-        "title": "Sismique",
-        "subtitle": null,
-        "mainDescription": null,
-        "informationMessage": {
-            "type": "info",
-            "content": "Accessibilité partielle. Trois épisodes disponibles."
-        },
-        "authors": null,
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "link",
-                "url": "https://www.sismique.fr/post/113-sommes-nous-trop-sur-terre-emmanuel-pont",
-                "accessDescription": "« #113 - Sommes-nous trop sur Terre ? »"
-            },
-            {
-                "type": "link",
-                "url": "https://www.sismique.fr/post/114-le-mythe-de-la-meritocratie-samah-karaki",
-                "accessDescription": "« #114 - Le mythe de la méritocratie »"
-            },
-            {
-                "type": "link",
-                "url": "https://www.sismique.fr/post/115-agriculture-et-climat-serge-zaka",
-                "accessDescription": "« #114 - Le mythe de la méritocratie »"
-            }
-        ]
-    },
-    {
-        "title": "Libre à lire",
-        "subtitle": null,
-        "mainDescription": "\"Libre à lire !\" est le site du groupe Transcriptions de l’April, qui s’est donné pour mission de transformer des vidéos et des fichiers audio concernant le logiciel libre et les libertés numériques en général, en texte avec ajout d’une illustration et ajout de liens vers certains sites jugés pertinents.",
-        "informationMessage": null,
-        "authors": null,
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "site",
-                "url": "https://www.librealire.org/-transcriptions-",
-                "accessDescription": "Accéder au site web"
-            }
-        ]
-    },
-    {
-        "title": "SpaceSheep",
-        "subtitle": null,
-        "mainDescription": "Le podcast qui vous raconte des histoires d'espace en dix minutes ou moins.",
-        "informationMessage": null,
-        "authors": [
-            "Isabelle Santos"
-        ],
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "site",
-                "url": "https://blog.isabelle-santos.space/tags/space-sheep/",
-                "accessDescription": "Accéder au site web"
-            }
-        ]
-    },
-    {
-        "title": "Tangata",
-        "subtitle": "Faisons parler les différences",
-        "mainDescription": "",
-        "informationMessage": {
-            "type": "info",
-            "content": "Accessibilité partielle. Un épisode disponible."
-        },
-        "authors": null,
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "link",
-                "url": "https://podcast.ausha.co/tangata/tangata-waikaha-adapter-les-outils-de-travail-pour-les-personnes-en-situation-de-handicap",
-                "accessDescription": "Adapter les outils de travail pour les personnes en situation de handicap"
-            }
-        ]
-    },
-    {
-        "title": "Série noire pour une canne blanche",
-        "subtitle": "Le podcast qui vous ouvre les yeux sur le handicap visuel",
-        "mainDescription": " Tous les mois, Lise vous invite à la suivre dans ses aventures. Découvrez au travers de ses récits poignants les défis quotidiens qu’affrontent les personnes qui, comme elle, voient le monde avec leurs mains et leurs oreilles. Elle vous emmènera dans la rue, les transports, les magasins, les hôtels et bien d’autres endroits dont vous n’avez même pas idée. Au programme: frisson, émotion, révolte parfois, mais toujours teintés d’un zeste d’humour.\n\nComme Lise est une éternelle optimiste, elle ne termine jamais un épisode sans vous prodiguer quelques conseils pour que, vous, à votre niveau, vous puissiez alléger son quotidien et celui de ses compagnons d’infortune. Accessibilité, accueil, comportement, découvrez tout ce que vous devez savoir pour faciliter la vie des personnes aveugles ou malvoyantes, 1,7 million de Français tout de même ! ",
-        "informationMessage": null,
-        "authors": [
-            "Lise Wagner"
-        ],
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "site",
-                "url": "https://webzine.okeenea.com/podcast-serie-noire-pour-une-canne-blanche/",
-                "accessDescription": "Accéder au site web"
-            }
-        ]
-    },
-    {
-        "title": "PRÉSENT.E",
-        "subtitle": "Plongez dans l’intimité de la création",
-        "mainDescription": "PRÉSENT.E est un podcast bi-mensuel sur l’art contemporain",
-        "informationMessage": null,
-        "authors": [
-            "Camille Bardin"
-        ],
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "site",
-                "url": "https://podcastprsente.com/190-2/",
-                "accessDescription": "Accéder au site web"
-            }
-        ]
-    },
-    {
-        "title": "Partielles",
-        "subtitle": "Plurialité - Troubles dissociatifs - TDI/ATDS/&+ ",
-        "mainDescription": null,
-        "informationMessage": null,
-        "authors": null,
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "site",
-                "url": "https://www.partielles.com/tag/transcriptions/",
-                "accessDescription": "Accéder au site web"
-            }
-        ]
-    },
-    {
-        "title": "Passion Médiévistes",
-        "subtitle": "Un podcast autour du Moyen-Âge",
-        "mainDescription": null,
-        "informationMessage": null,
-        "authors": [
-            "Fanny Cohen Moreau"
-        ],
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "site",
-                "url": "https://passionmedievistes.fr/category/retranscriptions/",
-                "accessDescription": "Accéder au site web"
-            }
-        ]
-    },
-    {
-        "title": "Podcast Genre, etc.",
-        "subtitle": "",
-        "mainDescription": "\"Nous tendons le micro à des chercheuses et des chercheurs en sciences humaines sociales spécialistes des questions de genre, d’inégalités, et de discriminations. Genre, etc.\"",
-        "informationMessage": {
-            "type": "warning",
-            "content": "Transcriptions en PDF, ce n'est pas accessible pour les personnes malvoyantes ou aveugles."
-        },
-        "authors": [],
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "site",
-                "url": "https://passionmedievistes.fr/category/retranscriptions/",
-                "accessDescription": "Accéder au site web"
-            }
-        ]
-    },
-    {
-        "title": "Parlons recrutement",
-        "subtitle": "Plongez dans l’intimité de la création",
-        "mainDescription": "PRÉSENT.E est un podcast bi-mensuel sur l’art contemporain",
-        "informationMessage": null,
-        "authors": null,
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "youtube",
-                "url": "https://www.youtube.com/playlist?list=PLlwW-QXVy1mytGnMm3KrUc2WptVgidP6z",
-                "accessDescription": "Accéder à la chaîne YouTube"
-            }
-        ]
-    },
-    {
-        "title": "Micro-ondes Cérébrales",
-        "subtitle": "Le podcast qui réchauffe vos méninges !",
-        "mainDescription": null,
-        "informationMessage": null,
-        "authors": null,
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "site",
-                "url": "https://www.librealire.org/-transcriptions-",
-                "accessDescription": "Accéder au site web"
-            }
-        ]
-    },
-    {
-        "title": "Mécréantes",
-        "subtitle": null,
-        "mainDescription": "Bienvenue dans Mécréantes, le podcast mensuel qui interroge en profondeur nos stéréotypes de genre. Au travers de témoignages et d'interviews d'experts, j'aborde sans détour les questions qui traversent nos sociétés autour du genre.",
-        "informationMessage": null,
-        "authors": [
-            "Léane Alestra"
-        ],
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "site",
-                "url": "https://www.mecreantes.com/le-podcast",
-                "accessDescription": "Accéder au site web"
-            }
-        ]
-    },
-    {
-        "title": "Rebelles Intelligents",
-        "subtitle": null,
-        "mainDescription": "Une interview tous les mois d’un Rebelle Intelligent, qui partage comment il a réussi à accomplir quelque chose qui a de la gueule, tout en sortant des sentiers battus.",
-        "informationMessage": null,
-        "authors": [
-            "Olivier Roland"
-        ],
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "site",
-                "url": "https://rebelles-intelligents.com/",
-                "accessDescription": "Accéder au site web"
-            }
-        ]
-    },
-    {
-        "title": "Rebond, vivre avec le handicap",
-        "subtitle": null,
-        "mainDescription": "Dans le podcast Rebond, en partenariat avec l’Agefiph, le journal Le Monde interroge 12 personnalités sur leur rapport au handicap et comment elles y font face. Un handicap qu'elles connaissent depuis leur naissance, qui les touchent depuis un accident ou une maladie. Un handicap qui les concerne directement ou affecte un être cher. Le handicap partage la vie d’un Français sur cinq. Il peut bouleverser le quotidien, la famille, le travail, la scolarité mais aussi créer des opportunités et permettre des rencontres. Alors, comment vivre avec un handicap ?",
-        "informationMessage": null,
-        "authors": null,
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "transcription",
-                "url": "https://www.agefiph.fr/actualites-handicap/rebond-vivre-avec-le-handicap-le-nouveau-podcast-du-monde",
-                "accessDescription": "Accéder aux transcriptions"
-            }
-        ]
-    },
-    {
-        "title": "Salut les designers",
-        "subtitle": null,
-        "mainDescription": "\"Salut les Designers !\" est le podcast de l’Agence LunaWeb consacré au design et à ses méthodes. UI, UX, motion, accessibilité, recherche, nous échangeons avec des professionnel·les passionné·es au grès de nos rencontres et de nos envies ! ",
-        "informationMessage": null,
-        "authors": null,
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "site",
-                "url": "https://www.lunaweb.fr/blog/category/salut-les-designers/",
-                "accessDescription": "Accéder au site web"
-            }
-        ]
-    },
-    {
-        "title": "Santé & Sécurité",
-        "subtitle": null,
-        "mainDescription": "Podcast sur les différents dispositifs de formation aux premiers secours en France.",
-        "informationMessage": null,
-        "authors": null,
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "site",
-                "url": "https://santesecurite-podcast.fr/category/blog/",
-                "accessDescription": "Accéder au site web"
-            }
-        ]
-    },
-    {
-        "title": "Lithérature",
-        "subtitle": null,
-        "mainDescription": "Un podcast autour sur la littérature jeunesse.",
-        "informationMessage": null,
-        "authors": null,
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "youtube",
-                "url": "https://www.youtube.com/playlist?list=PLqtnrWHUIjga_9mHBKm4bixDpu99VB9_k",
-                "accessDescription": "Accéder à la chaîne YouTube"
-            }
-        ]
-    },
-    {
-        "title": "Lost in translation",
-        "subtitle": null,
-        "mainDescription": " Lost in translation, c'est un podcast sur la traduction et l'interprétation, créé et animé par Clara Joubert.\n\nDans chaque épisode, j'invite une traductrice, un traducteur, un/e interprète, un chercheur ou une chercheuse pour discuter de traduction, d'interprétation, de langue, de langage, pour comprendre ce que ça veut dire, aujourd'hui, traduire ou interpréter.\n\nEst-ce que ça existe vraiment, la neutralité en traduction ? Est-ce que les interprètes et les traductaires vont vraiment être remplacé-e-s par des machines ? Est-ce qu'il faut s'adapter au public pour lequel on traduit ? Est-ce que c'est politique, la traduction ? Est-ce qu'il y a des choses qu'on ne peut pas traduire ? Est-ce qu'on a une responsabilité, quand on traduit ? Comment marche l'audiodescription ? Pourquoi retraduit-on ?",
-        "informationMessage": null,
-        "authors": [
-            "Clara Joubert"
-        ],
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "transcription",
-                "url": "https://drive.google.com/drive/folders/1B6NCMLUPQnNgcygObDlgeMmP-FukfQZP",
-                "accessDescription": "Accéder aux transcriptions"
-            }
-        ]
-    },
-    {
-        "title": "Technologie",
-        "subtitle": null,
-        "mainDescription": "Le podcast qui tente de lier technologie et écologie alors que tout les oppose.",
-        "informationMessage": null,
-        "authors": [],
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "transcription",
-                "url": "https://drive.google.com/drive/folders/1B6NCMLUPQnNgcygObDlgeMmP-FukfQZP",
-                "accessDescription": "Accéder aux transcriptions"
-            }
-        ]
-    },
-    {
-        "title": "Un podcast à soi - Arte Radio",
-        "subtitle": null,
-        "mainDescription": "Chaque premier mercredi du mois, Un Podcast à soi mêle intimité et expertise, témoignages et réflexions, pour aborder les questions de genre, de féminismes, d’égalité entre les femmes et les hommes.",
-        "informationMessage": {
-            "type": "warning",
-            "content": "Accessibilité partielle. Trois épisodes disponibles. \nTranscriptions en PDF, ce n'est pas accessible pour les personnes malvoyantes ou aveugles."
-        },
-        "authors": [
-            "Charlotte Bienaimé"
-        ],
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "link",
-                "url": "https://www.arteradio.com/son/61659100/sexisme_ordinaire_en_milieu_tempere_1",
-                "accessDescription": "Episode 1 - Sexisme ordinaire en milieu tempéré"
-            },
-            {
-                "type": "link",
-                "url": "https://www.arteradio.com/son/61659226/les_combattantes_du_sport_et_du_genre_2",
-                "accessDescription": "Episode 2 - Les combattantes du sport et du genre"
-            }
-        ]
-    },
-    {
-        "title": "User Story",
-        "subtitle": null,
-        "mainDescription": "",
-        "informationMessage": {
-            "type": "info",
-            "content": "Accessibilité partielle. Un épisode disponible."
-        },
-        "authors": [],
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "link",
-                "url": "https://www.lalutineduweb.fr/transcription-textuelle-accessibilite-web-droit-podcast-user-story/",
-                "accessDescription": "« L’accessibilité web, un droit »"
-            }
-        ]
-    },
-    {
-        "title": "Vulgaire",
-        "subtitle": "Podcast de vulgarisation de trucs",
-        "mainDescription": "« Vulgaire, c’est un podcast dans lequel je vais aborder des trucs que je ne connais pas, mais dont je vais vous parler quand même. Je vais vous marinesplainer, en quelque sorte. »",
-        "informationMessage": {
-            "type": "info",
-            "content": "Accessibilité partielle."
-        },
-        "authors": [
-            "Marine Baousson"
-        ],
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "link",
-                "url": "https://drive.google.com/drive/folders/1uEdYKqovHpqexUenesg3Aq-47JWtQgCE?usp=sharing",
-                "accessDescription": "Épisodes 1 à 38"
-            },
-            {
-                "type": "link",
-                "url": "https://drive.google.com/drive/folders/12IDU2ly4oBrzBHWMPcRd9HNZJe_d7NJF?usp=sharing",
-                "accessDescription": "À partir de l'épisode 39"
-            }
-        ]
-    },
-    {
-        "title": "Vénus s'épilait-elle la chatte ?",
-        "subtitle": "Le podcast féministe et inclusif qui déconstruit l'histoire de l'art occidentale",
-        "mainDescription": "Vénus s'épilait-elle chatte déconstruit l’histoire de l’art occidentale, en proposant un point de vue féministe et inclusif.",
-        "informationMessage": {
-            "type": "warning",
-            "content": "Transcription en PDF, ce n'est pas accessible pour les personnes malvoyantes ou aveugles."
-        },
-        "authors": [
-            "Julie Beauzac"
-        ],
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "link",
-                "url": "https://www.venuslepodcast.com/episodes",
-                "accessDescription": "Accéder au site web"
-            }
-        ]
-    },
-    {
-        "title": "Hippod'caste [Focus Humain - Accessibilité et Inclusion]",
-        "subtitle": "Une série sur l'accessibilité et l'inclusion numérique",
-        "mainDescription": null,
-        "informationMessage": null,
-        "authors": null,
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "link",
-                "url": "https://www.hippocampe.fr/blog/hippodcast-focus-humain-accessibilite-et-inclusion-episode-1/",
-                "accessDescription": "Episode 1 - L'accessibilité et l'inclusion numérique : les bases"
-            },
-            {
-                "type": "link",
-                "url": "https://www.hippocampe.fr/blog/hippodcast-focus-humain-accessibilite-et-inclusion-episode-2/",
-                "accessDescription": "Episode 2 - L'accessibilité et l'inclusion numérique : le cadre légal"
-            },
-            {
-                "type": "link",
-                "url": "https://www.hippocampe.fr/blog/hippodcast-focus-humain-accessibilite-et-inclusion-episode-3/",
-                "accessDescription": "Episode 3 - L'accessibilité et l'inclusion numérique au quotidien"
-            },
-            {
-                "type": "link",
-                "url": "https://www.hippocampe.fr/blog/hippodcast-focus-humain-accessibilite-et-inclusion-episode-4/",
-                "accessDescription": "Episode 4 - La communication accessible et inclusive"
-            },
-            {
-                "type": "link",
-                "url": "https://www.hippocampe.fr/blog/hippodcast-focus-humain-accessibilite-et-inclusion-episode-5/",
-                "accessDescription": "Episode 5 - Les conclusions de notre enquête sur l'accessibilité et l'inclusion numérique"
-            }
-        ]
-    },
-    {
-        "title": "Tech Ethic",
-        "subtitle": "Le podcast tech qui parle de sujets éthiques comme l'accessibilité, l'écologie ou la #tech4Good.",
-        "mainDescription": null,
-        "informationMessage": null,
-        "authors": [
-            "Emmanuel Demey",
-            "Fanny Demey"
-        ],
-        "mediaType": "podcast",
-        "sources": [
-            {
-                "type": "link",
-                "url": "https://sonix.ai/r/e3WEY89NefAeNKU3a35BawKZ",
-                "accessDescription": "Episode 1A - \"Tu sais que tu es non-voyant sur le web quand...\" avec Céline Boeuf "
-            },
-            {
-                "type": "link",
-                "url": "https://sonix.ai/r/RQruKNh7dv8cpNoQZEztJGZ6",
-                "accessDescription": "Episode 1B - \"L'accessibilité c'est un défi créatif qui nous pousse à être meilleur\" avec Angela Ricci"
-            },
-            {
-                "type": "link",
-                "url": "https://sonix.ai/r/YL3BYcSbwxS7CUFuF9Bvm2QJ",
-                "accessDescription": "Episode 2A - Zoom sur le smartphone de Manuel, expert en accessibilité et non-voyant"
-            },
-            {
-                "type": "link",
-                "url": "https://sonix.ai/r/YL3BYcSbwxS7CUFuF9Bvm2QJ",
-                "accessDescription": "Episode 2B - Coder une application mobile accessible aux personnes déficientes visuelles"
-            },
-            {
-                "type": "link",
-                "url": "https://sonix.ai/r/JPq9W6PmNE3zYQdRnWtsPvuQ",
-                "accessDescription": "Episode 3A - Green IT, numérique responsable, éco-conception... C'est quoi au juste ?"
-            },
-            {
-                "type": "link",
-                "url": "https://sonix.ai/r/fRaWXixnKTcgUwjwEJ9dUg8E",
-                "accessDescription": "Episode 3B - Eco-concevoir un service numérique. Quand et comment ?"
-            }
-        ]
-    },
-    {
-        "title": "La Folle Histoire",
-        "subtitle": "Vulgarisation Histoire",
-        "mainDescription": null,
-        "informationMessage": {
-            "type": "info",
-            "content": "Accessibilité partielle."
-        },
-        "authors": ["La Folle Histoire"],
-        "mediaType": "video",
-        "sources": [
-            {
-                "type": "youtube",
-                "url": "https://www.youtube.com/c/LaFolleHistoire",
-                "accessDescription": "Accéder à la chaîne YouTube"
-            }
-        ]
-    },
-    {
-        "title": "La Manie du Cinéma",
-        "subtitle": "Vulgarisation Ciné",
-        "mainDescription": "Et si je vous faisais découvrir les coulisses du monde du cinéma ? \nAnecdotes, petites et grandes histoires du 7ème Art, références cachées, faufilons-nous derrière le grand écran pour y déceler ses petits secrets.",
-        "informationMessage": {
-            "type": "info",
-            "content": "Accessibilité partielle."
-        },
-        "authors": ["Mélanie Toubeau"],
-        "mediaType": "video",
-        "sources": [
-            {
-                "type": "youtube",
-                "url": "https://www.youtube.com/@lamanieducinema_",
-                "accessDescription": "Accéder à la chaîne YouTube"
-            }
-        ]
-    },
-    {
-        "title": "La Planete de Caro",
-        "subtitle": "Vanlife & Food",
-        "mainDescription": null,
-        "informationMessage": null,
-        "authors": ["Caroline"],
-        "mediaType": "video",
-        "sources": [
-            {
-                "type": "youtube",
-                "url": "https://www.youtube.com/@PlanetedeCaro",
-                "accessDescription": "Accéder à la chaîne YouTube"
-            }
-        ]
-    },
-    {
-        "title": "Le Comte Séquentiel",
-        "subtitle": "Autour de la bande-dessinéee",
-        "mainDescription": "Le but de la chaîne est de présenter les bande dessinées au travers du prisme des artistes qui ont participé à leur conception. ",
-        "informationMessage": null,
-        "authors": [],
-        "mediaType": "video",
-        "sources": [
-            {
-                "type": "youtube",
-                "url": "https://www.youtube.com/@LeComteSequentiel",
-                "accessDescription": "Accéder à la chaîne YouTube"
-            }
-        ]
-    },
-    {
-        "title": "Le Matérialiste",
-        "subtitle": null,
-        "mainDescription": "Ici, tu apprendras plein d'anecdotes et histoires sur des objets, qu'ils soient anciens ou récents, classiques ou insolites.",
-        "informationMessage": null,
-        "authors": null,
-        "mediaType": "video",
-        "sources": [
-            {
-                "type": "youtube",
-                "url": "www.youtube.com/@LeMaterialiste",
-                "accessDescription": "Accéder à la chaîne YouTube"
-            }
-        ]
-    },
-    {
-        "title": "Nota Bene",
-        "subtitle": "Vulgarisation Histoire",
-        "mainDescription": "Histoire d'Europe et du monde, de l'antiquité à nos jours, Histoire militaire, scientifique, sociale, politique, économique...\nbref Nota Bene, c'est ma façon de vous montrer que l'Histoire est partout, tout le temps !",
-        "informationMessage": null,
-        "authors": ["Benjamin Brillaud"],
-        "mediaType": "video",
-        "sources": [
-            {
-                "type": "youtube",
-                "url": "https://www.youtube.com/@notabenemovies",
-                "accessDescription": "Accéder à la chaîne YouTube"
-            }
-        ]
-    },
-    {
-        "title": "Vivre Avec",
-        "subtitle": "",
-        "mainDescription": "Maladie chronique, militantisme et quotidien. Et aussi des lapin•es et des plantes.",
-        "informationMessage": null,
-        "authors": ["Matthieu"],
-        "mediaType": "video",
-        "sources": [
-            {
-                "type": "youtube",
-                "url": "https://www.youtube.com/@VivreAvec",
-                "accessDescription": "Accéder à la chaîne YouTube"
-            }
-        ]
-    },
-    {
-        "title": "Épicurieux",
-        "subtitle": "Le goût du savoir avec Jamy",
-        "mainDescription": "Le goût du savoir, ça se partage 😃 Bienvenue dans l'aventure, les épicurieux 🤓",
-        "informationMessage": null,
-        "authors": ["Jamy Gourmaud"],
-        "mediaType": "video",
-        "sources": [
-            {
-                "type": "youtube",
-                "url": "https://www.youtube.com/@JamyEpicurieux",
-                "accessDescription": "Accéder à la chaîne YouTube"
-            }
-        ]
-    }
+    "authors": ["Julie Beauzac"],
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "link",
+        "url": "https://www.venuslepodcast.com/episodes",
+        "accessDescription": "Accéder au site web de Vénus"
+      }
+    ]
+  },
+  {
+    "title": "Hippod'caste [Focus Humain - Accessibilité et Inclusion]",
+    "subtitle": "Une série sur l'accessibilité et l'inclusion numérique",
+    "mainDescription": null,
+    "informationMessage": null,
+    "authors": null,
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "link",
+        "url": "https://www.hippocampe.fr/blog/hippodcast-focus-humain-accessibilite-et-inclusion-episode-1/",
+        "accessDescription": "Episode 1 - L'accessibilité et l'inclusion numérique : les bases"
+      },
+      {
+        "type": "link",
+        "url": "https://www.hippocampe.fr/blog/hippodcast-focus-humain-accessibilite-et-inclusion-episode-2/",
+        "accessDescription": "Episode 2 - L'accessibilité et l'inclusion numérique : le cadre légal"
+      },
+      {
+        "type": "link",
+        "url": "https://www.hippocampe.fr/blog/hippodcast-focus-humain-accessibilite-et-inclusion-episode-3/",
+        "accessDescription": "Episode 3 - L'accessibilité et l'inclusion numérique au quotidien"
+      },
+      {
+        "type": "link",
+        "url": "https://www.hippocampe.fr/blog/hippodcast-focus-humain-accessibilite-et-inclusion-episode-4/",
+        "accessDescription": "Episode 4 - La communication accessible et inclusive"
+      },
+      {
+        "type": "link",
+        "url": "https://www.hippocampe.fr/blog/hippodcast-focus-humain-accessibilite-et-inclusion-episode-5/",
+        "accessDescription": "Episode 5 - Les conclusions de notre enquête sur l'accessibilité et l'inclusion numérique"
+      }
+    ]
+  },
+  {
+    "title": "Tech Ethic",
+    "subtitle": "Le podcast tech qui parle de sujets éthiques comme l'accessibilité, l'écologie ou la #tech4Good.",
+    "mainDescription": null,
+    "informationMessage": null,
+    "authors": ["Emmanuel Demey", "Fanny Demey"],
+    "mediaType": "podcast",
+    "sources": [
+      {
+        "type": "link",
+        "url": "https://sonix.ai/r/e3WEY89NefAeNKU3a35BawKZ",
+        "accessDescription": "Episode 1A - \"Tu sais que tu es non-voyant sur le web quand...\" avec Céline Boeuf "
+      },
+      {
+        "type": "link",
+        "url": "https://sonix.ai/r/RQruKNh7dv8cpNoQZEztJGZ6",
+        "accessDescription": "Episode 1B - \"L'accessibilité c'est un défi créatif qui nous pousse à être meilleur\" avec Angela Ricci"
+      },
+      {
+        "type": "link",
+        "url": "https://sonix.ai/r/YL3BYcSbwxS7CUFuF9Bvm2QJ",
+        "accessDescription": "Episode 2A - Zoom sur le smartphone de Manuel, expert en accessibilité et non-voyant"
+      },
+      {
+        "type": "link",
+        "url": "https://sonix.ai/r/YL3BYcSbwxS7CUFuF9Bvm2QJ",
+        "accessDescription": "Episode 2B - Coder une application mobile accessible aux personnes déficientes visuelles"
+      },
+      {
+        "type": "link",
+        "url": "https://sonix.ai/r/JPq9W6PmNE3zYQdRnWtsPvuQ",
+        "accessDescription": "Episode 3A - Green IT, numérique responsable, éco-conception... C'est quoi au juste ?"
+      },
+      {
+        "type": "link",
+        "url": "https://sonix.ai/r/fRaWXixnKTcgUwjwEJ9dUg8E",
+        "accessDescription": "Episode 3B - Eco-concevoir un service numérique. Quand et comment ?"
+      }
+    ]
+  },
+  {
+    "title": "La Folle Histoire",
+    "subtitle": "Vulgarisation Histoire",
+    "mainDescription": null,
+    "authors": ["La Folle Histoire"],
+    "mediaType": "video",
+    "sources": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/c/LaFolleHistoire",
+        "accessDescription": "Accéder à la chaîne La Manie du Cinéma sur YouTube"
+      }
+    ]
+  },
+  {
+    "title": "La Manie du Cinéma",
+    "subtitle": "Vulgarisation Ciné",
+    "mainDescription": "Et si je vous faisais découvrir les coulisses du monde du cinéma ? \nAnecdotes, petites et grandes histoires du 7ème Art, références cachées, faufilons-nous derrière le grand écran pour y déceler ses petits secrets.",
+    "authors": ["Mélanie Toubeau"],
+    "mediaType": "video",
+    "sources": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/@lamanieducinema_",
+        "accessDescription": "Accéder à la chaîne La Manie du Cinéma sur YouTube"
+      }
+    ]
+  },
+  {
+    "title": "La Planète de Caro",
+    "subtitle": "Vanlife & Food",
+    "mainDescription": null,
+    "informationMessage": null,
+    "authors": ["Caroline"],
+    "mediaType": "video",
+    "sources": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/@PlanetedeCaro",
+        "accessDescription": "Accéder à la chaîne La Planete de Caro sur YouTube"
+      }
+    ]
+  },
+  {
+    "title": "Le Comte Séquentiel",
+    "subtitle": "Autour de la bande-dessinéee",
+    "mainDescription": "Le but de la chaîne est de présenter les bande dessinées au travers du prisme des artistes qui ont participé à leur conception. ",
+    "informationMessage": null,
+    "authors": [],
+    "mediaType": "video",
+    "sources": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/@LeComteSequentiel",
+        "accessDescription": "Accéder à la chaîne Le Comte Séquentiel sur YouTube"
+      }
+    ]
+  },
+  {
+    "title": "Le Matérialiste",
+    "subtitle": null,
+    "mainDescription": "Ici, tu apprendras plein d'anecdotes et histoires sur des objets, qu'ils soient anciens ou récents, classiques ou insolites.",
+    "informationMessage": null,
+    "authors": null,
+    "mediaType": "video",
+    "sources": [
+      {
+        "type": "youtube",
+        "url": "www.youtube.com/@LeMaterialiste",
+        "accessDescription": "Accéder à la chaîne Le Matérialiste sur YouTube"
+      }
+    ]
+  },
+  {
+    "title": "Nota Bene",
+    "subtitle": "Vulgarisation Histoire",
+    "mainDescription": "Histoire d'Europe et du monde, de l'antiquité à nos jours, Histoire militaire, scientifique, sociale, politique, économique...\nbref Nota Bene, c'est ma façon de vous montrer que l'Histoire est partout, tout le temps !",
+    "informationMessage": null,
+    "authors": ["Benjamin Brillaud"],
+    "mediaType": "video",
+    "sources": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/@notabenemovies",
+        "accessDescription": "Accéder à la chaîne Nota Bene sur YouTube"
+      }
+    ]
+  },
+  {
+    "title": "Vivre Avec",
+    "subtitle": "",
+    "mainDescription": "Maladie chronique, militantisme et quotidien. Et aussi des lapin•es et des plantes.",
+    "informationMessage": null,
+    "authors": ["Matthieu"],
+    "mediaType": "video",
+    "sources": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/@VivreAvec",
+        "accessDescription": "Accéder à la chaîne VivreAvec sur YouTube"
+      }
+    ]
+  },
+  {
+    "title": "Épicurieux",
+    "subtitle": "Le goût du savoir avec Jamy",
+    "mainDescription": "Le goût du savoir, ça se partage 😃 Bienvenue dans l'aventure, les épicurieux 🤓",
+    "informationMessage": null,
+    "authors": ["Jamy Gourmaud"],
+    "mediaType": "video",
+    "sources": [
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/@JamyEpicurieux",
+        "accessDescription": "Accéder à la chaîne Épicurieux sur YouTube"
+      }
+    ]
+  }
 ]
