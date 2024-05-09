@@ -18,7 +18,7 @@ Un grand merci à [Emmanuelle Aboaf](https://github.com/emma11y) et [Megan Kateb
 - ~~Champ recherche~~
 - ~~Formulaire pour soumettre un podcast ou mettre à jour des infos + mails de contact, etc.~~
 - ~~Merge sur la branche principale~~
-- Accessibilité
+- ~~Accessibilité~~
 - Refactoring
 
 # Features à réflechir  
