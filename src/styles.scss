@@ -95,6 +95,13 @@ p a {
 
 .secondary-description {
   color: var(--secondary-text);
+
+  &-date {
+    font-size: smaller;
+    color: var(--primary-color);
+    font-weight: 300;
+    display: block;
+  }
 }
 
 ul {

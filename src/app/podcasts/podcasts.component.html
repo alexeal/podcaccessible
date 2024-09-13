@@ -6,7 +6,7 @@
       id="searchInput"
       class="search-input"
       type="search"
-      placeholder="Entrez le nom d'un podcast, ex: AndyCaptain"
+      placeholder="Entrez le nom d'un podcast, ex: tech"
       #searchQuery
       (input)="onSearchUpdated(searchQuery.value)"
     />
@@ -59,6 +59,9 @@
       @for (item of podcast.sources; track $index) { @if (item.type ==='link') {
       <li>
         <a [href]="item.url" target="_blank">{{ item.accessDescription }} </a>
+        <span class="secondary-description-date" *ngIf="item.date"
+          >publié le {{ item.date | date : "dd MMMM yyyy" }}</span
+        >
       </li>
       } }
     </ul>

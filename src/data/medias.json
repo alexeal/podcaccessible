@@ -26,12 +26,17 @@
         "type": "link",
         "url": "https://www.6foisdys.fr/transcription-posdcast3-lacher-prise-entrepreneuriat.html",
         "accessDescription": "Episode 3 - Comment j'ai lâcher prise pour avancer plus efficacement dans mes projets ?"
+      },
+      {
+        "type": "link",
+        "url": "https://www.6foisdys.fr/transcription-posdcast4-solitude-et-ecriture.html",
+        "accessDescription": "Episode 4 - Comment l'écriture m'a permis de lutter contre la solitude ?"
       }
     ]
   },
   {
     "title": "Je fais de mon mieux",
-    "subtitle": "Le podcast des écolos imparfaits.",
+    "subtitle": "Le podcast pour les écolos imparfaits.",
     "mainDescription": null,
     "informationMessage": null,
     "authors": ["Anne-Sophie"],
@@ -41,34 +46,6 @@
         "type": "youtube",
         "url": "https://www.youtube.com/channel/UCnoZQdGz4JVva8bR7m3QZSg",
         "accessDescription": "Accéder à la chaîne Je fais de mon mieux sur YouTube"
-      },
-      {
-        "type": "site",
-        "url": "https://www.jefaisdemonmieux-lepodcast.fr/accessibilite-du-podcast/",
-        "accessDescription": "Accéder au site web du podcast Je fais de mon mieux"
-      }
-    ]
-  },
-  {
-    "title": "AndyCaptain",
-    "subtitle": null,
-    "mainDescription": null,
-    "informationMessage": {
-      "type": "info",
-      "content": "Accessibilité partielle. Deux épisodes disponibles."
-    },
-    "authors": null,
-    "mediaType": "podcast",
-    "sources": [
-      {
-        "type": "link",
-        "url": "https://www.andycaptain.fr/unit-post/29",
-        "accessDescription": "Episode 1 - Papa Aidant"
-      },
-      {
-        "type": "link",
-        "url": "https://www.andycaptain.fr/unit-post/27",
-        "accessDescription": "Episode 40 - Adieu mon amour"
       }
     ]
   },
@@ -91,12 +68,14 @@
       {
         "type": "link",
         "url": "https://cpu.dascritch.net/post/2016/12/08/Ex0045-Sans-regarder",
-        "accessDescription": "CPU release Ex0045 : Sans regarder"
+        "accessDescription": "CPU release Ex0045 : Sans regarder",
+        "date": "2016/12/08"
       },
       {
         "type": "link",
         "url": "https://cpu.dascritch.net/post/2022/09/29/Sophie-Drouvroy%2C-responsable-front%2C-qualit%C3%A9-et-accessibilit%C3%A9-web",
-        "accessDescription": "CPU release Ex0194 : Surdité"
+        "accessDescription": "CPU release Ex0194 : Surdité",
+        "date": "2022/09/29"
       }
     ]
   },
@@ -122,26 +101,95 @@
   },
   {
     "title": "Deez is la tech",
-    "subtitle": null,
+    "subtitle": "Un podcast des équipes Product & Tech de Deezer",
     "mainDescription": null,
     "informationMessage": null,
-    "authors": [],
+    "authors": ["Pauline Munier"],
     "mediaType": "podcast",
     "sources": [
       {
         "type": "link",
         "url": "https://deezer.io/deez-is-la-tech-%C3%A9pisode-1-la-diversit%C3%A9-dans-la-tech-8ea329775e27",
-        "accessDescription": "Épisode 1 — La diversité dans la tech"
+        "accessDescription": "Épisode 1 — La diversité dans la tech",
+        "date": "2022/10/05"
       },
       {
         "type": "link",
         "url": "https://deezer.io/deez-is-la-tech-%C3%A9pisode-2-laccessibilit%C3%A9-num%C3%A9rique-e37c3c34fd1",
-        "accessDescription": "Épisode 2 — L’accessibilité numérique"
+        "accessDescription": "Épisode 2 — L’accessibilité numérique",
+        "date": "2022/11/02"
       },
       {
         "type": "link",
         "url": "https://deezer.io/deez-is-la-tech-%C3%A9pisode-3-flow-anatomie-dune-feature-e5bd5a71367e",
-        "accessDescription": "Épisode 3 — Flow — Anatomie d’une feature"
+        "accessDescription": "Épisode 3 — Flow — Anatomie d’une feature",
+        "date": "2022/12/07"
+      },
+      {
+        "type": "link",
+        "url": "https://deezer.io/deez-is-la-tech-%C3%A9pisode-4-les-royalties-28db8cf98202",
+        "accessDescription": "Épisode 4 — Les royalties",
+        "date": "2023/01/04"
+      },
+      {
+        "type": "link",
+        "url": "https://deezer.io/deez-is-la-tech-%C3%A9pisode-5-la-gestion-du-catalogue-3bdbab19f3b8",
+        "accessDescription": "Épisode 5 — La gestion du catalogue",
+        "date": "2023/02/01"
+      },
+      {
+        "type": "link",
+        "url": "https://deezer.io/deez-is-la-tech-%C3%A9pisode-6-la-qualit%C3%A9-logicielle-bfada525bb94",
+        "accessDescription": "Épisode 6 — La qualité logicielle",
+        "date": "2023/04/06"
+      },
+      {
+        "type": "link",
+        "url": "https://deezer.io/deez-is-la-tech-%C3%A9pisode-7-la-recherche-anatomie-dune-feature-aad4fe342c0e",
+        "accessDescription": "Épisode 7 — La recherche — Anatomie d’une feature",
+        "date": "2023/06/07"
+      },
+      {
+        "type": "link",
+        "url": "https://deezer.io/deez-is-la-tech-s02e01-la-recherche-scientifique-moteur-dinnovation-interne-et-de-f735f4b55f06",
+        "accessDescription": "S02E01 — La recherche scientifique, moteur d’innovation interne et de rayonnement international",
+        "date": "2023/10/11"
+      },
+      {
+        "type": "link",
+        "url": "https://deezer.io/deez-is-la-tech-s02e02-en-t%C3%AAte-%C3%A0-t%C3%AAte-avec-des-sre-missions-quotidien-et-challenges-7a45e4bdd1f3",
+        "accessDescription": "S02E02 — En tête-à-tête avec des SRE : missions, quotidien et challenges",
+        "date": "2023/11/15"
+      },
+      {
+        "type": "link",
+        "url": "https://deezer.io/deez-is-la-tech-s02e03-dans-les-coulisses-dun-rebranding-d13073e881b1",
+        "accessDescription": "S02E03 — Dans les coulisses d’un rebranding",
+        "date": "2024/01/14"
+      },
+      {
+        "type": "link",
+        "url": "https://deezer.io/deez-is-la-tech-s02e04-%C3%A0-la-rencontre-de-3-managers-d%C3%A9quipes-techniques-contentsquare-le-0b0fe3747642",
+        "accessDescription": "S02E04 — À la rencontre de 3 managers d’équipes techniques (Contentsquare, leboncoin, Deezer)",
+        "date": "2024/02/14"
+      },
+      {
+        "type": "link",
+        "url": "https://deezer.io/deez-is-la-tech-s02e05-int%C3%A9grations-hardware-et-partenariats-quels-challenges-pour-avoir-46c5279af546",
+        "accessDescription": "S02E05 — Intégrations hardware et partenariats : quels challenges pour avoir Deezer partout, tout le temps",
+        "date": "2024/04/24"
+      },
+      {
+        "type": "link",
+        "url": "https://deezer.io/dilt-s02e06-good-cop-bad-cop-comment-organiser-et-animer-une-communaut%C3%A9-de-pratique-dea6047126fa",
+        "accessDescription": "S02E06 — Good COP, bad COP : comment organiser et animer une Communauté de Pratique",
+        "date": "2024/05/22"
+      },
+      {
+        "type": "link",
+        "url": "https://deezer.io/dilt-s02e07-shaker-ou-la-cr%C3%A9ation-dune-nouvelle-exp%C3%A9rience-collaborative-anatomie-d-une-cf844f4ae890",
+        "accessDescription": "S02E07 — Shaker ou la création d’une nouvelle expérience collaborative — Anatomie d’une feature",
+        "date": "2024/07/03"
       }
     ]
   },
@@ -169,6 +217,11 @@
     "mediaType": "podcast",
     "sources": [
       {
+        "type": "site",
+        "url": "https://la-couleur-de-lart.lepodcast.fr/",
+        "accessDescription": "Accéder au site web du podcast La couleur de l'art"
+      },
+      {
         "type": "transcription",
         "url": "https://drive.google.com/drive/folders/1EJny-BbLuy5yfFLuMs9dK-QRLs7dNi5r",
         "accessDescription": "Accéder aux transcriptions du podcast La Clameur"
@@ -185,7 +238,7 @@
     "sources": [
       {
         "type": "site",
-        "url": "https://www.laurent-naudier.fr/le-barboteur/",
+        "url": "https://www.laurent-naudier.fr/reserve-creative/",
         "accessDescription": "Accéder au site web du podcast Le Barboteur"
       }
     ]
@@ -196,7 +249,7 @@
     "mainDescription": null,
     "informationMessage": {
       "type": "info",
-      "content": "Accessibilité partielle. A partir de l'épisode 21."
+      "content": "Accessibilité partielle. A partir de l'épisode 21 à 31 puis de l'épisode 33 à 37."
     },
     "authors": ["Apolline Rouzé"],
     "mediaType": "podcast",
@@ -205,6 +258,102 @@
         "type": "site",
         "url": "https://apollinerouze.fr/",
         "accessDescription": "Accéder au site web du podcast Le Brief"
+      },
+      {
+        "type": "link",
+        "url": "https://apollinerouze.fr/integrer-ux-writing-dans-une-equipe-design-paul-thanasack/",
+        "accessDescription": "21. Comment intégrer l'UX Writing dans une équipe design ? - avec Paul Thanasack",
+        "date": "2021/04/14"
+      },
+      {
+        "type": "link",
+        "url": "https://apollinerouze.fr/accessibilite-numerique-anne-sophie-tranchet/",
+        "accessDescription": "22. L'accessibilité numérique, un droit pour tous | Anne-Sophie Tranchet",
+        "date": "2021/06/05"
+      },
+      {
+        "type": "link",
+        "url": "https://apollinerouze.fr/ux-redaction-web-etienne-denis/",
+        "accessDescription": "23. L'UX : indispensable à la rédaction web | Étienne Denis",
+        "date": "2021/05/26"
+      },
+      {
+        "type": "link",
+        "url": "https://apollinerouze.fr/ux-writing-copywriting-justine-sudraud/",
+        "accessDescription": "24. UX Writing vs Copywriting : quelle différence ? | Justine Sudraud",
+        "date": "2021/06/17"
+      },
+      {
+        "type": "link",
+        "url": "https://apollinerouze.fr/voix-dentreprise-benjamin-perrin/",
+        "accessDescription": "25. La voix d'entreprise : restez vrai | Benjamin Perrin",
+        "date": "2021/07/07"
+      },
+      {
+        "type": "link",
+        "url": "https://apollinerouze.fr/le-brief-saison-1-bilan",
+        "accessDescription": "26. Le Brief, un an après : le bilan",
+        "date": "2021/07/23"
+      },
+      {
+        "type": "link",
+        "url": "https://apollinerouze.fr/redaction-technique-alexandre-dias-da-silva/",
+        "accessDescription": "27. La rédaction technique : une information utile et minimaliste | Alexandre Dias Da Silva",
+        "date": "2021/09/29"
+      },
+      {
+        "type": "link",
+        "url": "https://apollinerouze.fr/architecture-dinformations-gladys-diandoki",
+        "accessDescription": "28. L'architecture d'informations, pour une interface utilisable | Gladys Diandoki",
+        "date": "2021/10/21"
+      },
+      {
+        "type": "link",
+        "url": "https://apollinerouze.fr/seo-ux-writing-sacheen-sierro/",
+        "accessDescription": "29. SEO vs UX, contenu long vs court : des faux débats | Sacheen Sierro",
+        "date": "2021/11/05"
+      },
+      {
+        "type": "link",
+        "url": "https://apollinerouze.fr/culture-produit-ux-writing-kevin-deniau-tanguy-verluise/",
+        "accessDescription": "30. Culture produit & UX writing | Kévin Deniau & Tanguy Verluise, fondateurs du Ticket",
+        "date": "2021/12/03"
+      },
+      {
+        "type": "link",
+        "url": "https://apollinerouze.fr/31-structurer-equipe-ux-writers-melanie-alves-lima-hanna-anthony-qonto/",
+        "accessDescription": "31. Structurer une équipe d'UX writers | Mélanie Alves Lima & Hanna Anthony - Qonto",
+        "date": "2021/12/16"
+      },
+      {
+        "type": "link",
+        "url": "https://www.lorem-uxwriting.com/blog/articles/trio-de-choc-la-collaboration-entre-product-designer-product-manager-ux-writer",
+        "accessDescription": "33. La collaboration entre Product manager, Product designer & UX writer | Fanny Laverty & Cassandra Mansiamina @Qonto",
+        "date": "2024/01/25"
+      },
+      {
+        "type": "link",
+        "url": "https://www.lorem-uxwriting.com/blog/articles/content-ops-livrer-le-meilleur-contenu-produit-camille-promrat-content-ops-manager-chez-mirakl",
+        "accessDescription": "34. Content Ops : livrer le meilleur contenu produit | Camille Promérat, Content Ops Manager @Mirakl",
+        "date": "2024/02/21"
+      },
+      {
+        "type": "link",
+        "url": "https://www.lorem-uxwriting.com/blog/articles/repositionner-et-structurer-lexpertise-contenu-chez-prestashop",
+        "accessDescription": "35. Repositionner et structurer l’expertise contenu chez PrestaShop | Axel Viersac, Lead UX writer",
+        "date": "2024/03/27"
+      },
+      {
+        "type": "link",
+        "url": "https://www.lorem-uxwriting.com/blog/articles/crer-une-quipe-content-design-localisation-pour-une-exprience-contenu-end-to-end",
+        "accessDescription": "36. Créer une équipe Content design & localisation, pour une expérience contenu end-to-end | Sophie Ianiro, Content Design Lead @BlaBlaCar",
+        "date": "2024/04/30"
+      },
+      {
+        "type": "link",
+        "url": "https://www.lorem-uxwriting.com/blog/articles/legal-design-rendre-le-droit-transparent-accessible-et-actionnable",
+        "accessDescription": "37. Legal design, rendre le droit transparent, accessible et actionnable | Marie-Potel Saville, fondatrice @Amurabi et @Fairpatterns",
+        "date": "2024/05/31"
       }
     ]
   },
@@ -228,7 +377,7 @@
   },
   {
     "title": "Le Feuilleton des Luttes",
-    "subtitle": "UX Content Craft, le podcast",
+    "subtitle": null,
     "mainDescription": null,
     "informationMessage": {
       "type": "warning",
@@ -371,7 +520,8 @@
       {
         "type": "link",
         "url": "https://siecledigital.fr/2021/11/18/bienvenue-dans-le-metavers/",
-        "accessDescription": "Bienvenue dans le metavers"
+        "accessDescription": "Bienvenue dans le metavers",
+        "date": "2021/11/18"
       }
     ]
   },
@@ -409,24 +559,6 @@
     ]
   },
   {
-    "title": "La Chute",
-    "subtitle": "Un podcast de William Reymond",
-    "mainDescription": "La chute, une expérience unique, pour vous permettre de vivre et comprendre l’Histoire des États-Unis à mesure qu’elle s’écrit.Nous sommes ensemble jusqu’au 21 janvier. Attachez-vos ceintures, la chute c’est maintenant.",
-    "informationMessage": {
-      "type": "info",
-      "content": "Accessibilité partielle. Saison 1 épisode 5 à 13 et Saison 2 épisode 1."
-    },
-    "authors": ["William Reymond"],
-    "mediaType": "podcast",
-    "sources": [
-      {
-        "type": "site",
-        "url": "http://hcommehandipodcast.fr/fr",
-        "accessDescription": "Accéder au site web du podcast La Chute"
-      }
-    ]
-  },
-  {
     "title": "HappiCulture",
     "subtitle": "Le podcast sur des chevaux et des alternatives à l’équitation classique",
     "mainDescription": null,
@@ -459,15 +591,18 @@
   {
     "title": "Ni ton hindou, ni ton pakpak",
     "subtitle": "Le podcast qui traite des thématiques liées aux diasporas sud asiatiques.",
-    "mainDescription": null,
-    "informationMessage": null,
+    "mainDescription": "Mais qui sont les sud asiatiques de France ? Sont-iels toutes et tous indiens et indiennes ? Qui fait partie de cette zone qu'on appelle le sous continent indien ? Partie du constat que cette communauté est invisible en France, je souhaite participer à la visibilité et ouvrir la parole pour plus de représentativité. ",
+    "informationMessage": {
+      "type": "info",
+      "content": "Accessibilité partielle. Un épisode disponible."
+    },
     "authors": ["Pulandevii"],
     "mediaType": "podcast",
     "sources": [
       {
-        "type": "youtube",
-        "url": "https://www.youtube.com/channel/UChbgcyfMvdEDx2OlYQ3S7LQ",
-        "accessDescription": "Accéder à la chaîne Ni ton hindou, ni ton pakpak sur YouTube"
+        "type": "link",
+        "url": "https://docs.google.com/document/d/1XKnohaIYXfyAin_dAudMIYe3vpJ4J19tiXpbvI3ygv0/edit",
+        "accessDescription": "5 - Reprise du podcast, perfectionnisme, communautés sud asiatiques"
       }
     ]
   },
@@ -502,27 +637,28 @@
     ]
   },
   {
-    "title": "Les visites du Centre Pompidou",
+    "title": "Un podcast, une œuvre du Centre Pompidou",
     "subtitle": null,
-    "mainDescription": "Des parcours d’aide à la visite des expositions et de la collection du Musée.",
+    "mainDescription": "Abordez les grandes questions de société à travers une œuvre et son auteur. L’émission « Un podcast, une œuvre » vous propose d’explorer une œuvre phare de la collection, à partir d’archives, d’interviews inédites, de points de vue détonants et de musiques actuelles.",
     "informationMessage": {
       "type": "warning",
       "content": "Transcriptions en PDF, ce n'est pas accessible pour les personnes malvoyantes ou aveugles."
     },
+    "enabled": true,
     "authors": null,
     "mediaType": "podcast",
     "sources": [
       {
         "type": "site",
-        "url": "https://www.centrepompidou.fr/fr/visite/podcasts/les-visites-du-centre-pompidou",
-        "accessDescription": "Accéder au site web du podcast Les visites du Centre Pompidou"
+        "url": "https://www.centrepompidou.fr/fr/podcasts/",
+        "accessDescription": "Accéder au site web du podcast, une œuvre du Centre Pompidou"
       }
     ]
   },
   {
     "title": "Nouvelles Écoutes",
     "subtitle": null,
-    "mainDescription": null,
+    "mainDescription": "Nouvelles Écoutes est une marque de podcast français qui produit et diffuse un catalogue de créations originales, destiné à tous les publics. Exigeant et iconoclaste, le studio accompagne les talents audacieux, et met tout son savoir-faire au service de la création et de programmes authentiques et originaux. Ses podcasts narratifs -documentaires ou fictions- et ses talk-show mordants à la langue drôle et parfois acerbe, surprennent et bousculent. Avec Nouvelles Écoutes, sortez des sentiers battus. Au-delà de ses programmes originaux, Nouvelles Écoutes est derrière la régie premium Native*, la seule régie intégrée au cœur d’un studio de production, et qui regroupe les podcasts natifs parmi les plus écoutés de France. Nouvelles Écoutes est aussi un studio de création audio en marque blanche, qui conseille et accompagne ses annonceurs dans la conception, la réalisation, la diffusion et la promotion de leurs podcasts. Depuis septembre 2022, Nouvelles Écoutes s’est installé comme le leader du podcast en France avec l’entrée à son capital de PodX Group, groupe suédois dédié au développement des studios de podcasts, et l’acquisition de Studio Minuit.",
     "informationMessage": {
       "type": "warning",
       "content": "Transcriptions en PDF, ce n'est pas accessible pour les personnes malvoyantes ou aveugles."
@@ -568,28 +704,18 @@
   {
     "title": "Sismique",
     "subtitle": null,
-    "mainDescription": null,
+    "mainDescription": "Sismique est un podcast sur les enjeux d’un monde en pleine mutation : crise écologique, accélération technologique, bouleversements géopolitiques, culturels et économiques… Des interviews d’experts, de penseurs et d’acteurs d’un monde en mouvement pour comprendre ce que demain nous prépare… et s’y préparer.",
     "informationMessage": {
       "type": "info",
-      "content": "Accessibilité partielle. Trois épisodes disponibles."
+      "content": "Accessibilité partielle. A partir de l'épisode #113."
     },
-    "authors": null,
+    "authors": ["Julien Devaureix"],
     "mediaType": "podcast",
     "sources": [
       {
-        "type": "link",
-        "url": "https://www.sismique.fr/post/113-sommes-nous-trop-sur-terre-emmanuel-pont",
-        "accessDescription": "« #113 - Sommes-nous trop sur Terre ? »"
-      },
-      {
-        "type": "link",
-        "url": "https://www.sismique.fr/post/114-le-mythe-de-la-meritocratie-samah-karaki",
-        "accessDescription": "« #114 - Le mythe de la méritocratie »"
-      },
-      {
-        "type": "link",
-        "url": "https://www.sismique.fr/post/115-agriculture-et-climat-serge-zaka",
-        "accessDescription": "« #114 - Le mythe de la méritocratie »"
+        "type": "site",
+        "url": "https://www.sismique.fr/blog",
+        "accessDescription": "Accéder au site web de Sismique"
       }
     ]
   },
@@ -659,7 +785,7 @@
   {
     "title": "PRÉSENT.E",
     "subtitle": "Plongez dans l’intimité de la création",
-    "mainDescription": "PRÉSENT.E est un podcast bi-mensuel sur l’art contemporain",
+    "mainDescription": "PRÉSENT.E est un podcast bi-mensuel sur l’art contemporain fondé par la critique d’art Camille Bardin. Chaque épisode est enregistré dans l’intimité d’un atelier d’artiste et propose une approche inédite du travail puisque les questions posées portent davantage sur les réflexions, les doutes et les anecdotes qu’engendrent la création que sur les oeuvres en elles-même. ",
     "informationMessage": null,
     "authors": ["Camille Bardin"],
     "mediaType": "podcast",
@@ -681,7 +807,7 @@
     "sources": [
       {
         "type": "site",
-        "url": "https://www.partielles.com/tag/transcriptions/",
+        "url": "https://www.partielles.com/category/transcriptions/",
         "accessDescription": "Accéder au site web du podcast Partielles"
       }
     ]
@@ -714,17 +840,17 @@
     "sources": [
       {
         "type": "site",
-        "url": "https://passionmedievistes.fr/category/retranscriptions/",
+        "url": "https://www.sciencespo.fr/gender-studies/fr/programme/podcast-genre-etc/",
         "accessDescription": "Accéder au site web du podcast Genre, etc."
       }
     ]
   },
   {
     "title": "Parlons recrutement",
-    "subtitle": "Plongez dans l’intimité de la création",
-    "mainDescription": "PRÉSENT.E est un podcast bi-mensuel sur l’art contemporain",
+    "subtitle": null,
+    "mainDescription": "Retrouvez dans cette playlist tous les podcasts de Valérie Legendre, consultante du Florian Mantione Institut en région PACA. Ces podcasts dédiés au #recrutement s'adressent à tous : entreprises/entrepreneurs et candidats.",
     "informationMessage": null,
-    "authors": null,
+    "authors": ["Valérie Legendre"],
     "mediaType": "podcast",
     "sources": [
       {
@@ -737,14 +863,14 @@
   {
     "title": "Micro-ondes Cérébrales",
     "subtitle": "Le podcast qui réchauffe vos méninges !",
-    "mainDescription": null,
+    "mainDescription": "Mélissa Canseliet, experte des comportements en ligne, et Guillaume Genest, designer d'interface, analysent et décryptent les biais cognitifs qui entrent en jeu dans notre rapport au numérique.",
     "informationMessage": null,
-    "authors": null,
+    "authors": ["Mélissa Canseliet", "Guillaume Genest"],
     "mediaType": "podcast",
     "sources": [
       {
         "type": "site",
-        "url": "https://www.librealire.org/-transcriptions-",
+        "url": "https://micro-ondes-cerebrales.webflow.io/",
         "accessDescription": "Accéder au site web de Micro-ondes Cérébrales"
       }
     ]
@@ -759,7 +885,7 @@
     "sources": [
       {
         "type": "site",
-        "url": "https://www.mecreantes.com/le-podcast",
+        "url": "https://mecreantes.buzzsprout.com/",
         "accessDescription": "Accéder au site web du podcast Mécréantes"
       }
     ]
@@ -767,7 +893,7 @@
   {
     "title": "Rebelles Intelligents",
     "subtitle": null,
-    "mainDescription": "Une interview tous les mois d’un Rebelle Intelligent, qui partage comment il a réussi à accomplir quelque chose qui a de la gueule, tout en sortant des sentiers battus.",
+    "mainDescription": "Une interview tous les mois d’un Rebelle Intelligent, qui partage comment il a réussi à accomplir quelque chose qui a de la gueule, tout en sortant des sentiers battus. \n\n Par Olivier Roland, auteur de « Tout le monde n’a pas eu la chance de rater ses études », entrepreneur et conférencier. \n\n Qu’est-ce qu’un Rebelle Intelligent ? Quelqu’un qui peut avoir tous les signes extérieurs de succès, un bon diplôme, un bon emploi, une bonne maison, une bonne voiture, une bonne famille, etc. mais qui sent qu’il y a autre chose que « obtient le meilleur diplôme possible, travaille pendant les meilleures années de ta vie, puis éventuellement commence à profiter de la vie quand il ne t’en reste plus beaucoup », et que s’il continue comme cela, il va se dessécher de l’intérieur. \n\n Le moyen pour le Rebelle Intelligent de s’épanouir est la création : la création artistique (écrire un livre ou une pièce de théâtre), la création d’une aventure (un tour du monde pendant un an), la création d’une entreprise…",
     "informationMessage": null,
     "authors": ["Olivier Roland"],
     "mediaType": "podcast",
@@ -782,20 +908,25 @@
   {
     "title": "Rebond, vivre avec le handicap",
     "subtitle": null,
-    "mainDescription": "Dans le podcast Rebond, en partenariat avec l’Agefiph, le journal Le Monde interroge 12 personnalités sur leur rapport au handicap et comment elles y font face. Un handicap qu'elles connaissent depuis leur naissance, qui les touchent depuis un accident ou une maladie. Un handicap qui les concerne directement ou affecte un être cher. Le handicap partage la vie d’un Français sur cinq. Il peut bouleverser le quotidien, la famille, le travail, la scolarité mais aussi créer des opportunités et permettre des rencontres. Alors, comment vivre avec un handicap ?",
+    "mainDescription": "Dans le podcast Rebond, en partenariat avec l’Agefiph, le journal Le Monde interroge des personnalités sur leur rapport au handicap et comment elles y font face. Un handicap qu'elles connaissent depuis leur naissance, qui les touchent depuis un accident ou une maladie. Un handicap qui les concerne directement ou affecte un être cher. Le handicap partage la vie d’un Français sur cinq. Il peut bouleverser le quotidien, la famille, le travail, la scolarité mais aussi créer des opportunités et permettre des rencontres. Alors, comment vivre avec un handicap ?",
     "informationMessage": null,
     "authors": null,
     "mediaType": "podcast",
     "sources": [
       {
-        "type": "transcription",
+        "type": "link",
         "url": "https://www.agefiph.fr/actualites-handicap/rebond-vivre-avec-le-handicap-le-nouveau-podcast-du-monde",
-        "accessDescription": "Accéder aux transcriptions du podcast Rebond, vivre avec le handicap"
+        "accessDescription": "Saison 1 du podcast Rebond, vivre avec le handicap"
+      },
+      {
+        "type": "link",
+        "url": "https://www.agefiph.fr/actualites-handicap/seeph-2023-diffusion-de-la-saison-3-du-podcast-rebond-vivre-avec-le-handicap-le",
+        "accessDescription": "Saison 3 du podcast Rebond, vivre avec le handicap"
       }
     ]
   },
   {
-    "title": "Salut les designers",
+    "title": "Salut les designers, le podcast de l'Agence LunaWeb",
     "subtitle": null,
     "mainDescription": "\"Salut les Designers !\" est le podcast de l’Agence LunaWeb consacré au design et à ses méthodes. UI, UX, motion, accessibilité, recherche, nous échangeons avec des professionnel·les passionné·es au grès de nos rencontres et de nos envies ! ",
     "informationMessage": null,
@@ -829,13 +960,18 @@
     "subtitle": null,
     "mainDescription": "Un podcast autour sur la littérature jeunesse.",
     "informationMessage": null,
-    "authors": null,
+    "authors": ["AMAtelier"],
     "mediaType": "podcast",
     "sources": [
       {
         "type": "youtube",
         "url": "https://www.youtube.com/playlist?list=PLqtnrWHUIjga_9mHBKm4bixDpu99VB9_k",
         "accessDescription": "Accéder à la chaîne Lithérature sur YouTube"
+      },
+      {
+        "type": "transcription",
+        "url": "https://drive.google.com/drive/u/0/folders/1HxZLVMoogj-e_Q0NvQc6tjfwYqDI4Ki9",
+        "accessDescription": "Accéder aux transcriptions du podcast Lithérature"
       }
     ]
   },
@@ -859,12 +995,13 @@
     "subtitle": null,
     "mainDescription": "Le podcast qui tente de lier technologie et écologie alors que tout les oppose.",
     "informationMessage": null,
+    "enabled": true,
     "authors": [],
     "mediaType": "podcast",
     "sources": [
       {
         "type": "transcription",
-        "url": "https://drive.google.com/drive/folders/1B6NCMLUPQnNgcygObDlgeMmP-FukfQZP",
+        "url": "https://techologie.net/episodes-retranscrits/",
         "accessDescription": "Accéder aux transcriptions du podcast Technologie"
       }
     ]
@@ -877,6 +1014,7 @@
       "type": "warning",
       "content": "Accessibilité partielle. Trois épisodes disponibles. \nTranscriptions en PDF, ce n'est pas accessible pour les personnes malvoyantes ou aveugles."
     },
+    "enabled": false,
     "authors": ["Charlotte Bienaimé"],
     "mediaType": "podcast",
     "sources": [
@@ -889,6 +1027,11 @@
         "type": "link",
         "url": "https://www.arteradio.com/son/61659226/les_combattantes_du_sport_et_du_genre_2",
         "accessDescription": "Episode 2 - Les combattantes du sport et du genre"
+      },
+      {
+        "type": "link",
+        "url": "https://www.arteradio.com/son/61664127/prendre_soin_penser_en_feministes_le_monde_d_apres",
+        "accessDescription": "Episode 26 - Prendre soin, penser en féministes le monde d'après"
       }
     ]
   },
@@ -900,6 +1043,7 @@
       "type": "info",
       "content": "Accessibilité partielle. Un épisode disponible."
     },
+    "enabled": false,
     "authors": [],
     "mediaType": "podcast",
     "sources": [
@@ -918,6 +1062,7 @@
       "type": "info",
       "content": "Accessibilité partielle."
     },
+    "enabled": true,
     "authors": ["Marine Baousson"],
     "mediaType": "podcast",
     "sources": [
@@ -941,6 +1086,7 @@
       "type": "warning",
       "content": "Transcription en PDF, ce n'est pas accessible pour les personnes malvoyantes ou aveugles."
     },
+    "enabled": true,
     "authors": ["Julie Beauzac"],
     "mediaType": "podcast",
     "sources": [
@@ -952,8 +1098,8 @@
     ]
   },
   {
-    "title": "Hippod'caste [Focus Humain - Accessibilité et Inclusion]",
-    "subtitle": "Une série sur l'accessibilité et l'inclusion numérique",
+    "title": "Hippod'caste",
+    "subtitle": "Un podcast sur la croissance numérique éthique d'HippoCampe",
     "mainDescription": null,
     "informationMessage": null,
     "authors": null,
@@ -962,27 +1108,110 @@
       {
         "type": "link",
         "url": "https://www.hippocampe.fr/blog/hippodcast-focus-humain-accessibilite-et-inclusion-episode-1/",
-        "accessDescription": "Episode 1 - L'accessibilité et l'inclusion numérique : les bases"
+        "accessDescription": "[Focus Humain - Accessibilité et Inclusion] Episode 1 - L'accessibilité et l'inclusion numérique : les bases",
+        "date": "2021/11/18"
       },
       {
         "type": "link",
         "url": "https://www.hippocampe.fr/blog/hippodcast-focus-humain-accessibilite-et-inclusion-episode-2/",
-        "accessDescription": "Episode 2 - L'accessibilité et l'inclusion numérique : le cadre légal"
+        "accessDescription": "[Focus Humain - Accessibilité et Inclusion] Episode 2 - L'accessibilité et l'inclusion numérique : le cadre légal",
+        "date": "2021/12/09"
       },
       {
         "type": "link",
         "url": "https://www.hippocampe.fr/blog/hippodcast-focus-humain-accessibilite-et-inclusion-episode-3/",
-        "accessDescription": "Episode 3 - L'accessibilité et l'inclusion numérique au quotidien"
+        "accessDescription": "[Focus Humain - Accessibilité et Inclusion] Episode 3 - L'accessibilité et l'inclusion numérique au quotidien",
+        "date": "2022/04/01"
       },
       {
         "type": "link",
         "url": "https://www.hippocampe.fr/blog/hippodcast-focus-humain-accessibilite-et-inclusion-episode-4/",
-        "accessDescription": "Episode 4 - La communication accessible et inclusive"
+        "accessDescription": "[Focus Humain - Accessibilité et Inclusion] Episode 4 - La communication accessible et inclusive",
+        "date": "2022/01/20"
       },
       {
         "type": "link",
         "url": "https://www.hippocampe.fr/blog/hippodcast-focus-humain-accessibilite-et-inclusion-episode-5/",
-        "accessDescription": "Episode 5 - Les conclusions de notre enquête sur l'accessibilité et l'inclusion numérique"
+        "accessDescription": "[Focus Humain - Accessibilité et Inclusion] Episode 5 - Les conclusions de notre enquête sur l'accessibilité et l'inclusion numérique",
+        "date": "2022/01/26"
+      },
+      {
+        "type": "link",
+        "url": "https://www.hippocampe.fr/blog/bases-focus-numerique-ecoresponsable-episode-1/",
+        "accessDescription": "[Focus numérique écoresponsable] Episode 1 : les bases du numérique écoresponsable",
+        "date": "2022/05/03"
+      },
+      {
+        "type": "link",
+        "url": "https://www.hippocampe.fr/blog/cadre-legislatif-focus-numerique-ecoresponsable-episode-2/",
+        "accessDescription": "[Focus numérique écoresponsable] Episode 2 : Le cadre législatif du numérique écoresponsable",
+        "date": "2022/06/30"
+      },
+      {
+        "type": "link",
+        "url": "https://www.hippocampe.fr/blog/usages-numeriques-terminaux-focus-numerique-ecoresponsable-episode-3/",
+        "accessDescription": "[Focus numérique écoresponsable] Episode 3 : les usages numériques et terminaux",
+        "date": "2022/06/14"
+      },
+      {
+        "type": "link",
+        "url": "https://www.hippocampe.fr/blog/ecoconception-communication-ecoresponsable-focus-numerique-ecoresponsable-episode-4/",
+        "accessDescription": "[Focus numérique écoresponsable] Episode 4 : éco-conception et communication éco-responsable",
+        "date": "2022/06/30"
+      },
+      {
+        "type": "link",
+        "url": "https://www.hippocampe.fr/blog/histoire-entreprise-communication-focus-entreprise-de-demain-episode-1/",
+        "accessDescription": "[Focus entreprise de demain] Episode 1 : Histoire des entreprises et de leur communication",
+        "date": "2023/04/18"
+      },
+      {
+        "type": "link",
+        "url": "https://www.hippocampe.fr/blog/evolution-rapport-entreprise-focus-entreprise-de-demain-episode-2/",
+        "accessDescription": "[Focus entreprise de demain] Episode 2 : Évolution de notre rapport à l’entreprise",
+        "date": "2023/04/18"
+      },
+      {
+        "type": "link",
+        "url": "https://www.hippocampe.fr/blog/gestion-organisation-legale-entreprise-focus-entreprise-de-demain-episode-3/",
+        "accessDescription": "[Focus entreprise de demain] Episode 3 : Gestion et organisation légale de l’entreprise",
+        "date": "2023/04/18"
+      },
+      {
+        "type": "link",
+        "url": "https://www.hippocampe.fr/blog/communication-deontologique-modele-economique-focus-entreprise-de-demain-episode-4/",
+        "accessDescription": "[Focus entreprise de demain] Episode 4 : Communication déontologique et modèle économique",
+        "date": "2023/04/18"
+      },
+      {
+        "type": "link",
+        "url": "https://www.hippocampe.fr/blog/mieux-manager-communiquer-equipe-focus-entreprise-de-demain-episode-5/",
+        "accessDescription": "[Focus entreprise de demain] Episode 5 : Mieux manager et communiquer avec son équipe",
+        "date": "2023/04/18"
+      },
+      {
+        "type": "link",
+        "url": "https://www.hippocampe.fr/blog/organiser-entreprise-pour-impliquer-equipe-focus-entreprise-de-demain-episode-6/",
+        "accessDescription": "[Focus entreprise de demain] Episode 6 : Organiser son entreprise pour impliquer ses équipes",
+        "date": "2023/04/18"
+      },
+      {
+        "type": "link",
+        "url": "https://www.hippocampe.fr/blog/eviter-washing-communiquer-responsable-focus-entreprise-de-demain-episode-7/",
+        "accessDescription": "[Focus entreprise de demain] Episode 7 : Eviter le washing et communiquer responsable",
+        "date": "2023/04/18"
+      },
+      {
+        "type": "link",
+        "url": "https://www.hippocampe.fr/blog/vers-entreprise-demain-episode-8/",
+        "accessDescription": "[Focus entreprise de demain] Episode 8 : Vers l’entreprise de demain",
+        "date": "2023/04/18"
+      },
+      {
+        "type": "link",
+        "url": "https://www.hippocampe.fr/blog/exemples-entreprises-focus-entreprise-de-demain-episode-9/",
+        "accessDescription": "[Focus entreprise de demain] Episode  9 : Des entreprises qui ont sauté le pas",
+        "date": "2023/04/18"
       }
     ]
   },
@@ -992,6 +1221,7 @@
     "mainDescription": null,
     "informationMessage": null,
     "authors": ["Emmanuel Demey", "Fanny Demey"],
+    "enabled": false,
     "mediaType": "podcast",
     "sources": [
       {
