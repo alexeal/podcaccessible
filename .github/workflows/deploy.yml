@@ -1,28 +1,31 @@
-name: Deploy Angular site to GitHub Pages
+name: Build and Deploy
 
 on:
   push:
     branches:
-      - main
-
+      - master
 jobs:
-  build-deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
+      - name: Checkout
+        uses: actions/checkout@v1
+      - uses: actions/setup-node@v1 #this installs node and npm for us
         with:
-          node-version: "18.19.1"
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Build Angular app
-        run: npm run build -- --output-path=docs --base-href="/podcaccessible/"
-
-      - name: Deploy to GitHub Pages
-        run: npx angular-cli-ghpages --dir=docs/browser
+          node-version: "10.x"
+      - uses: actions/cache@v1
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+      - name: Build
+        run: |
+          npm install
+          npm run-script deploy
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: docs/browser
