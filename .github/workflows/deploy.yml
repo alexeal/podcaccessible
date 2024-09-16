@@ -1,0 +1,28 @@
+name: Deploy Angular site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build Angular app
+        run: npm run build -- --output-path=docs --base-href="/<repository-name>/"
+
+      - name: Deploy to GitHub Pages
+        run: npx angular-cli-ghpages --dir=docs
