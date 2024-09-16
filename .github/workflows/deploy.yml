@@ -25,4 +25,4 @@ jobs:
         run: npm run build -- --output-path=docs --base-href="/<repository-name>/"
 
       - name: Deploy to GitHub Pages
-        run: npx angular-cli-ghpages --dir=docs
+        run: npx angular-cli-ghpages --dir=docs/browser
