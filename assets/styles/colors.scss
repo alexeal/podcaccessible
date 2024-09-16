@@ -1,0 +1,58 @@
+:root {
+  --body-bg: #fafafa;
+  --primary-color: #333333;
+  --primary-text: #787878;
+  --secondary-text: #ab9a9a;
+  --success-text: #296b3c;
+  --error-text: #d95652;
+  --card-media-text: #ffffff;
+  --border-input: #353535;
+  --btn-primary: var(--border-input);
+  --btn-primary-text: #ffffff;
+  --btn-primary-hover: #4d4d4d;
+  --btn-youtube: #c4302b;
+  --btn-youtube-hover: #d95652;
+  --btn-transcription: #6a3715;
+  --btn-transcription-hover: #86461b;
+  --btn-website: #474763;
+  --btn-website-hover: #616284;
+  --btn-action: #5b5b5b;
+  --btn-action-btn: #5b5b5b;
+  --ul-background: #eae9e9;
+  --card-background: #ffffff;
+  --border: #dbdbdb;
+  --shadow: #dbdbdb;
+  --shadow-hover: black;
+  --switch-bg: #484848;
+  --switch-btn: #ffcf40;
+  --warning-text: #51370b;
+  --warning-bg: #f4ebbb;
+  --info-text: #0c5460;
+  --info-bg: #d1ecf1;
+  --search-input-bg: #ffffff;
+  --search-input-text: #112A46;
+}
+
+.dark-theme {
+  --body-bg: #121212;
+  --primary-color: #e3e3e3;
+  --secondary-text: #C1AFAF;
+  --shadow: black;
+  --shadow-hover: #dbdbdb;
+  --card-background: #484848;
+  --ul-background: #484848;
+  --primary-text: #aaa9a9;
+  --switch-bg: #ffcf40;
+  --switch-btn: #484848;
+  --warning-text: #f4ebbb;
+  --warning-bg: #84632c;
+  --info-text: #d1ecf1;
+  --info-bg: #0c5460;
+  --btn-youtube: #d95652;
+  --btn-youtube-hover: #c4302b;
+  --btn-website: #616284;
+  --btn-website-hover: #474763;
+  --btn-transcription: #86461b;
+  --btn-transcription-hover: #6a3715;
+  --search-input-bg: #e3e3e3;
+}
