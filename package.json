@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy": "ng build --base-href=/podcaccessible/"
+    "deploy": "ng build --base-href=https://alexeal.github.io/podcaccessible/"
   },
   "private": true,
   "dependencies": {
