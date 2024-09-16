@@ -8,9 +8,7 @@ on:
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./docs/browser
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -24,7 +22,7 @@ jobs:
         run: npm install
 
       - name: Build Angular app
-        run: npm run build -- --output-path=docs/browser --base-href="/podcaccessible/"
+        run: npm run build
 
       - name: Deploy to GitHub Pages
-        run: npx angular-cli-ghpages --dir=docs/browser --no-silent
+        run: npx angular-cli-ghpages --dir=docs/browser
