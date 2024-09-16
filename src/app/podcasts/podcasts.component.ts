@@ -1,6 +1,5 @@
 import { CommonModule, registerLocaleData } from '@angular/common';
-import { Component, LOCALE_ID } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { Component, inject, LOCALE_ID } from '@angular/core';
 import { BehaviorSubject, Observable, combineLatest, map } from 'rxjs';
 import { Media } from '../../models/media.model';
 import { MediaSource } from '../../models/source.model';
@@ -18,20 +17,28 @@ registerLocaleData(localeFr, 'fr');
   providers: [{ provide: LOCALE_ID, useValue: 'fr-FR' }],
 })
 export class PodcastsComponent {
+  private mediaService: MediaService = inject(MediaService);
+
   podcasts$: Observable<Array<Media>>;
   searchQuery$ = new BehaviorSubject<string>('');
+  searchEnabled$ = new BehaviorSubject<boolean | null>(null);
   isSearching = false;
-  constructor(
-    private mediaService: MediaService,
-    private activatedRoute: ActivatedRoute
-  ) {
+  constructor() {
     this.podcasts$ = combineLatest([
       this.searchQuery$,
+      this.searchEnabled$,
       this.mediaService.getPodcasts(),
     ]).pipe(
-      map(([searchQuery, data]) => {
-        this.isSearching = searchQuery !== '';
-        return data.filter((x) =>
+      map(([searchQuery, searchEnabled, data]) => {
+        this.isSearching = searchQuery !== '' || searchEnabled === true;
+
+        let dataFiltred = data;
+
+        if (searchEnabled === true) {
+          dataFiltred = dataFiltred.filter((x) => x['enabled'] === true);
+        }
+
+        return dataFiltred.filter((x) =>
           x['title']
             .toLocaleLowerCase()
             .includes(searchQuery.toLocaleLowerCase())
@@ -44,6 +51,9 @@ export class PodcastsComponent {
   }
   onSearchUpdated(searchQuery: string) {
     this.searchQuery$.next(searchQuery);
+  }
+  onFilterEnabled(searchEnabled: boolean | null) {
+    this.searchEnabled$.next(searchEnabled);
   }
   scrollToTop() {
     window.scrollTo({ top: 0, behavior: 'smooth' });

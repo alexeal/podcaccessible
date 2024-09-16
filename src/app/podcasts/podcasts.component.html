@@ -12,6 +12,18 @@
     />
   </div>
 
+  <div class="centered-div" role="form">
+    <input
+      type="checkbox"
+      id="chkEnabled"
+      #searchEnabled
+      (click)="onFilterEnabled(searchEnabled.checked)"
+    />
+    <label for="chkEnabled" class="primary-color"
+      >Afficher les podcasts actifs</label
+    >
+  </div>
+
   @if(this.isSearching){
   <p
     role="alert"
@@ -26,7 +38,15 @@
   <div class="podcast" tabindex="0" role="article">
     <h2 class="title">{{ podcast.title }}</h2>
     <h3 class="subtitle" *ngIf="podcast.subtitle">{{ podcast.subtitle }}</h3>
-    @if (podcast.informationMessage && podcast.informationMessage.type) {
+
+    @if(podcast.enabled === false){
+    <p class="warning">
+      <span class="icon-attention"></span>
+      <span class="sr-only">Attention&nbsp;</span>
+      Ce podcast peut être inactif, n'a pas été mis à jour récemment ou ne
+      contient pas d'autres transcriptions.
+    </p>
+    } @if (podcast.informationMessage && podcast.informationMessage.type) {
     <p
       [ngClass]="
         podcast.informationMessage.type === 'warning' ? 'warning' : 'info'

@@ -6,6 +6,7 @@
     "informationMessage": null,
     "authors": null,
     "mediaType": "podcast",
+    "enabled": false,
     "sources": [
       {
         "type": "youtube",
@@ -39,6 +40,7 @@
     "subtitle": "Le podcast pour les écolos imparfaits.",
     "mainDescription": null,
     "informationMessage": null,
+    "enabled": false,
     "authors": ["Anne-Sophie"],
     "mediaType": "podcast",
     "sources": [
@@ -58,6 +60,7 @@
       "content": "Accessibilité partielle."
     },
     "authors": null,
+    "enabled": false,
     "mediaType": "podcast",
     "sources": [
       {
@@ -80,32 +83,13 @@
     ]
   },
   {
-    "title": "Conférence Access 42",
-    "subtitle": null,
-    "mainDescription": "Conférence animé par Marie Guillaumet et Audrey Maniez.",
-    "informationMessage": null,
-    "authors": ["Marie Guillaumet", "Audrey Maniez"],
-    "mediaType": "podcast",
-    "sources": [
-      {
-        "type": "link",
-        "url": "https://access42.net/transcription-conference-personnalisation-interfaces-accessibilite/",
-        "accessDescription": "Et si on laissait les utilisateurs et les utilisatrices personnaliser l’interface ? - 1ère partie"
-      },
-      {
-        "type": "link",
-        "url": "https://access42.net/transcription-conference-personnalisation-interfaces-accessibilite-2de-partie/",
-        "accessDescription": "Et si on laissait les utilisateurs et les utilisatrices personnaliser l’interface ? - 2ème partie"
-      }
-    ]
-  },
-  {
     "title": "Deez is la tech",
     "subtitle": "Un podcast des équipes Product & Tech de Deezer",
     "mainDescription": null,
     "informationMessage": null,
     "authors": ["Pauline Munier"],
     "mediaType": "podcast",
+    "enabled": true,
     "sources": [
       {
         "type": "link",
@@ -200,6 +184,7 @@
     "informationMessage": null,
     "authors": ["Gladys Diandoki", "Anthony Adam"],
     "mediaType": "podcast",
+    "enabled": false,
     "sources": [
       {
         "type": "link",
@@ -213,6 +198,7 @@
     "subtitle": "Le podcast qui aborde les problématiques raciales dans l’art",
     "mainDescription": null,
     "informationMessage": null,
+    "enabled": true,
     "authors": ["La Clameur"],
     "mediaType": "podcast",
     "sources": [
@@ -232,7 +218,11 @@
     "title": "Le Barboteur",
     "subtitle": "Le podcast qui révèle la diversité créative.",
     "mainDescription": null,
-    "informationMessage": null,
+    "informationMessage": {
+      "type": "info",
+      "content": "Accessibilité partielle. Transcriptions disponibles jusqu'à l'épisode 16."
+    },
+    "enabled": true,
     "authors": ["Laurent Naudier"],
     "mediaType": "podcast",
     "sources": [
@@ -251,6 +241,7 @@
       "type": "info",
       "content": "Accessibilité partielle. A partir de l'épisode 21 à 31 puis de l'épisode 33 à 37."
     },
+    "enabled": false,
     "authors": ["Apolline Rouzé"],
     "mediaType": "podcast",
     "sources": [
@@ -365,6 +356,7 @@
       "type": "info",
       "content": "Accessibilité partielle. Un épisode disponible."
     },
+    "enabled": false,
     "authors": ["Xavier de La Porte"],
     "mediaType": "podcast",
     "sources": [
@@ -379,6 +371,7 @@
     "title": "Le Feuilleton des Luttes",
     "subtitle": null,
     "mainDescription": null,
+    "enabled": false,
     "informationMessage": {
       "type": "warning",
       "content": "Transcriptions en PDF, ce n'est pas accessible pour les personnes malvoyantes ou aveugles."
@@ -407,6 +400,7 @@
       "content": "Transcriptions en PDF, ce n'est pas accessible pour les personnes malvoyantes ou aveugles."
     },
     "authors": ["Stacey-Ann Arouff-Mc Veay"],
+    "enabled": false,
     "mediaType": "podcast",
     "sources": [
       {
@@ -420,8 +414,12 @@
     "title": "Les Bienveilleurs parlent du Burn-Out",
     "subtitle": null,
     "mainDescription": "Nous sommes tous les deux des anciens burnoutés. Nous ne sommes pas médecins, psychologues, etc. Mais les gens se confient facilement à nous car ils savent par quoi nous sommes passés. Aujourd’hui nous nous définissons comme des Bienveilleurs et nous avons décidé de lancer ce site pour partager, aider, accompagner plus de personnes.",
-    "informationMessage": null,
+    "informationMessage": {
+      "type": "info",
+      "content": "Accessibilité partielle. Sous-titres présents jusqu'à l'épisode 34."
+    },
     "authors": null,
+    "enabled": true,
     "mediaType": "podcast",
     "sources": [
       {
@@ -437,6 +435,7 @@
     "mainDescription": null,
     "informationMessage": null,
     "authors": null,
+    "enabled": true,
     "mediaType": "podcast",
     "sources": [
       {
@@ -452,6 +451,7 @@
     "mainDescription": null,
     "informationMessage": null,
     "authors": null,
+    "enabled": false,
     "mediaType": "podcast",
     "sources": [
       {
@@ -467,8 +467,14 @@
     "mainDescription": "Écoutez les belles énergies associatives, culturelles, artistiques et entrepreneuriales du Vaucluse.",
     "informationMessage": null,
     "authors": ["Marie-Cécile Drécourt"],
+    "enabled": true,
     "mediaType": "podcast",
     "sources": [
+      {
+        "type": "site",
+        "url": "https://esperluette-podcast.fr/flore-vasseur-choisir-lhumanite-plutot-que-de-saccrocher-a-son-confort/",
+        "accessDescription": "Accéder au site web d'Esperluette Podcast"
+      },
       {
         "type": "youtube",
         "url": "https://www.youtube.com/channel/UC_LUHDQEcE-izkhXEeoZrmw",
@@ -481,6 +487,7 @@
     "subtitle": null,
     "mainDescription": "Des personnalités répondent à des questions superficiellement profondes ou profondément superficielles, pour un portrait différent.",
     "informationMessage": null,
+    "enabled": true,
     "authors": ["Isabelle Field"],
     "mediaType": "podcast",
     "sources": [
@@ -496,6 +503,7 @@
     "subtitle": "Le podcast sur les chiens-guides",
     "mainDescription": null,
     "informationMessage": null,
+    "enabled": true,
     "authors": ["Isabelle Field"],
     "mediaType": "podcast",
     "sources": [
@@ -510,6 +518,7 @@
     "title": "Futurs au pluriel",
     "subtitle": null,
     "mainDescription": "Futurs au Pluriel est une émission qui explore les futurs, car ils sont pluriels. Il s'agit d'un format long, mensuel, aux thématiques diverses : le métaverse, l'influence, les gafa, l'éducation...",
+    "enabled": false,
     "informationMessage": {
       "type": "info",
       "content": "Accessibilité partielle."
@@ -529,6 +538,7 @@
     "title": "Les Chroniques Numériques d’Audric",
     "subtitle": null,
     "mainDescription": null,
+    "enabled": false,
     "informationMessage": {
       "type": "info",
       "content": "Accessibilité partielle. Un épisode disponible."
@@ -548,6 +558,7 @@
     "subtitle": "Le podcast qui donne la parole aux personnes handicapé.e.s parce-qu’on ne les entends pas assez.",
     "mainDescription": null,
     "informationMessage": null,
+    "enabled": true,
     "authors": ["Hermine Garnier"],
     "mediaType": "podcast",
     "sources": [
@@ -564,11 +575,12 @@
     "mainDescription": null,
     "informationMessage": null,
     "authors": null,
+    "enabled": false,
     "mediaType": "podcast",
     "sources": [
       {
         "type": "youtube",
-        "url": "https://www.youtube.com/channel/UCnoZQdGz4JVva8bR7m3QZSg",
+        "url": "https://www.youtube.com/@happiCulture",
         "accessDescription": "Accéder à la chaîne HappiCulture sur YouTube"
       }
     ]
@@ -578,13 +590,14 @@
     "subtitle": null,
     "mainDescription": null,
     "informationMessage": null,
+    "enabled": true,
     "authors": ["Zoé Besmond de Senneville"],
     "mediaType": "podcast",
     "sources": [
       {
         "type": "youtube",
-        "url": "https://www.youtube.com/channel/UCnoZMLUnmSOLMMSjHLuNBLw",
-        "accessDescription": "Accéder à la chaîne Journal de mes oreilles sur YouTube"
+        "url": "https://www.youtube.com/watch?v=617t-Vxn4ZI&list=PL9e2XGbut_ipLFcKy0uA2HlgQM-UMbCAW",
+        "accessDescription": "Accéder au playlist Journal de mes oreilles sur YouTube"
       }
     ]
   },
@@ -596,6 +609,7 @@
       "type": "info",
       "content": "Accessibilité partielle. Un épisode disponible."
     },
+    "enabled": false,
     "authors": ["Pulandevii"],
     "mediaType": "podcast",
     "sources": [
@@ -613,6 +627,7 @@
     "informationMessage": null,
     "authors": ["Fanny", "Cécile"],
     "mediaType": "podcast",
+    "enabled": false,
     "sources": [
       {
         "type": "youtube",
@@ -623,11 +638,12 @@
   },
   {
     "title": "Les Maux bleus",
-    "subtitle": "Un podcast sur la santé mentale.",
-    "mainDescription": null,
+    "subtitle": "Un podcast dédié à la santé mentale.",
+    "mainDescription": "Les Maux Bleus est un podcast dédié à la santé mentale qui aborde les différents aspects des troubles mentaux à travers le parcours de rétablissement de personnes qui y sont confrontées, directement ou indirectement. Ce podcast unique en son genre offre un espace bienveillant pour parler de sujets souvent tabous et mettre en avant un message d’espoir.",
     "informationMessage": null,
     "authors": null,
     "mediaType": "podcast",
+    "enabled": true,
     "sources": [
       {
         "type": "site",
@@ -663,6 +679,7 @@
       "type": "warning",
       "content": "Transcriptions en PDF, ce n'est pas accessible pour les personnes malvoyantes ou aveugles."
     },
+    "enabled": true,
     "authors": null,
     "mediaType": "podcast",
     "sources": [
@@ -682,6 +699,7 @@
       "content": "Accessibilité partielle. Trois épisodes disponibles.\nTranscriptions en PDF, ce n'est pas accessible pour les personnes malvoyantes ou aveugles."
     },
     "authors": null,
+    "enabled": false,
     "mediaType": "podcast",
     "sources": [
       {
@@ -710,6 +728,7 @@
       "content": "Accessibilité partielle. A partir de l'épisode #113."
     },
     "authors": ["Julien Devaureix"],
+    "enabled": true,
     "mediaType": "podcast",
     "sources": [
       {
@@ -726,6 +745,7 @@
     "informationMessage": null,
     "authors": null,
     "mediaType": "podcast",
+    "enabled": true,
     "sources": [
       {
         "type": "site",
@@ -740,6 +760,7 @@
     "mainDescription": "Le podcast qui vous raconte des histoires d'espace en dix minutes ou moins.",
     "informationMessage": null,
     "authors": ["Isabelle Santos"],
+    "enabled": false,
     "mediaType": "podcast",
     "sources": [
       {
@@ -758,6 +779,7 @@
       "content": "Accessibilité partielle. Un épisode disponible."
     },
     "authors": null,
+    "enabled": false,
     "mediaType": "podcast",
     "sources": [
       {
@@ -773,6 +795,7 @@
     "mainDescription": " Tous les mois, Lise vous invite à la suivre dans ses aventures. Découvrez au travers de ses récits poignants les défis quotidiens qu’affrontent les personnes qui, comme elle, voient le monde avec leurs mains et leurs oreilles. Elle vous emmènera dans la rue, les transports, les magasins, les hôtels et bien d’autres endroits dont vous n’avez même pas idée. Au programme: frisson, émotion, révolte parfois, mais toujours teintés d’un zeste d’humour.\n\nComme Lise est une éternelle optimiste, elle ne termine jamais un épisode sans vous prodiguer quelques conseils pour que, vous, à votre niveau, vous puissiez alléger son quotidien et celui de ses compagnons d’infortune. Accessibilité, accueil, comportement, découvrez tout ce que vous devez savoir pour faciliter la vie des personnes aveugles ou malvoyantes, 1,7 million de Français tout de même ! ",
     "informationMessage": null,
     "authors": ["Lise Wagner"],
+    "enabled": true,
     "mediaType": "podcast",
     "sources": [
       {
@@ -788,6 +811,7 @@
     "mainDescription": "PRÉSENT.E est un podcast bi-mensuel sur l’art contemporain fondé par la critique d’art Camille Bardin. Chaque épisode est enregistré dans l’intimité d’un atelier d’artiste et propose une approche inédite du travail puisque les questions posées portent davantage sur les réflexions, les doutes et les anecdotes qu’engendrent la création que sur les oeuvres en elles-même. ",
     "informationMessage": null,
     "authors": ["Camille Bardin"],
+    "enabled": true,
     "mediaType": "podcast",
     "sources": [
       {
@@ -803,6 +827,7 @@
     "mainDescription": null,
     "informationMessage": null,
     "authors": null,
+    "enabled": true,
     "mediaType": "podcast",
     "sources": [
       {
@@ -815,10 +840,11 @@
   {
     "title": "Passion Médiévistes",
     "subtitle": "Un podcast autour du Moyen-Âge",
-    "mainDescription": null,
+    "mainDescription": "Depuis avril 2017 Passion Médiévistes est un podcast sur le Moyen Âge, avec chaque mois une interview d’un.e jeune médiéviste, en master ou en thèse d’histoire médiévale, ainsi que de multiples formats pour vous permettre d’en savoir plus sur cette longue et passionnante période historique.",
     "informationMessage": null,
     "authors": ["Fanny Cohen Moreau"],
     "mediaType": "podcast",
+    "enabled": false,
     "sources": [
       {
         "type": "site",
@@ -836,6 +862,7 @@
       "content": "Transcriptions en PDF, ce n'est pas accessible pour les personnes malvoyantes ou aveugles."
     },
     "authors": [],
+    "enabled": true,
     "mediaType": "podcast",
     "sources": [
       {
@@ -850,6 +877,7 @@
     "subtitle": null,
     "mainDescription": "Retrouvez dans cette playlist tous les podcasts de Valérie Legendre, consultante du Florian Mantione Institut en région PACA. Ces podcasts dédiés au #recrutement s'adressent à tous : entreprises/entrepreneurs et candidats.",
     "informationMessage": null,
+    "enabled": true,
     "authors": ["Valérie Legendre"],
     "mediaType": "podcast",
     "sources": [
@@ -867,6 +895,7 @@
     "informationMessage": null,
     "authors": ["Mélissa Canseliet", "Guillaume Genest"],
     "mediaType": "podcast",
+    "enabled": true,
     "sources": [
       {
         "type": "site",
@@ -880,6 +909,7 @@
     "subtitle": null,
     "mainDescription": "Bienvenue dans Mécréantes, le podcast mensuel qui interroge en profondeur nos stéréotypes de genre. Au travers de témoignages et d'interviews d'experts, j'aborde sans détour les questions qui traversent nos sociétés autour du genre.",
     "informationMessage": null,
+    "enabled": false,
     "authors": ["Léane Alestra"],
     "mediaType": "podcast",
     "sources": [
@@ -895,6 +925,7 @@
     "subtitle": null,
     "mainDescription": "Une interview tous les mois d’un Rebelle Intelligent, qui partage comment il a réussi à accomplir quelque chose qui a de la gueule, tout en sortant des sentiers battus. \n\n Par Olivier Roland, auteur de « Tout le monde n’a pas eu la chance de rater ses études », entrepreneur et conférencier. \n\n Qu’est-ce qu’un Rebelle Intelligent ? Quelqu’un qui peut avoir tous les signes extérieurs de succès, un bon diplôme, un bon emploi, une bonne maison, une bonne voiture, une bonne famille, etc. mais qui sent qu’il y a autre chose que « obtient le meilleur diplôme possible, travaille pendant les meilleures années de ta vie, puis éventuellement commence à profiter de la vie quand il ne t’en reste plus beaucoup », et que s’il continue comme cela, il va se dessécher de l’intérieur. \n\n Le moyen pour le Rebelle Intelligent de s’épanouir est la création : la création artistique (écrire un livre ou une pièce de théâtre), la création d’une aventure (un tour du monde pendant un an), la création d’une entreprise…",
     "informationMessage": null,
+    "enabled": false,
     "authors": ["Olivier Roland"],
     "mediaType": "podcast",
     "sources": [
@@ -912,6 +943,7 @@
     "informationMessage": null,
     "authors": null,
     "mediaType": "podcast",
+    "enabled": false,
     "sources": [
       {
         "type": "link",
@@ -931,6 +963,7 @@
     "mainDescription": "\"Salut les Designers !\" est le podcast de l’Agence LunaWeb consacré au design et à ses méthodes. UI, UX, motion, accessibilité, recherche, nous échangeons avec des professionnel·les passionné·es au grès de nos rencontres et de nos envies ! ",
     "informationMessage": null,
     "authors": null,
+    "enabled": true,
     "mediaType": "podcast",
     "sources": [
       {
@@ -946,6 +979,7 @@
     "mainDescription": "Podcast sur les différents dispositifs de formation aux premiers secours en France.",
     "informationMessage": null,
     "authors": null,
+    "enabled": true,
     "mediaType": "podcast",
     "sources": [
       {
@@ -960,6 +994,7 @@
     "subtitle": null,
     "mainDescription": "Un podcast autour sur la littérature jeunesse.",
     "informationMessage": null,
+    "enabled": false,
     "authors": ["AMAtelier"],
     "mediaType": "podcast",
     "sources": [
@@ -1086,7 +1121,7 @@
       "type": "warning",
       "content": "Transcription en PDF, ce n'est pas accessible pour les personnes malvoyantes ou aveugles."
     },
-    "enabled": true,
+    "enabled": false,
     "authors": ["Julie Beauzac"],
     "mediaType": "podcast",
     "sources": [
@@ -1103,6 +1138,7 @@
     "mainDescription": null,
     "informationMessage": null,
     "authors": null,
+    "enabled": false,
     "mediaType": "podcast",
     "sources": [
       {
