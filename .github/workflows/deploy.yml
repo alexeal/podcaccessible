@@ -22,7 +22,7 @@ jobs:
         run: npm install
 
       - name: Build Angular app
-        run: npm run build -- --output-path=docs/browser --base-href="/<repository-name>/"
+        run: npm run build -- --output-path=docs/browser --base-href="https://alexeal.github.io/podcaccessible/"
 
       - name: Deploy to GitHub Pages
         run: npx angular-cli-ghpages --dir=docs/browser
